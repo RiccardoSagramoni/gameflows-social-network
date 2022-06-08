@@ -19,22 +19,22 @@
             <Font name="Calibri Bold" size="16.0" />
          </font>
       </Label>
-      <Label fx:id="username" alignment="CENTER" layoutX="361.0" layoutY="40.0" prefHeight="27.0" prefWidth="158.0" style="-fx-border-color: #00a7d3; -fx-border-width: 1;" text="Username">
+      <Label fx:id="username" alignment="CENTER" layoutX="381.0" layoutY="40.0" prefHeight="27.0" prefWidth="158.0" style="-fx-border-color: #00a7d3; -fx-border-width: 1;" text="Username">
          <font>
             <Font name="Calibri Bold" size="16.0" />
          </font>
       </Label>
-      <Label fx:id="usernameLabel" alignment="CENTER" layoutX="221.0" layoutY="38.0" prefHeight="32.0" prefWidth="83.0" text="Username: ">
+      <Label fx:id="usernameLabel" alignment="CENTER" layoutX="202.0" layoutY="38.0" prefHeight="32.0" prefWidth="158.0" text="Username: ">
          <font>
             <Font name="Calibri Bold" size="16.0" />
          </font>
       </Label>
-      <Label fx:id="numberOfPost" alignment="CENTER" layoutX="361.0" layoutY="81.0" prefHeight="26.0" prefWidth="158.0" style="-fx-border-color: #00a7d3; -fx-border-width: 1;" text="Number">
+      <Label fx:id="statistics" alignment="CENTER" layoutX="381.0" layoutY="85.0" prefHeight="26.0" prefWidth="158.0" style="-fx-border-color: #00a7d3; -fx-border-width: 1;" text="Number">
          <font>
             <Font name="Calibri Bold" size="16.0" />
          </font>
       </Label>
-      <Label fx:id="numberOfPostLabel" alignment="CENTER" layoutX="218.0" layoutY="82.0" prefHeight="24.0" prefWidth="122.0" text="Number of Post:">
+      <Label fx:id="statisticsLabel" alignment="CENTER" layoutX="202.0" layoutY="77.0" prefHeight="43.0" prefWidth="158.0" text="Number of Post:" textAlignment="CENTER" wrapText="true">
          <font>
             <Font name="Calibri Bold" size="16.0" />
          </font>

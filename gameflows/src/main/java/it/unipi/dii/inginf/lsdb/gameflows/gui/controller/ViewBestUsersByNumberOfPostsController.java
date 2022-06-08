@@ -23,12 +23,17 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ViewBestUsersByNumberOfPostsController {
+
+	// Logger
+	private static final Logger LOGGER = LogManager.getLogger(ViewBestUsersByNumberOfPostsController.class);
 
 	@FXML
 	private GridPane bestUsersGridPane;
@@ -92,6 +97,7 @@ public class ViewBestUsersByNumberOfPostsController {
 	 * @param list of the data retrieved from the db
 	 */
 	private void prevNextButtonsCheck(List list) {
+		LOGGER.info("sono qui");
 		if((list.size() > 0)){
 			if((list.size() < limit)){
 				if(skipCounter <= 0 ){
@@ -327,7 +333,7 @@ public class ViewBestUsersByNumberOfPostsController {
 				AnchorPane anchorPane = fxmlLoader.load();
 
 				ItemUserWithStatsController itemController = fxmlLoader.getController();
-				itemController.setData(user, userlistener);
+				itemController.setDataBestUsers(user, userlistener);
 				//choice number of column
 				if (columnGridPane == 1) {
 					columnGridPane = 0;

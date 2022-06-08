@@ -48,7 +48,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="689.0" prefWidth="1046.0" style="-fx-background-color: #FFFFFFFF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.AdminHomeController">
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="757.0" prefWidth="1046.0" style="-fx-background-color: #FFFFFFFF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.AdminHomeController">
     <children>
         <MenuBar prefWidth="1046.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <menus>
@@ -82,7 +82,7 @@
                                 </Label>
                             </children>
                         </AnchorPane>
-                        <Button fx:id="allCommunitiesButton" alignment="CENTER" layoutY="298.0" mnemonicParsing="false" onAction="#viewAllCommunities" prefHeight="52.0" prefWidth="300.0" stylesheets="@../css/buttonStyle.css" text="View All Communities" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                        <Button fx:id="allCommunitiesButton" alignment="CENTER" layoutY="364.0" mnemonicParsing="false" onAction="#viewAllCommunities" prefHeight="52.0" prefWidth="300.0" stylesheets="@../css/buttonStyle.css" text="View All Communities" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                             <font>
                                 <Font name="Calibri Bold Italic" size="16.0" />
                             </font>
@@ -114,7 +114,7 @@
                                 <Font name="Calibri Bold Italic" size="16.0" />
                             </font>
                         </Button>
-                          <Button fx:id="mostActiveCommunitiesButton" alignment="CENTER" layoutY="416.0" mnemonicParsing="false" onAction="#viewMostActiveCommunities" prefHeight="62.0" prefWidth="300.0" stylesheets="@../css/buttonStyle.css" text="View best communities by likes in a given period" textAlignment="CENTER" textFill="WHITE" wrapText="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                          <Button fx:id="mostActiveCommunitiesButton" alignment="CENTER" layoutY="482.0" mnemonicParsing="false" onAction="#viewMostActiveCommunities" prefHeight="62.0" prefWidth="300.0" stylesheets="@../css/buttonStyle.css" text="View best communities by likes in a given period" textAlignment="CENTER" textFill="WHITE" wrapText="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                               <opaqueInsets>
                                   <Insets />
                               </opaqueInsets>
@@ -122,7 +122,7 @@
                                   <Font name="Calibri Bold Italic" size="16.0" />
                               </font>
                           </Button>
-                  <Button fx:id="newVideogameCommunityButton" alignment="CENTER" layoutY="245.0" mnemonicParsing="false" onAction="#createNewVideogameCommunity" prefHeight="51.0" prefWidth="300.0" stylesheets="@../css/buttonStyle.css" text="Create New Community" textFill="WHITE">
+                  <Button fx:id="newVideogameCommunityButton" alignment="CENTER" layoutY="311.0" mnemonicParsing="false" onAction="#createNewVideogameCommunity" prefHeight="51.0" prefWidth="300.0" stylesheets="@../css/buttonStyle.css" text="Create New Community" textFill="WHITE">
                      <font>
                         <Font name="Calibri Bold Italic" size="16.0" />
                      </font>
@@ -138,7 +138,7 @@
                         <Insets />
                      </opaqueInsets>
                   </Button>
-                  <Button fx:id="viewAverageNumberOfCommentsButton" alignment="CENTER" layoutY="352.0" mnemonicParsing="false" onAction="#viewCommunityAverageNumberOfCommentsPerPost" prefHeight="62.0" prefWidth="300.0" stylesheets="@../css/buttonStyle.css" text="View average number of comments per post in every communities" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                  <Button fx:id="viewAverageNumberOfCommentsForCommunitiesButton" alignment="CENTER" layoutY="418.0" mnemonicParsing="false" onAction="#viewCommunityAverageNumberOfCommentsPerPost" prefHeight="62.0" prefWidth="300.0" stylesheets="@../css/buttonStyle.css" text="View average number of comments per post in every communities" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                      <font>
                         <Font name="Calibri Bold Italic" size="16.0" />
                      </font>
@@ -146,7 +146,7 @@
                         <Insets />
                      </opaqueInsets>
                   </Button>
-                        <AnchorPane fx:id="dateAnchorPane" layoutY="480.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="126.0" prefWidth="300.0" style="-fx-background-color: #05557e;">
+                        <AnchorPane fx:id="dateAnchorPane" layoutY="546.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="126.0" prefWidth="300.0" style="-fx-background-color: #05557e;">
                             <children>
                                 <Button fx:id="datesConfirmButton" layoutX="98.0" layoutY="42.0" mnemonicParsing="false" onAction="#launchResearchMostActiveCommunities" prefHeight="25.0" prefWidth="98.0" text="Confirm Dates" />
                                 <DatePicker fx:id="toDatePicker" layoutX="156.0" layoutY="9.0" prefHeight="26.0" prefWidth="124.0" promptText="dd/mm/yyyy" />
@@ -164,11 +164,20 @@
                   <Line endX="125.0" endY="-3.0517578125E-5" layoutX="150.0" layoutY="138.0" startX="-125.0" startY="-4.57763671875E-5" stroke="#00aaff" strokeWidth="1.5" />
                   <Line endX="125.0" layoutX="150.0" layoutY="191.0" startX="-125.0" startY="-1.52587890625E-5" stroke="#00aaff" strokeWidth="1.5" />
                   <Line endX="125.0" layoutX="150.0" layoutY="244.0" startX="-125.0" stroke="#00aaff" strokeWidth="1.5" />
-                  <Line endX="125.0" layoutX="150.0" layoutY="297.0" startX="-125.0" stroke="#1608bd" strokeWidth="1.5" />
-                  <Line endX="125.0" layoutX="150.0" layoutY="351.0" startX="-125.0" stroke="#1608bd" strokeWidth="1.5" />
-                  <Line endX="125.0" layoutX="150.0" layoutY="415.0" startX="-125.0" stroke="#1608bd" strokeWidth="1.5" />
-                  <Line endX="125.0" layoutX="150.0" layoutY="479.0" startX="-125.0" stroke="#1608bd" strokeWidth="1.5" />
-                  <Line endX="125.0" layoutX="150.0" layoutY="610.0" startX="-125.0" stroke="WHITE" strokeWidth="1.5" />
+                  <Line endX="125.0" layoutX="150.0" layoutY="363.0" startX="-125.0" stroke="#1608bd" strokeWidth="1.5" />
+                  <Line endX="125.0" layoutX="150.0" layoutY="417.0" startX="-125.0" stroke="#1608bd" strokeWidth="1.5" />
+                  <Line endX="125.0" layoutX="150.0" layoutY="481.0" startX="-125.0" stroke="#1608bd" strokeWidth="1.5" />
+                  <Line endX="125.0" layoutX="150.0" layoutY="545.0" startX="-125.0" stroke="#1608bd" strokeWidth="1.5" />
+                  <Line endX="125.0" layoutX="150.0" layoutY="678.0" startX="-125.0" stroke="WHITE" strokeWidth="1.5" />
+                  <Button fx:id="viewAverageNumberOfCommentsForUsersButton" alignment="CENTER" layoutY="245.0" mnemonicParsing="false" onAction="#viewUsersAverageNumberOfCommentsPerPost" prefHeight="62.0" prefWidth="300.0" stylesheets="@../css/buttonStyle.css" text="View average number of comments per post for every user" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Calibri Bold Italic" size="16.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Line endX="125.0" layoutX="150.0" layoutY="309.0" startX="-125.0" stroke="#00aaff" strokeWidth="1.5" />
                     </children>
                 </AnchorPane>
                 <SplitPane dividerPositions="0.16370808678500987" orientation="VERTICAL" prefHeight="507.0" prefWidth="505.0" SplitPane.resizableWithParent="false">
@@ -220,7 +229,7 @@
                                     </content>
                                 </ScrollPane>
                                 <Button fx:id="nextButton" layoutX="384.0" layoutY="480.4" mnemonicParsing="false" onAction="#goNextPage" prefHeight="26.0" prefWidth="90.0" text="Next Page" AnchorPane.bottomAnchor="10.0" />
-                                <Button fx:id="prevButton" layoutX="265.0" layoutY="481.0" mnemonicParsing="false" onAction="#goPrevPage" text="Previuos Page" AnchorPane.bottomAnchor="10.199999999999932" />
+                                <Button fx:id="prevButton" layoutX="265.0" layoutY="481.0" mnemonicParsing="false" onAction="#goPrevPage" text="Previous Page" AnchorPane.bottomAnchor="10.199999999999932" />
                             </children></AnchorPane>
                     </items>
                 </SplitPane>

@@ -6,5 +6,6 @@ public enum AdminResearchMode {
     allCommunities,
     mostActiveCommunities,
     communityWithAverageNumberOfCommentPerPost,
+    usersWithAverageNumberOfCommentPerPost,
     allUsers
 }

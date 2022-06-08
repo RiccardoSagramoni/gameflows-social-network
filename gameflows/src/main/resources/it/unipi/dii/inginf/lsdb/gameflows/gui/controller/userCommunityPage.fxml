@@ -152,7 +152,7 @@
                         <Font name="Calibri Bold Italic" size="16.0" />
                      </font>
                   </Button>
-                  <Button fx:id="viewUserRankingByPost" alignment="BASELINE_LEFT" layoutY="245.0" mnemonicParsing="false" onAction="#viewUserWhoWroteHigherNumberOfPost" prefHeight="51.0" prefWidth="300.0" stylesheets="@../css/buttonStyle.css" text="View User with higher number of posts" textFill="WHITE">
+                  <Button fx:id="viewUserRankingByPost" alignment="BASELINE_LEFT" layoutY="245.0" mnemonicParsing="false" onAction="#viewUserWhoWroteHigherNumberOfPost" prefHeight="51.0" prefWidth="300.0" stylesheets="@../css/buttonStyle.css" text="View User with highest number of posts" textFill="WHITE">
                      <font>
                         <Font name="Calibri Bold Italic" size="16.0" />
                      </font>

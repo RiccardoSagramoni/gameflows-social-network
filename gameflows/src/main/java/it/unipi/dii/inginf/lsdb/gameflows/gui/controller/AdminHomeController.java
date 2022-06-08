@@ -76,7 +76,10 @@ public class AdminHomeController {
 	private Button newVideogameCommunityButton;
 
 	@FXML
-	private Button viewAverageNumberOfCommentsButton;
+	private Button viewAverageNumberOfCommentsForCommunitiesButton;
+
+	@FXML
+	private Button viewAverageNumberOfCommentsForUsersButton;
 
 	@FXML
 	private TextField searchCommunityAndUsersField;
@@ -100,6 +103,7 @@ public class AdminHomeController {
 	private final VideogameCommunityService videogameService = VideogameCommunityServiceFactory.getService();
 	private final List<VideogameCommunity> videogames = new ArrayList<>();
 	List<ResultAverageCommentPerPost> communityAverageCommentPerPosts = new ArrayList<>();
+	List<ResultAverageCommentPerUser> userAverageCommentPerPosts = new ArrayList<>();
 	private List<ResultBestVideogameCommunityAggregation> resultAggregationList = null;
 
 	// POST VARIABLES
@@ -124,6 +128,7 @@ public class AdminHomeController {
 	private boolean communitiesSearchRadioButtonFlag = false;
 	private int changePageFlag = 0;
 	private boolean toLoadItemVideogameCommunityWithStats = false;
+	private boolean toLoadItemUsersWithStats = false;
 	private int columnGridPane = 0;
 	private int rowGridPane = 0;
 
@@ -257,39 +262,33 @@ public class AdminHomeController {
 	 * @param list of the data retrieved from the db
 	 */
 	private void prevNextButtonsCheck(List list) {
-		if((list.size() > 0)){
+		if ((list.size() > 0)) {
 
-			if((list.size() < limit)){
-				if(skipCounter <= 0 ){
+			if ((list.size() < limit)) {
+				if (skipCounter <= 0) {
 					prevButton.setDisable(true);
 					nextButton.setDisable(true);
-				}
-				else{
+				} else {
 					prevButton.setDisable(false);
 					nextButton.setDisable(true);
 				}
-			}
-			else{
-				if(skipCounter <= 0 ){
+			} else {
+				if (skipCounter <= 0) {
 					prevButton.setDisable(true);
 					nextButton.setDisable(false);
-				}
-				else{
+				} else {
 					prevButton.setDisable(false);
 					nextButton.setDisable(false);
 				}
 			}
-		}
-		else{
-			if(skipCounter <= 0 ){
+		} else {
+			if (skipCounter <= 0) {
 				prevButton.setDisable(true);
 				nextButton.setDisable(true);
-			}
-			else{
+			} else {
 				prevButton.setDisable(false);
 				nextButton.setDisable(true);
 			}
-
 		}
 	}
 
@@ -312,6 +311,7 @@ public class AdminHomeController {
 		users.clear();
 		communityAverageCommentPerPosts.clear();
 		adminGridPane.getChildren().clear();
+		userAverageCommentPerPosts.clear();
 
 		//update the skipcounter
 		if(changePageFlag == -1){
@@ -341,6 +341,10 @@ public class AdminHomeController {
 
 			case communityWithAverageNumberOfCommentPerPost:
 				getResultAverageCommentPerPostData();
+				break;
+
+			case usersWithAverageNumberOfCommentPerPost:
+				getResultAverageCommentPerPostOfUsersData();
 				break;
 
 			case allUsers:
@@ -540,6 +544,67 @@ public class AdminHomeController {
 	}
 
 	/**
+	 * method that retrieve the average comment per post of every community
+	 * and store those information into a list of ResultAverageCommentPerPost
+	 */
+	private void getResultAverageCommentPerPostOfUsersData(){
+
+		// before long task
+		// made visible the  loading gif
+		loadImage.setVisible(true);
+
+		Task<Void> task = new Task<>() {
+			@Override
+			public Void call() {
+				// long task
+				disablePrevNextButton();
+				userAverageCommentPerPosts = commentService.averageNumberOfCommentsPerUser(skipCounter, limit);
+				return null ;
+			}
+		};
+
+		task.setOnSucceeded(e -> {
+			// after long task
+			// made invisible the  loading gif
+			loadImage.setVisible(false);
+
+			//put all videogame communities in the Pane
+			prevNextButtonsCheck(userAverageCommentPerPosts);
+			toLoadItemUsersWithStats = true;
+			fillWithUserGridPane();
+		});
+
+		new Thread(task).start();
+
+
+	}
+
+	//averageNumberOfCommentsPerUser()
+	/**
+	 * method that visualize the average number of comments per post of every
+	 * user in the db
+	 *
+	 * @param event of the mouse when the view community average number of comment per post
+	 *              for every user button is clicked
+	 */
+	@FXML
+	void viewUsersAverageNumberOfCommentsPerPost(ActionEvent event) {
+		//disable mostActiveCommunity choice mode
+		dateAnchorPane.setVisible(false);
+		videogames.clear();
+		users.clear();
+
+		choiceMode = AdminResearchMode.usersWithAverageNumberOfCommentPerPost;
+		skipCounter = 0;
+		adminGridPane.getChildren().clear();
+
+		toLoadItemUsersWithStats = true;
+		getResultAverageCommentPerPostOfUsersData();
+
+		selectSidebarButton(viewAverageNumberOfCommentsForUsersButton);
+	}
+
+	/**
 	 * method that fill the grid pain of the interface with the item User retrieved from the database
 	 * all the item are clickable and by clicking one of them, the details of the user will be shown
 	 */
@@ -570,37 +635,65 @@ public class AdminHomeController {
 
 		columnGridPane = 0;
 		rowGridPane = 0;
+		FXMLLoader fxmlLoader;
+		if (toLoadItemUsersWithStats){
+			setGridPaneColumnAndRow(userAverageCommentPerPosts.size());
+			//CREATE FOR EACH VIDEOGAME COMMUNITY AN ITEM (ItemVideogame)
+			try {
+				for (ResultAverageCommentPerUser userWithStats : userAverageCommentPerPosts) {
+					fxmlLoader = new FXMLLoader();
+					fxmlLoader.setLocation(getClass().getResource("ItemUserWithStats.fxml"));
+					AnchorPane anchorPane = fxmlLoader.load();
 
-		setGridPaneColumnAndRow(users.size());
-
-		//CREATE FOR EACH VIDEOGAME COMMUNITY AN ITEM (ItemVideogame)
-		try {
-			for (User user : users) {
-				FXMLLoader fxmlLoader = new FXMLLoader();
-				fxmlLoader.setLocation(getClass().getResource("itemUser.fxml"));
-				AnchorPane anchorPane = fxmlLoader.load();
-
-				ItemUserController itemController = fxmlLoader.getController();
-				itemController.setData(user, userlistener);
-
-
-				//choice number of column
-				if (columnGridPane == 3) {
-					columnGridPane = 0;
-					rowGridPane++;
+					ItemUserWithStatsController itemController = fxmlLoader.getController();
+					itemController.setDataAverageCommentPerPost(userWithStats, userlistener);
+					//choice number of column
+					if (columnGridPane == 1) {
+						columnGridPane = 0;
+						rowGridPane++;
+					}
+					adminGridPane.add(anchorPane, columnGridPane++, rowGridPane); //(child,column,row)
+					//DISPLAY SETTINGS
+					GridPane.setMargin(anchorPane, new Insets(10));
+					toLoadItemUsersWithStats = false;
 				}
-				adminGridPane.add(anchorPane, columnGridPane++, rowGridPane); //(child,column,row)
-
-				//DISPLAY SETTINGS
-				//set grid width
-				adminGridPane.setPrefWidth(745);
-				//set grid height
-				adminGridPane.setPrefHeight(460);
-
-				GridPane.setMargin(anchorPane, new Insets(10));
 			}
-		} catch (Exception e) {
-			e.printStackTrace();
+			catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		else{
+			setGridPaneColumnAndRow(users.size());
+
+			//CREATE FOR EACH VIDEOGAME COMMUNITY AN ITEM (ItemVideogame)
+			try {
+				for (User user : users) {
+					fxmlLoader = new FXMLLoader();
+					fxmlLoader.setLocation(getClass().getResource("itemUser.fxml"));
+					AnchorPane anchorPane = fxmlLoader.load();
+
+					ItemUserController itemController = fxmlLoader.getController();
+					itemController.setData(user, userlistener);
+
+
+					//choice number of column
+					if (columnGridPane == 3) {
+						columnGridPane = 0;
+						rowGridPane++;
+					}
+					adminGridPane.add(anchorPane, columnGridPane++, rowGridPane); //(child,column,row)
+
+					//DISPLAY SETTINGS
+					//set grid width
+					adminGridPane.setPrefWidth(745);
+					//set grid height
+					adminGridPane.setPrefHeight(460);
+
+					GridPane.setMargin(anchorPane, new Insets(10));
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 		}
 	}
 
@@ -843,22 +936,23 @@ public class AdminHomeController {
 	 * community in the db
 	 *
 	 * @param event of the mouse when the view community average number of comment per post
-	 *              button is clicked
+	 *              in every communities button is clicked
 	 */
 	@FXML
 	void viewCommunityAverageNumberOfCommentsPerPost(ActionEvent event) {
 		//disable mostActiveCommunity choice mode
 		dateAnchorPane.setVisible(false);
+		videogames.clear();
+		users.clear();
 
 		choiceMode = AdminResearchMode.communityWithAverageNumberOfCommentPerPost;
 		skipCounter = 0;
 		adminGridPane.getChildren().clear();
-		videogames.clear();
 
 		toLoadItemVideogameCommunityWithStats = true;
 		getResultAverageCommentPerPostData();
 
-		selectSidebarButton(viewAverageNumberOfCommentsButton);
+		selectSidebarButton(viewAverageNumberOfCommentsForCommunitiesButton);
 	}
 
 	/**
@@ -990,7 +1084,8 @@ public class AdminHomeController {
 		allUsersButton.getStyleClass().remove("selected-button");
 		viewInfluencerRankingButton.getStyleClass().remove("selected-button");
 		newVideogameCommunityButton.getStyleClass().remove("selected-button");
-		viewAverageNumberOfCommentsButton.getStyleClass().remove("selected-button");
+		viewAverageNumberOfCommentsForCommunitiesButton.getStyleClass().remove("selected-button");
+		viewAverageNumberOfCommentsForUsersButton.getStyleClass().remove("selected-button");
 
 	}
 
