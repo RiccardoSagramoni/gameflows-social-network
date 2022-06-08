@@ -64,14 +64,16 @@ public class CreateNewAdminController {
 					nameField.getText()
 			);
 
-			adminService.createAdminAccount(admin);
-			responseLabel.setVisible(true);
-
-			//page closing
-			Stage stage = (Stage) signUpButton.getScene().getWindow();
-			stage.close();
+			if(adminService.createAdminAccount(admin)){
+				//page closing
+				responseLabel.setVisible(false);
+				Stage stage = (Stage) signUpButton.getScene().getWindow();
+				stage.close();
+			}
+			else{
+				responseLabel.setVisible(true);
+				responseLabel.setText("ERROR! CAN'T ADD THIS ADMIN");
+			}
 		}
-
 	}
-
 }
