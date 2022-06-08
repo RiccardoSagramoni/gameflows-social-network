@@ -313,8 +313,6 @@ class VideogameCommunityServiceImpl implements VideogameCommunityService {
 			return false;
 		}
 
-		boolean wasRemovedFromMongoDB = true;
-
 		// Get videogame collection in MongoDB
 		MongoCollection<Document> videogames = mongoConnection.getCollection(GameflowsCollection.videogame);
 
@@ -322,11 +320,9 @@ class VideogameCommunityServiceImpl implements VideogameCommunityService {
 			DeleteResult result = videogames.deleteOne(eq("_id", videogameCommunityId));
 			if (result.getDeletedCount() == 0) {
 				// Specified videogame doesn't exist in MongoDB.
-				// We will continue the algorithm in order to delete all the residual information
-				// (e.g. neo4j node)
-				LOGGER.warn("deleteVideogameCommunity() | " +
+				LOGGER.error("deleteVideogameCommunity() | " +
 						"Trying to delete videogame community that doesn't exist");
-				wasRemovedFromMongoDB = false;
+				return false;
 			}
 			else {
 				LOGGER.info("deleteVideogameCommunity() | " +
@@ -353,9 +349,9 @@ class VideogameCommunityServiceImpl implements VideogameCommunityService {
 			);
 
 			if (resultSummary.counters().nodesDeleted() == 0) {
-				LOGGER.warn("deleteVideogameCommunity() | Unable to delete Neo4j videogame community: " +
+				LOGGER.error("deleteVideogameCommunity() | Unable to delete Neo4j videogame community: " +
 						"videogame doesn't exist");
-				return wasRemovedFromMongoDB;
+				return false;
 			}
 			else {
 				LOGGER.info("deleteVideogameCommunity() | Neo4j transaction was successful");

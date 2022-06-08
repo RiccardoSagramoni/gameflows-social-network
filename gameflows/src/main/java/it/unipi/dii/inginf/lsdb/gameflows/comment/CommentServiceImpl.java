@@ -512,7 +512,8 @@ class CommentServiceImpl implements CommentService {
 			DeleteResult result = comments.deleteOne(eq("_id", id));
 
 			if (result.getDeletedCount() == 0) {
-				LOGGER.warn("deleteCommentById() |  No comments deleted in MongoDB");
+				LOGGER.error("deleteCommentById() |  No comments deleted in MongoDB");
+				return false;
 			}
 			else {
 				LOGGER.info("deleteCommentById() | comment succesfully deleted in MongoDB!");

@@ -610,6 +610,7 @@ class PostServiceImpl implements PostService {
 			// Check result
 			if (result.getDeletedCount() == 0) {
 				LOGGER.error("deletePostById() |  No post deleted in MongoDB");
+				return false;
 			}
 			else {
 				LOGGER.info("deletePostById() | post successfully deleted in MongoDB!");
