@@ -740,14 +740,9 @@ class CommentServiceImpl implements CommentService {
 								)
 							).into(new ArrayList<>());
 
-			if (documentList.isEmpty()) {
-				LOGGER.error("averageNumberOfCommentsPerPost() | " +
-						"Aggregation returned empty result");
-				return null;
-			}
-
 			// Convert results and return
 			List<ResultAverageCommentPerPost> resultList = new ArrayList<>();
+
 			for (Document doc : documentList) {
 				resultList.add(
 					new ResultAverageCommentPerPost(
@@ -834,12 +829,6 @@ class CommentServiceImpl implements CommentService {
 									limit(limit)
 							)
 					).into(new ArrayList<>());
-
-			if (documentList.isEmpty()) {
-				LOGGER.error("averageNumberOfCommentsPerUser() | " +
-						"Aggregation returned empty result");
-				return null;
-			}
 
 			// Convert MongoDB result to Java objects
 			List<ResultAverageCommentPerUser> resultList = new ArrayList<>();
