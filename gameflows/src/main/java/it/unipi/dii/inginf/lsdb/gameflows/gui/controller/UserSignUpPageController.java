@@ -83,15 +83,18 @@ public class UserSignUpPageController {
 					nationalityField.getText()
 			);
 
-			userService.insertUser(user);
-			errorLabel.setStyle("-fx-text-fill: #21ff00;");
-			errorLabel.setText("CONGRATULATIONS! WELCOME TO GAMEFLOWS");
-
-			//page closing
-			Stage stage = (Stage) signUpButton.getScene().getWindow();
-			stage.close();
+			if(userService.insertUser(user) != null){
+				errorLabel.setStyle("-fx-text-fill: #21ff00;");
+				errorLabel.setText("CONGRATULATIONS! WELCOME TO GAMEFLOWS");
+				//page closing
+				Stage stage = (Stage) signUpButton.getScene().getWindow();
+				stage.close();
+			}
+			else{
+				errorLabel.setStyle("-fx-text-fill: #ff0000;");
+				errorLabel.setText("ERROR! USERNAME ALREADY CHOOSEN");
+			}
 		}
-
 	}
 
 
