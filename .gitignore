@@ -23,5 +23,4 @@
 **/dataset-integration/like-generator/**.zip
 **/cluster/local-replicas/r*/
 **/logs/
-**/databases/dump/*
 *.iml
