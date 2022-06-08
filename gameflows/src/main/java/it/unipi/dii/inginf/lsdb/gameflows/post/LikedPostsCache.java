@@ -67,6 +67,8 @@ public class LikedPostsCache {
 
 		// If successful, update the local copy
 		if (ret) {
+			LOGGER.info("likePost() | update local copy");
+
 			if (like) {
 				set.add(postId);
 			}
