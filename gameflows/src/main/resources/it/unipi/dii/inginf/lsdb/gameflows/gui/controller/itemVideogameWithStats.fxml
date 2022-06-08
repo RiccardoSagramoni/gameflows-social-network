@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#click" prefHeight="143.0" prefWidth="677.0" style="-fx-background-radius: 10; -fx-border-width: 5; -fx-border-color: #032055; -fx-border-radius: 10; -fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.ItemVideogameWithStatsController">
+   <children>
+      <ImageView fx:id="userLogo" fitHeight="82.0" fitWidth="83.0" layoutX="24.0" layoutY="23.0">
+         <image>
+            <Image url="@../icons/videogame_icon.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="typeCommunity" alignment="CENTER" layoutX="24.0" layoutY="106.0" prefHeight="21.0" prefWidth="83.0" text="Community">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="videogameName" alignment="CENTER" layoutX="353.0" layoutY="29.0" prefHeight="38.0" prefWidth="274.0" style="-fx-border-color: #00a7d3; -fx-border-width: 1;" text="Videogame Name">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="videogameNameLabel" alignment="CENTER" layoutX="165.0" layoutY="32.0" prefHeight="32.0" prefWidth="138.0" text="Videogame's name: ">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="statistics" alignment="CENTER" layoutX="353.0" layoutY="75.0" prefHeight="38.0" prefWidth="274.0" style="-fx-border-color: #00a7d3; -fx-border-width: 1;" text="Statistics">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="statisticsLabel" alignment="CENTER" layoutX="165.0" layoutY="72.0" prefHeight="44.0" prefWidth="138.0" text="Statistics:" wrapText="true">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Line endX="-100.0" endY="93.0" layoutX="234.0" layoutY="25.0" startX="-100.0" stroke="#00000077" />
+   </children>
+</AnchorPane>

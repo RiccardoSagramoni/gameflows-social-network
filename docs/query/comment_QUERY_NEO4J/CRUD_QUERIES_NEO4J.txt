@@ -1,0 +1,46 @@
+//QUERY NEO4J - COMMENT COLLECTION
+
+
+**---ADD COMMENT NODE---**
+
+MERGE (c: Comment {comment_id: 111aaa})
+
+
+**---UPDATE COMMENT NODE---**
+
+//CREATE LIKE RELATION USER-COMMENT
+MATCH(c:Comment {comment_id:"161aaa"}),(u:User {username: "whitefish666"})
+MERGE (u)-[r:LIKES]->(c)
+RETURN c.comment_id, type(r), u.username
+
+//DELETE LIKE RELATION USER-COMMENT
+MATCH(u:User {username:"whitefish666"})-[r:LIKES]->(c:Comment{comment_id: "111aaa"})
+DELETE r
+
+
+**---DELETE COMMENT(s)---**
+
+//DELETE COMMENT NODE BY ID 
+MATCH(c:Comment{comment_id:"111aaa"})
+DETACH DELETE c
+
+
+//DELTE ALL COMMENTS NODE OF AN AUTHOR (AND WRITES RELATION)
+MATCH (c:Comment)<-[r:WRITES]-(u:User)
+WHERE u.username="luca"
+DETACH DELETE c
+
+//DELTE ALL COMMENTS NODE OF A POST (AND REPLY RELATION)
+MATCH (c:Comment)<-[r:WRITES]-(u:User) 
+WHERE u.username = "luca" 
+DETACH DELETE c
+
+//DELTE ALL COMMENTS NODE OF A COMMUNITY (AND BELONGS/REPLY RELATIONS)
+MATCH (v:Videogame)<-[:BELONGS]-(p:Post)<-[:REPLY]-(c:Comment)
+WHERE v.videogame_id= "111"
+DETACH DELETE c
+
+
+
+
+

@@ -1,0 +1,65 @@
+// SELECT TOP @param ($limit stage) USERS BY POST IN A GIVEN @param COMMUNITY  ($match stage)
+db.post.aggregate([
+	{
+		$match: {
+			'community.community_id': ObjectId('61dbfbbe92a81a85adeaf00f')
+		}
+	}, 
+	{
+		$group: {
+			_id: '$author',
+			num_post: {
+				$count: {}
+			}
+		}
+	}, 
+	{
+		$sort: {
+			num_post: -1
+		}
+	},
+	{
+		$limit: 10
+	}
+])
+
+// AVERAGE AGE OF USERS WHO FOLLOWS A GIVEN @param COMMUNITY ($match stage)
+db.post.aggregate([
+	{
+		$match: {
+ 			_id: ObjectId('61dbfbbe92a81a85adeaf010')
+		}
+	}, 
+	{
+		$project: {
+ 			'followers.date-of-birth': 1
+		}
+	}, 
+	{
+		$unwind: {
+			path: '$followers'
+		}
+	}, 
+	{
+		$group: {
+ 			_id: '$_id',
+ 			avg_age: {
+  				$avg: {
+   					$dateDiff: {
+    					startDate: {
+     						$dateFromString: {
+      							dateString: '$followers.date-of-birth'
+							}
+						},
+    					endDate: {
+     						$dateFromString: {
+      							dateString: '2022-01-13'
+							}
+						},
+    					unit: 'year'
+   					}
+				}
+			}
+		}
+	}
+])

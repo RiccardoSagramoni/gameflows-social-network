@@ -1,0 +1,6 @@
+db.user.createIndex( { "username": 1 }, {"unique": true, "name": "username"} );
+db.admin.createIndex( { "username": 1 }, {"unique": true, "name": "username"} );
+db.videogame.createIndex( { name: 1 }, {name: "name"} );
+db.post.createIndex( { "community.community_id": 1, isAuthorInfluencer: 1 } );
+db.post.createIndex( { timestamp: -1 } );
+db.comment.createIndex( { "post.post_id": 1 } );

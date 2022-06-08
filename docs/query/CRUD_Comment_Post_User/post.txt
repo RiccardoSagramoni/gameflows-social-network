@@ -1,0 +1,84 @@
+/***************************************
+/*************** FIND ******************
+/***************************************
+
+db.post.find({"community.community_id": ObjectId('61dbfbbe92a81a85adeaf04c')}).sort({likes: -1})
+db.post.find({"community.community_id": ObjectId('61dbfbbe92a81a85adeaf04c')}).sort({timestamp: -1})
+
+db.post.find({"community.community_id": ObjectId('61dbfbbe92a81a85adeaf04c'), "isAuthorInfluencer": true}).sort({likes: -1})
+db.post.find({"community.community_id": ObjectId('61dbfbbe92a81a85adeaf04c'), "isAuthorInfluencer": true}).sort({timestamp: -1})
+
+
+// no dio
+
+// elenca tutti i post
+db.post.find({})
+
+// seleziona uno specifico post
+db.post.find({_id: ObjectId('61dbfbd392a81a85adeaf095')})
+
+// seleziona tutti i post di una community
+db.post.find({"community.community_id": ObjectId('61dbfbbe92a81a85adeaf04c')})
+
+// visulizza tutti i post di una community con più likes
+db.post.find({"community.community_id": ObjectId('61dbfbbe92a81a85adeaf04c')}).sort(likes: -1)
+
+// visulizza tutti i post di una community con meno likes
+db.post.find({"community.community_id": ObjectId('61dbfbbe92a81a85adeaf04c')}).sort{likes: 1}
+
+// visulizza tutti i post di una community più recenti
+db.post.find({"_id": ObjectId('61dbfbd392a81a85adeaf095')}).sort(timestamp: -1)
+
+// visulizza tutti i post di una community degli influencer
+db.post.find({"_id": ObjectId('61dbfbd392a81a85adeaf095'), is_author_influencer = true}).sort(timestamp: -1)
+
+/***************************************
+/*************** UPDATE ****************
+/***************************************
+
+// mettere like ad un post
+db.post.updateOne(
+	
+	{ _id: ObjectId('61dbfbd392a81a85adeaf095')},
+	{ $inc: { likes: 1} }
+)
+
+/***************************************
+/*************** INSERT ****************
+/***************************************
+
+// aggiungere un post
+db.post.insertOne(
+	{
+		"title": "This is a test",
+		"likes": 5,
+		"author": "fablan",    
+		"text": "per vedere se funziona",
+		"community": [
+			ObjectId("61dbfbbe92a81a85adeaf04c"),
+			"Blasphemous",
+			"Indie"
+		],
+		"timestamp": 2022-02-03T04:01:54.000+00:00
+	}
+)
+
+// elenca tutti i commenti di uno specifico utente sotto lo stesso post, in ordine crescente di data
+db.comment.find({"post.post_id": ObjectId('61dbfbde92a81a85adeb7fd5'), author: 'lazypeacock232'}).sort({timestamp: 1})
+
+/***************************************
+/*************** DELETE ****************
+/***************************************
+
+// cancellare un post e a cascata tutti i commenti
+db.post.deleteOne(
+	{
+		"_id": ObjectId('61dbfbd392a81a85adeaf095')
+	}
+);
+
+db.comment.deleteMany(
+	{
+		post.post_id: ObjectId('61dbfbd392a81a85adeaf095')
+	}
+);

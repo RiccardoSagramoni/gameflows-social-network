@@ -1,0 +1,76 @@
+////////////////////////////////////
+//            INSERT              //
+////////////////////////////////////
+
+% INSERT A VIDEOGAME COMMUNITY
+db.videogame.insertOne(
+	{
+		"name": "Battlefield 3",
+		"summary": "text",
+		"game_modes": [
+			"Single player",
+			"Multiplayer",
+			"Co-operative"
+		],
+		"platforms": [
+			"PC (Microsoft Windows)",
+			"PlayStation 3",
+			"Xbox 360"
+		],
+		"cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1xbu.jpg",
+		"genres": [
+			"Shooter"
+		],
+		"collection": "Battlefield",
+		"aggregated_rating": 85,
+		"release_date": "2011-10-25 00:00:00",
+		"developers": [
+			"EA Digital Illusions CE"
+		],
+		"publishers": [
+			"Electronic Arts"
+		]
+	}
+)
+
+
+
+////////////////////////////////////
+//              READ              //
+////////////////////////////////////
+
+% SEARCH COMMUNITY BY NAME (@param in $regex)
+db.videogame.find(
+	{
+		name: {
+			$regex: 'battle', 
+			$options: 'i'
+		}
+	}
+)
+
+% GET ALL VIDEOGAME COMMUNITIES
+db.videogame.find({}).sort({"name": 1})
+
+
+
+////////////////////////////////////
+//             DELETE             //
+////////////////////////////////////
+
+% REMOVE A VIDEOGAME COMMUNITY BY ID (CASCADE EFFECT)
+db.videogame.deleteOne(
+	{
+		"_id": ObjectId('61dff9b95dd4f4998d7c453d')
+	}
+);
+db.post.deleteMany(
+	{
+		community.community_id: ObjectId('61dbfbbe92a81a85adeaf04c')
+	}
+);
+db.comment.deleteMany(
+	{
+		post.community_id: ObjectId('61dbfbbe92a81a85adeaf04c')
+	}
+);

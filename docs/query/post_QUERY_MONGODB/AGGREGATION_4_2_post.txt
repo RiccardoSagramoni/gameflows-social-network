@@ -1,0 +1,39 @@
+
+//top communities of the month by post number (disc sorted)
+
+[{$match: {
+ date: {
+  $gt: '2021-11-00T00:00:00.0Z',
+  $lt: '2021-12-01T00:00:00.0Z'
+ }
+}}, {$group: {
+ _id: {
+  community_id: '$community.community_id',
+  community_name: '$community.community_name'
+ },
+ num_post: {
+  $count: {}
+ }
+}}, {$sort: {
+ num_post: -1
+}}]
+
+
+
+
+
+**JAVA**
+
+Arrays.asList(new Document("$match", 
+    new Document("date", 
+    new Document("$gt", "2021-11-00T00:00:00.0Z")
+                .append("$lt", "2021-12-01T00:00:00.0Z"))), 
+    new Document("$group", 
+    new Document("_id", 
+    new Document("community_id", "$community.community_id")
+                .append("community_name", "$community.community_name"))
+            .append("num_post", 
+    new Document("$count", 
+    new Document()))), 
+    new Document("$sort", 
+    new Document("num_post", -1L)))

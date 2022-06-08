@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="480.0" prefWidth="544.0" style="-fx-background-radius: 10; -fx-border-width: 5; -fx-border-color: #00a7d3; -fx-border-radius: 10;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.UserVideogameInfoPageController">
+   <children>
+      <Label fx:id="titleLabel" alignment="BASELINE_LEFT" layoutX="111.0" layoutY="37.0" prefHeight="44.0" prefWidth="418.0" text="Videogame Community Info">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="11.0" layoutY="125.0" prefHeight="25.0" prefWidth="60.0" text="Name">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="14.0" layoutY="313.0" prefHeight="25.0" prefWidth="133.0" text="Summary">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="261.0" layoutY="125.0" prefHeight="25.0" prefWidth="91.0" text="Game Mode">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="11.0" layoutY="167.0" prefHeight="25.0" prefWidth="60.0" text="Platform">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="11.0" layoutY="260.0" prefHeight="25.0" prefWidth="60.0" text="Genre">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="11.0" layoutY="211.0" prefHeight="25.0" prefWidth="60.0" text="Rating">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="261.0" layoutY="167.0" prefHeight="25.0" prefWidth="91.0" text="Release Date">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="259.0" layoutY="209.0" prefHeight="25.0" prefWidth="75.0" text="Developer">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="259.0" layoutY="251.0" prefHeight="25.0" prefWidth="75.0" text="Publisher">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="communityLogo" fitHeight="100.0" fitWidth="100.0" layoutX="11.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" />
+      <Separator layoutX="18.0" layoutY="312.0" prefHeight="1.0" prefWidth="508.0" />
+      <TextArea fx:id="summaryTextArea" editable="false" layoutX="18.0" layoutY="348.0" prefHeight="118.0" prefWidth="508.0" wrapText="true" />
+      <TextArea fx:id="genreTextArea" editable="false" layoutX="73.0" layoutY="244.0" prefHeight="56.0" prefWidth="172.0" wrapText="true" />
+      <TextArea fx:id="publisherTextArea" editable="false" layoutX="357.0" layoutY="245.0" prefHeight="56.0" prefWidth="172.0" wrapText="true" />
+      <TextArea fx:id="ratingTextArea" editable="false" layoutX="73.0" layoutY="202.0" prefHeight="36.0" prefWidth="172.0" wrapText="true" />
+      <TextArea fx:id="platformTextArea" editable="false" layoutX="73.0" layoutY="160.0" prefHeight="25.0" prefWidth="172.0" wrapText="true" />
+      <TextArea fx:id="nameTextArea" editable="false" layoutX="73.0" layoutY="118.0" prefHeight="36.0" prefWidth="172.0" wrapText="true" />
+      <TextArea fx:id="developerTextArea" editable="false" layoutX="357.0" layoutY="202.0" prefHeight="36.0" prefWidth="172.0" wrapText="true" />
+      <TextArea fx:id="releaseDateTextArea" editable="false" layoutX="357.0" layoutY="160.0" prefHeight="25.0" prefWidth="172.0" wrapText="true" />
+      <TextArea fx:id="gameModeTextArea" editable="false" layoutX="357.0" layoutY="118.0" prefHeight="38.0" prefWidth="172.0" wrapText="true" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CustomMenuItem?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="580.0" prefWidth="957.0" style="-fx-background-color: #FFFFFFFF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.UserCommunityPageController">
+<children>
+    <MenuBar layoutY="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="2.0">
+      <menus>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About Gameflows" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+      <SplitPane dividerPositions="0.28072011722838597" layoutY="25.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="731.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+         <items>
+            <AnchorPane maxWidth="-Infinity" prefHeight="554.0" prefWidth="276.0" style="-fx-background-color: #05557e;" SplitPane.resizableWithParent="false">
+               <children>
+                  <AnchorPane layoutY="1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="85.0" prefWidth="300.0" style="-fx-background-color: #FFFFFFFF;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <ImageView fitHeight="85.0" fitWidth="210.0" layoutX="4.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="17.0">
+                           <image>
+                              <Image url="@../logos/logo3/logo_write.PNG" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <MenuButton alignment="BASELINE_LEFT" layoutY="139.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="300.0" stylesheets="@../css/buttonStyle.css" text="Browse Post by" textFill="WHITE">
+                    <items>
+                        <CustomMenuItem fx:id="mostRecentPostButton" mnemonicParsing="false" onAction="#viewMostRecentPosts" text="Most Recent">
+                           <content>
+                              <Button alignment="BASELINE_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="51.0" prefWidth="218.0" stylesheets="@../css/buttonStyle.css" text="Most Recent" textFill="WHITE">
+                                 <font>
+                                    <Font name="Calibri Bold Italic" size="16.0" />
+                                 </font>
+                              </Button>
+                           </content>
+                        </CustomMenuItem>
+                        <CustomMenuItem fx:id="mostLikedPostButton" mnemonicParsing="false" onAction="#viewMostLikedPost" text="Most Liked">
+                           <content>
+                              <Button alignment="BASELINE_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="51.0" prefWidth="218.0" stylesheets="@../css/buttonStyle.css" text="Most Liked" textFill="WHITE">
+                                 <font>
+                                    <Font name="Calibri Bold Italic" size="16.0" />
+                                 </font>
+                              </Button>
+                           </content>
+                        </CustomMenuItem>
+                    </items>
+                     <font>
+                        <Font name="Calibri Bold Italic" size="16.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </MenuButton>
+                  <Button fx:id="viewInfoButton" alignment="BASELINE_LEFT" layoutY="86.0" mnemonicParsing="false" onAction="#viewVideogameInfo" prefHeight="51.0" prefWidth="218.0" stylesheets="@../css/buttonStyle.css" text="View Info" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font name="Calibri Bold Italic" size="16.0" />
+                     </font>
+                  </Button>
+                  <MenuButton alignment="BASELINE_LEFT" layoutY="192.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="300.0" stylesheets="@../css/buttonStyle.css" text="Browse Influencer Post" textFill="WHITE">
+                     <items>
+                        <CustomMenuItem fx:id="mostRecentInfluencerPostButton" mnemonicParsing="false" onAction="#viewMostRecentInfluencerPosts" text="Most Recent">
+                           <content>
+                              <Button alignment="BASELINE_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="51.0" prefWidth="218.0" stylesheets="@../css/buttonStyle.css" text="Most Recent" textFill="WHITE">
+                                 <font>
+                                    <Font name="Calibri Bold Italic" size="16.0" />
+                                 </font>
+                              </Button>
+                           </content>
+                        </CustomMenuItem>
+                        <CustomMenuItem fx:id="mostLikedInfluencerPostButton" mnemonicParsing="false" onAction="#viewMostLikedInfluencerPost" text="Most Liked">
+                           <content>
+                              <Button alignment="BASELINE_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="51.0" prefWidth="218.0" stylesheets="@../css/buttonStyle.css" text="Most Liked" textFill="WHITE">
+                                 <font>
+                                    <Font name="Calibri Bold Italic" size="16.0" />
+                                 </font>
+                              </Button>
+                           </content>
+                        </CustomMenuItem>
+                     </items>
+                     <font>
+                        <Font name="Calibri Bold Italic" size="16.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </MenuButton>
+                  <Button fx:id="returnToHomeButton" alignment="BASELINE_LEFT" layoutY="501.0" mnemonicParsing="false" onAction="#returnToHome" prefHeight="51.0" prefWidth="300.0" stylesheets="@../css/buttonStyle.css" text="Return to Home" textFill="WHITE">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font name="Calibri Bold Italic" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="viewUserRankingByPost" alignment="BASELINE_LEFT" layoutY="245.0" mnemonicParsing="false" onAction="#viewUserWhoWroteHigherNumberOfPost" prefHeight="51.0" prefWidth="300.0" stylesheets="@../css/buttonStyle.css" text="View User with higher number of posts" textFill="WHITE">
+                     <font>
+                        <Font name="Calibri Bold Italic" size="16.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="deleteCommunityButton" alignment="BASELINE_LEFT" layoutX="-1.0" layoutY="298.0" mnemonicParsing="false" onAction="#viewDeleteCommunityAlert" prefHeight="51.0" prefWidth="300.0" style="-fx-background-color: e32d2d;" stylesheets="@../css/buttonStyle.css" text="Delete this Videogame Community" textFill="WHITE">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font name="Calibri Bold Italic" size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <SplitPane dividerPositions="0.16370808678500987" orientation="VERTICAL" prefHeight="507.0" prefWidth="505.0" SplitPane.resizableWithParent="false">
+              <items>
+                <AnchorPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="80.0" prefWidth="505.0" style="-fx-background-color: #FFFFFFFF;" SplitPane.resizableWithParent="false">
+                     <children>
+                        <Button fx:id="followButton" layoutX="421.0" layoutY="14.0" mnemonicParsing="false" onAction="#followCommunity" prefHeight="25.0" prefWidth="94.0" text="Follow" AnchorPane.rightAnchor="24.0" AnchorPane.topAnchor="14.0">
+                           <font>
+                              <Font name="Calibri Bold Italic" size="12.0" />
+                           </font>
+                        </Button>
+                        <ImageView fx:id="communityLogoImageView" fitHeight="62.0" fitWidth="76.0" layoutX="21.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="21.0" AnchorPane.topAnchor="9.0">
+                           <image>
+                              <Image url="@../icons/videogame_icon.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="writePostButton" layoutX="442.0" layoutY="46.0" mnemonicParsing="false" onAction="#writePost" prefHeight="25.0" prefWidth="94.0" text="Write Post" AnchorPane.rightAnchor="24.0" AnchorPane.topAnchor="46.0">
+                           <font>
+                              <Font name="Calibri Bold Italic" size="12.0" />
+                           </font>
+                        </Button>
+                        <Label fx:id="communityNameLabel" layoutX="97.0" layoutY="20.0" prefHeight="38.0" prefWidth="316.0">
+                           <font>
+                              <Font name="Calibri Bold Italic" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                <AnchorPane fx:id="postAnchorPane" prefHeight="437.0" prefWidth="695.0" style="-fx-background-color: #FFFFFFFF;" SplitPane.resizableWithParent="false">
+                     <children>
+                        <ScrollPane fx:id="postScrollPane" layoutX="10.0" layoutY="12.0" prefHeight="392.0" prefWidth="570.0" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                           <content>
+                              <GridPane fx:id="postGridPane">
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <padding>
+                                    <Insets left="5.0" top="5.0" />
+                                 </padding>
+                              </GridPane>
+                           </content>
+                        </ScrollPane>
+                        <Button fx:id="nextButton" layoutX="317.0" layoutY="436.0" mnemonicParsing="false" onAction="#goNextPage" prefHeight="25.0" prefWidth="25.0">
+                           <graphic>
+                              <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icons/next.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic></Button>
+                        <Button fx:id="prevButton" layoutX="271.0" layoutY="436.0" mnemonicParsing="false" onAction="#goPrevPage" prefHeight="25.0" prefWidth="25.0">
+                           <graphic>
+                              <ImageView fitHeight="20.0" fitWidth="20.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icons/next.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic></Button>
+                        <Button fx:id="refreshButton" alignment="BOTTOM_LEFT" layoutX="554.0" layoutY="436.0" mnemonicParsing="false" onAction="#refreshPage" prefHeight="25.0" prefWidth="85.0" text="Refresh">
+                           <graphic>
+                              <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icons/refresh.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic></Button>
+                     </children></AnchorPane>
+              </items>
+            </SplitPane>
+         </items>
+      </SplitPane>
+      <Line endX="125.0" endY="-3.0517578125E-5" layoutX="150.0" layoutY="164.0" startX="-125.0" startY="-4.57763671875E-5" stroke="#1608bd" strokeWidth="1.5" />
+      <Line fx:id="separetorToMakeInvisible" endX="125.0" endY="-3.0517578125E-5" layoutX="150.0" layoutY="323.0" startX="-125.0" startY="-4.57763671875E-5" stroke="#00aaff" strokeWidth="1.5" />
+      <Line endX="125.0" endY="-3.0517578125E-5" layoutX="150.0" layoutY="217.0" startX="-125.0" startY="-4.57763671875E-5" stroke="#1608bd" strokeWidth="1.5" />
+      <Line endX="125.0" endY="-3.0517578125E-5" layoutX="150.0" layoutY="270.0" startX="-125.0" startY="-4.57763671875E-5" stroke="#1608bd" strokeWidth="1.5" />
+      <Line fx:id="separetorToMakeInvisible2" endX="125.0" endY="-3.0517578125E-5" layoutX="150.0" layoutY="378.0" startX="-125.0" startY="-4.57763671875E-5" stroke="#1608bd" strokeWidth="1.5" />
+      <Line endX="125.0" endY="-3.0517578125E-5" layoutX="150.0" layoutY="526.0" startX="-125.0" startY="-4.57763671875E-5" stroke="WHITE" strokeWidth="1.5" />
+</children>
+</AnchorPane>

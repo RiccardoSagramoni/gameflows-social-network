@@ -1,0 +1,14 @@
+mongosh --port 27020
+
+rsconf = {
+	_id: "lsmdb",
+	members: [
+		{_id: 0, host: "172.16.4.42:27020", priority: 100},
+		{_id: 1, host: "172.16.4.43:27020", priority: 50},
+		{_id: 2, host: "172.16.4.44:27020", priority: 1}
+	]
+};
+
+rs.initiate(rsconf);
+
+rs.status();

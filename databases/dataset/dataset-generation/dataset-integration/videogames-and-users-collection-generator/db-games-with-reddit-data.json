@@ -1,0 +1,3560 @@
+[
+  {
+    "id": 231,
+    "name": "Fallout",
+    "summary": "The Vault Dweller is tasked with exploring post-nuclear California in order to retrieve a water chip to replace the broken chip of Vault 13, their home, which they are the first person to ever leave. The player will engage in Western RPG character building and turn-based tactical combat while getting to know settlements and factions of people, mutants and ghouls through branching dialogue trees.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PC DOS",
+      "Mac"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybn.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Turn-based strategy (TBS)"
+    ],
+    "collection": "Fallout",
+    "release_date": "1997-09-30 00:00:00",
+    "developers": [
+      "Black Isle Studios"
+    ],
+    "publishers": [
+      "Edusoft",
+      "Interplay Entertainment"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "BioShock",
+    "summary": "Set in the steampunk Objectivist underwater dystopia of Rapture in the 1960's, Bioshock is a first-person shooter wherein the player arms and genetically modifies themselves in order to survive against the city's resident great minds-turned-maddened anomalies and aid a revolutionary leader named Atlas in overthrowing the city's ruling despot, Andrew Ryan.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360",
+      "Mac",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2mli.jpg",
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)"
+    ],
+    "collection": "Bioshock",
+    "aggregated_rating": 92.625,
+    "release_date": "2007-08-21 00:00:00",
+    "developers": [
+      "2K Boston",
+      "2K Australia"
+    ],
+    "publishers": [
+      "2K Games",
+      "Feral Interactive"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "StarCraft II: Wings of Liberty",
+    "summary": "In the distant future, in the darkest reaches of space, the ghosts of the past whisper your name. You are Jim Raynor, a marshal-turned-rebel on a vigilante crusade to bring down the Dominion and its nefarious leader, Arcturus Mengsk. Haunted by betrayal and remorse, some believe you may have given up the fight. But you have promises to keep\u2026 and a need for vengeance that\u2019s long overdue.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1tnn.jpg",
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Strategy"
+    ],
+    "collection": "StarCraft",
+    "aggregated_rating": 89.4,
+    "release_date": "2010-07-27 00:00:00",
+    "developers": [
+      "Blizzard Entertainment"
+    ],
+    "publishers": [
+      "Blizzard Entertainment"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "The Sims 3",
+    "summary": "In The Sims 3, you can create Sims with unique personalities, fulfill their desires, and control their lives within a customizable living neighborhood. Unlock all-new Karma Powers and unleash them on your Sims: help your Sim get lucky with the power of \u201clove connector\u201d, bless them with the power of \u201cage defiler\u201d or \"instant beauty\" or curse them with an \"instant enemy\". Use these powers wisely, because they may have unexpected results! As you guide your Sims through life, you can complete challenges to unlock additional items, new buildings and landmarks.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "Wii",
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360",
+      "Mac",
+      "Nintendo DS",
+      "Android",
+      "Nintendo 3DS",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1zof.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Strategy",
+      "Adventure"
+    ],
+    "collection": "The Sims",
+    "aggregated_rating": 83.1111111111111,
+    "release_date": "2009-06-02 00:00:00",
+    "developers": [
+      "Maxis"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Empire Earth",
+    "summary": "Epochs are the ages a player passes through in Empire Earth. Each of these epochs represents an age within history. In Empire Earth, the last two ages (Digital and Nano Ages) are set into the moderate future. In the Art of Conquest, a third future age, the Space Age, is available. It deals with space colonization. Each epoch brings new technologies and units. Epoch advancement requires additional buildings to be built and the costs of advancing increases as more epochs are attained, although the ability to gather the required resources greatly increases as well. With new epochs, some new units are available at the cost of having to abandon the ability to produce old units, though any old units still alive are kept. The epochs in Empire Earth are the Prehistoric Age, the Stone Age, the Copper Age, the Bronze age, the Dark Age, the Middle Ages, the Renaissance, the Imperial age, the Industrial age, the Atomic World War I age, the Atomic World War II Age, the Atomic Modern Age, the Digital Age and the Nano Age. An extra epoch, the Space Age, is available in Empire Earth: The Art of Conquest.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co22rm.jpg",
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Strategy"
+    ],
+    "collection": "Empire Earth",
+    "release_date": "2001-11-12 00:00:00",
+    "developers": [
+      "Stainless Steel Studios"
+    ],
+    "publishers": [
+      "Sierra Entertainment"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Battlefield 3",
+    "summary": "In Battlefield 3, players step into the role of the elite U.S. Marines. As the first boots on the ground, players will experience heart-pounding missions across diverse locations including Paris, Tehran and New York. As a U.S. Marine in the field, periods of tension and anticipation are punctuated by moments of complete chaos. As bullets whiz by, as walls crumble, as explosions force players to the ground, the battlefield feels more alive and interactive than ever before.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1xbu.jpg",
+    "genres": [
+      "Shooter"
+    ],
+    "collection": "Battlefield",
+    "aggregated_rating": 85,
+    "release_date": "2011-10-25 00:00:00",
+    "developers": [
+      "EA Digital Illusions CE"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Rift",
+    "summary": "Rift (previously known as Rift: Planes of Telara) is a fantasy free-to-play massively multiplayer online role-playing game (MMORPG) developed by Trion Worlds. Rift takes place within the fantasy world of Telara. The game was released in March 2011. \n \nTwo competing factions composed of a selection of races and classes battle each other; as well as the enemies who emerge from dynamic rifts.",
+    "game_modes": [
+      "Multiplayer",
+      "Co-operative",
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2ouo.jpg",
+    "genres": [
+      "Role-playing (RPG)"
+    ],
+    "aggregated_rating": 83.75,
+    "release_date": "2011-03-01 00:00:00",
+    "developers": [
+      "Trion Worlds"
+    ],
+    "publishers": [
+      "Trion Worlds"
+    ]
+  },
+  {
+    "id": 195,
+    "name": "Dishonored",
+    "summary": "Dishonored is an immersive first-person action game that casts you as a supernatural assassin driven by revenge. With Dishonored\u2019s flexible combat system, creatively eliminate your targets as you combine the supernatural abilities, weapons and unusual gadgets at your disposal. Pursue your enemies under the cover of darkness or ruthlessly attack them head on with weapons drawn. The outcome of each mission plays out based on the choices you make.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1y2j.jpg",
+    "genres": [
+      "Adventure"
+    ],
+    "collection": "Dishonored",
+    "aggregated_rating": 90.3571428571429,
+    "release_date": "2012-10-09 00:00:00",
+    "developers": [
+      "Arkane Studios"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ]
+  },
+  {
+    "id": 226,
+    "name": "Battle Realms",
+    "summary": "Kenji, exiled heir to the Dragon throne, must stake his claim in a chaotic world wracked by the subversive intrigues of the Serpent, Wolf, and Lotus clans. Shall he vanquish the land under a campaign of malevolence and terror or restore the war-torn realm to its former glory? Enter Battle Realms and choose your destiny. Explore the history that led up to the events in Battle Realms in Battle Realms: Winter of the White Wolf. Scattered and unorganized, your enslaved Wolf brethren hunger for revolt against their corrupt Lotus Clan masters. You must unite them. You must lead them. You must free them.\n\nBattle Realms is fantasy real-time strategy game inspired by the stories told in kung-fu movies and oriental mythology. Develop your tiny peasant village into a highly trained and deadly efficient clan of warriors who are ready to die with your name on their lips. Experiment with Unit Alchemy and turn villagers into one-of-a-kind fighters like Samurai Cannoneers, Bandits, Geisha, and scores of other mythical warriors. Defend your people against the hordes of barbarians, evil magicians, and deadly ninjas.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2ei7.jpg",
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Strategy"
+    ],
+    "collection": "Battle Realms",
+    "release_date": "2001-11-07 00:00:00",
+    "developers": [
+      "Liquid Entertainment"
+    ],
+    "publishers": [
+      "Ubisoft Entertainment"
+    ]
+  },
+  {
+    "id": 172,
+    "name": "Call of Duty 4: Modern Warfare",
+    "summary": "Call of Duty 4: Modern Warfare differs from previous installments of the Call of Duty series. Previous Call of Duty games have a distinct three country-specific campaign style, while Call of Duty 4 has a more film-like plot with interlaced story lines from the perspectives of Sgt. Paul Jackson of the Marines 1st Force Recon and Sgt. 'Soap' MacTavish of the British 22nd SAS Regiment.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Split screen"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360",
+      "Mac"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1wko.jpg",
+    "genres": [
+      "Shooter",
+      "Simulator"
+    ],
+    "collection": "Call of Duty: Modern Warfare",
+    "aggregated_rating": 87.8571428571429,
+    "release_date": "2007-11-05 00:00:00",
+    "developers": [
+      "Infinity Ward",
+      "n-Space",
+      "Treyarch"
+    ],
+    "publishers": [
+      "Activision"
+    ]
+  },
+  {
+    "id": 190,
+    "name": "Super Meat Boy",
+    "summary": "Super Meat Boy is a tough as nails platformer where you play as an animated cube of meat who's trying to save his girlfriend (who happens to be made of bandages) from an evil fetus in a jar wearing a tux.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Xbox 360",
+      "Mac",
+      "Wii U",
+      "PlayStation Vita",
+      "PlayStation 4",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co276m.jpg",
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Indie"
+    ],
+    "collection": "Super Meat Boy",
+    "aggregated_rating": 85.25,
+    "release_date": "2010-10-20 00:00:00",
+    "developers": [
+      "Team Meat"
+    ],
+    "publishers": [
+      "BlitWorks"
+    ]
+  },
+  {
+    "id": 154,
+    "name": "Borderlands 2",
+    "summary": "Five years after the events of Borderlands, a valuable mineral called \"Eridium\" starts flourishing through Pandora's crust. Handsome Jack, the leader of the Hyperion Corporation, secures this new resource and uses it to rule over Pandora with an iron fist. Meanwhile, rumors of an even larger Vault hidden on Pandora spread across the galaxy, drawing a new group of Vault Hunters to the planet in search of it.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative",
+      "Split screen"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360",
+      "Mac",
+      "Android",
+      "PlayStation Vita",
+      "PlayStation 4"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co20tn.jpg",
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)"
+    ],
+    "collection": "Borderlands",
+    "aggregated_rating": 80.7058823529412,
+    "release_date": "2012-09-18 00:00:00",
+    "developers": [
+      "Gearbox Software"
+    ],
+    "publishers": [
+      "2K Games",
+      "Aspyr Media",
+      "Sony Computer Entertainment of America"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Natural Selection 2",
+    "summary": "Natural Selection 2 is an immersive, multiplayer shooter that pits aliens against humans in a strategic and action-packed struggle for survival. It seamlessly combines shooter and RTS/strategy gameplay.",
+    "game_modes": [
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1x8r.jpg",
+    "genres": [
+      "Shooter",
+      "Real Time Strategy (RTS)",
+      "Strategy",
+      "Indie"
+    ],
+    "collection": "Natural Selection",
+    "aggregated_rating": 85,
+    "release_date": "2012-10-30 00:00:00",
+    "developers": [
+      "Unknown Worlds Entertainment"
+    ],
+    "publishers": [
+      "Unknown Worlds Entertainment"
+    ]
+  },
+  {
+    "id": 143,
+    "name": "Ghost Trick: Phantom Detective",
+    "summary": "Ghost Trick: Phantom Detective is a puzzle/adventure game for the Nintendo DS and iOS. It was developed mainly by Shu Takumi, the man behind the Ace Attorney Series. Game's story centers on the protagonist Sissel, and his ghost's struggle to discover who he was when he was alive and who killed him. The player assumes the role of this ghost, who has the ability to perform various Ghost Tricks to solve puzzles and navigate the world around him.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "Nintendo DS",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2yj9.jpg",
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "aggregated_rating": 83.3333333333333,
+    "release_date": "2010-06-19 00:00:00",
+    "developers": [
+      "Capcom"
+    ],
+    "publishers": [
+      "Capcom"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Hawken",
+    "summary": "War is a Machine Pilot hulking death machines and use massive weaponry to destroy your foes in fast-paced FPS gameplay.\n\nHawken is a multiplayer first person shooter that places you inside a mechanized war machine on the battlefield of a dystopian world. With tactical, fast-paced gameplay in customizable and upgradable mechs across multiple competitive modes, Hawken is explosively fun.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3wmg.jpg",
+    "genres": [
+      "Shooter"
+    ],
+    "aggregated_rating": 45,
+    "release_date": "2012-12-12 00:00:00",
+    "developers": [
+      "Adhesive Games",
+      "Reloaded Games"
+    ],
+    "publishers": [
+      "Meteor Entertainment",
+      "Reloaded Games",
+      "505 Games"
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Warface",
+    "summary": "Join a five soldier team and take the fight to Blackwood across the globe. Your team will have to master each class\u2019s special abilities in order to come out victorious. Missions and location are renewed on a daily basis and can be played on each difficulty: Regular, Skilled, or Hardcore.",
+    "game_modes": [
+      "Multiplayer",
+      "Co-operative",
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Xbox 360",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1nza.jpg",
+    "genres": [
+      "Shooter",
+      "Simulator",
+      "Strategy",
+      "Adventure"
+    ],
+    "aggregated_rating": 54,
+    "release_date": "2013-10-21 00:00:00",
+    "developers": [
+      "Crytek Kiev",
+      "Allods Team"
+    ],
+    "publishers": [
+      "Tencent Holdings Ltd",
+      "Trion Worlds",
+      "Microsoft Studios",
+      "My.com"
+    ]
+  },
+  {
+    "id": 169,
+    "name": "Anarchy Online",
+    "summary": "Anarchy Online (AO) is a science fiction themed massive multiplayer online roleplaying game (MMORPG) set almost 30,000 years into the future, in an age where common surgical implants and microscopic nano-bots can relieve most forms of human suffering or transform any normal being into a weapon of destructive force.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1tvs.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Adventure"
+    ],
+    "collection": "Anarchy Online",
+    "aggregated_rating": 80,
+    "release_date": "2001-06-27 00:00:00",
+    "developers": [
+      "Funcom"
+    ],
+    "publishers": [
+      "Funcom"
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Banjo-Kazooie",
+    "summary": "In this 3D platformer, the heroic but naive bear Banjo enlists his cowardly bird buddy Kazooie to help rescue his younger sister from a vain, beauty-stealing witch. The player is tasked with exploring the witch's lair and the nine large, open levels within it, looking for tasks and challenges to complete. Along the way they meet a variety of characters who teach them new moves and transform them into different animals. Modeled after Super Mario 64, Banjo-Kazooie is distinguished by its cheeky and sarcastic sense of humor and by a large, varied, and novel moveset.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "Nintendo 64",
+      "Xbox 360"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1zsj.jpg",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "collection": "Banjo-Kazooie",
+    "aggregated_rating": 78,
+    "release_date": "1998-06-29 00:00:00",
+    "developers": [
+      "Rare"
+    ],
+    "publishers": [
+      "Nintendo",
+      "Microsoft Game Studios"
+    ]
+  },
+  {
+    "id": 202,
+    "name": "Project Spark",
+    "summary": "Project Spark brings imagination to life in an open-world, digital sandbox that enables anyone to create, play, and share whatever they can imagine. This is a powerful yet simple way to build and play your own worlds, stories, and games. See how a creator did what they did, and, when you\u2019re ready, become a creator yourself. Project Spark provides a powerful creation engine that unlocks world building through intuitive sculpting tools to shape and paint a new world, as well as a simple yet incredibly powerful visual programming language to make anything happen. Share all of your creations with a dynamic community, and play what the community makes. Project Spark brings creation to life and presents endless opportunities for play.\n\nThe game is no longer available available for downloads, as of 12th august 2016 the servers have been shut down.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Xbox One"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2r0d.jpg",
+    "genres": [
+      "Platform",
+      "Strategy",
+      "Adventure"
+    ],
+    "aggregated_rating": 77.25,
+    "release_date": "2014-10-07 00:00:00",
+    "developers": [
+      "Team Dakota"
+    ],
+    "publishers": [
+      "Microsoft Studios"
+    ]
+  },
+  {
+    "id": 183,
+    "name": "Dota 2",
+    "summary": "Dota 2 is a multiplayer online battle arena video game and the stand-alone sequel to the Defense of the Ancients (DotA) mod. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has taken on a life of its own.",
+    "game_modes": [
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1y5n.jpg",
+    "genres": [
+      "Strategy",
+      "MOBA"
+    ],
+    "collection": "Defense of the Ancients",
+    "aggregated_rating": 90.5,
+    "release_date": "2013-07-09 00:00:00",
+    "developers": [
+      "Valve Corporation"
+    ],
+    "publishers": [
+      "Valve Corporation"
+    ]
+  },
+  {
+    "id": 219,
+    "name": "The Stanley Parable",
+    "summary": "The Stanley Parable is a first-person exploration game which ponders questions related to player agency, narrative pacing, escapism through gaming, objective-driven game design, authorial intent, and the conflict of interest between players and game creators.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1rc9.jpg",
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "collection": "The Stanley Parable",
+    "aggregated_rating": 88.5,
+    "release_date": "2013-10-17 00:00:00",
+    "developers": [
+      "Galactic Cafe"
+    ],
+    "publishers": [
+      "Galactic Cafe"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "The Sims 4",
+    "summary": "Unleash your imagination and create a unique world of Sims that\u2019s an expression of you! Explore and customize every detail from Sims to homes, and much more with The Sims 4. Life, and Sims, are yours to control. Customize your unique Sims, design their homes & take them on wild adventures through celebdom, romance, holidays and more.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3h3l.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure"
+    ],
+    "collection": "The Sims",
+    "aggregated_rating": 67.2666666666667,
+    "release_date": "2014-09-02 00:00:00",
+    "developers": [
+      "The Sims Studio",
+      "Maxis"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "7 Days to Die",
+    "summary": "Building on survivalist and horror themes, players in 7 Days to Die can scavenge the abandoned cities of the buildable and destructable voxel world for supplies or explore the wilderness to gather raw materials to build their own tools, weapons, traps, fortifications and shelters. The horror (zombies) element makes up a large part of the game, including building and the fully destructible (voxel) environment - everything is built from blocks, similar to Minecraft, yet creating a very smooth look.\n\nWith steady updates (but slow, avg. 2 major updates / year, with several minor ones in-between, mostly bug fixes) the game has steadily advanced and continues to advance in terms of graphics but even more so and more importantly, gameplay, having changed from being a mostly simple shooter and focused on elaborate crafting (changed with Alpha 12), to a full RPG experience, with Alpha 15 having introduced NPCs (traders only) and an extensive skill system and Alpha 17 introduced this as a categorized (traits-like) system.\n\nThe game now also has an extensive traps, automated turrets via an electricity tier, plus a whole assortment of usable single- and multi-seating vehicles (manual and motor bikes, cars, gyrocopter) introduced in Alpha 17.\n\nThe game can be played single-player (SP), multi-player (MP), co-op / PvE and PvP; game servers can be run either via the game client, or as a dedicated server with extensive configurability and number of modifications possible, including custom blocks and sounds, plus an event system, which created an active \"modding\" community and allows to experience the game in many different ways that were initially not intended.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative",
+      "Split screen"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co49r0.jpg",
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Simulator",
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ],
+    "aggregated_rating": 36.125,
+    "release_date": "2013-12-13 00:00:00",
+    "developers": [
+      "The Fun Pimps Entertainment LLC",
+      "Iron Galaxy Studios"
+    ],
+    "publishers": [
+      "The Fun Pimps Entertainment LLC",
+      "Telltale Games"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "World of Warships",
+    "summary": "World of Warships is a free to play online naval combat game by Wargaming. Players compete in a variety of historic warships from numerous national origins. Take control of Destroyers, Cruisers, Battleships and Aircraft Carriers in competitive game modes, or cooperatively sail into historic operations.",
+    "game_modes": [
+      "Multiplayer",
+      "Co-operative",
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1j29.jpg",
+    "genres": [
+      "Shooter",
+      "Real Time Strategy (RTS)",
+      "Simulator",
+      "Tactical"
+    ],
+    "aggregated_rating": 82.4,
+    "release_date": "2015-09-17 00:00:00",
+    "developers": [
+      "Lesta Studio",
+      "Wargaming.net"
+    ],
+    "publishers": [
+      "Wargaming.net"
+    ]
+  },
+  {
+    "id": 210,
+    "name": "The Stomping Land",
+    "summary": "The Stomping Land is a multiplayer survival game about living in a world with dinosaurs.\nForm tribes, build traps, and hunt down earth's historic beasts with the goal of becoming the most dominant tribe on the island.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co30fe.jpg",
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ],
+    "release_date": "2014-12-31 00:00:00",
+    "developers": [
+      "Supercrit LLC"
+    ],
+    "publishers": []
+  },
+  {
+    "id": 112,
+    "name": "Factorio",
+    "summary": "You will be mining resources, researching technologies, building infrastructure, automating production and fighting enemies. Use your imagination to design your factory, combine simple elements into ingenious structures, apply management skills to keep it working and finally protect it from the creatures who don't really like you.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1tfy.jpg",
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ],
+    "aggregated_rating": 91,
+    "release_date": "2020-08-14 00:00:00",
+    "developers": [
+      "Wube Software LTD."
+    ],
+    "publishers": [
+      "Wube Software LTD."
+    ]
+  },
+  {
+    "id": 175,
+    "name": "ABZ\u00db",
+    "summary": "ABZ\u00db is an exploration game where you are a lone diver in a lush ocean world. The diver descends deeper and deeper into the depths, where she will encounter majestic creatures, discover ancient secrets, and search for her true purpose. ABZ\u00db roughly translates to \"The Ocean of Wisdom\" from ancient Sumerian.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co28sy.jpg",
+    "genres": [
+      "Puzzle",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "aggregated_rating": 80.8518518518518,
+    "release_date": "2016-08-02 00:00:00",
+    "developers": [
+      "Giant Squid"
+    ],
+    "publishers": [
+      "505 Games"
+    ]
+  },
+  {
+    "id": 181,
+    "name": "SpaceEngine",
+    "summary": "SpaceEngine is a free 3D astronomy program and game engine developed by Russian astronomer and programmer Vladimir Romanyuk. Using real astronomical catalogs and procedural generation, it creates a three dimensional planetarium representing the entire universe. \n\nUsers can travel through space in any direction or speed, and forwards or backwards in time. \n\nIt uses pseudo-random numbers to procedurally create any kind of planetary system, nebula or galaxy.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "SteamVR"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1uo2.jpg",
+    "genres": [
+      "Simulator",
+      "Indie"
+    ],
+    "release_date": "2019-06-11 00:00:00",
+    "developers": [
+      "Vladimir Romanyuk"
+    ],
+    "publishers": [
+      "Vladimir Romanyuk"
+    ]
+  },
+  {
+    "id": 192,
+    "name": "OVERKILL's The Walking Dead",
+    "summary": "OVERKILL\u2019s The Walking Dead is a four player co-op action FPS, where you and your friends fight the dead as well as the living. Set in The Walking Dead Universe, you and your group try to survive in a post-apocalyptic Washington D.C. \n \nEach character has their own Special Abilities, Skill Trees, Squad Roles, Play Styles and Story Arcs, but teamwork is paramount. The action is close-up and intense: take out enemies carefully with a silent melee attack or go in guns blazing with your choice of each class weapons. You need to be able to improvise as nothing is certain and a horde of walkers is always right around the corner.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2qwx.jpg",
+    "genres": [
+      "Shooter"
+    ],
+    "collection": "The Walking Dead",
+    "aggregated_rating": 49.7142857142857,
+    "release_date": "2018-11-06 00:00:00",
+    "developers": [
+      "Overkill Software"
+    ],
+    "publishers": [
+      "Starbreeze Studios"
+    ]
+  },
+  {
+    "id": 233,
+    "name": "This War of Mine",
+    "summary": "In This War Of Mine you do not play as an elite soldier, rather a group of civilians trying to survive in a besieged city; struggling with lack of food, medicine and constant danger from snipers and hostile scavengers. The game provides an experience of war seen from an entirely new angle.\n\nThe pace of This War of Mine is imposed by the day and night cycle. During the day snipers outside stop you from leaving your refuge, so you need to focus on maintaining your hideout: crafting, trading and taking care of your survivors. At night, take one of your civilians on a mission to scavenge through a set of unique locations for items that will help you stay alive.\n\nMake life-and-death decisions driven by your conscience. Try to protect everybody from your shelter or sacrifice some of them for longer-term survival. During war, there are no good or bad decisions; there is only survival. The sooner you realize that, the better.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac",
+      "Android",
+      "iOS",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3ans.jpg",
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ],
+    "aggregated_rating": 82,
+    "release_date": "2014-11-14 00:00:00",
+    "developers": [
+      "11 bit studios"
+    ],
+    "publishers": [
+      "11 bit studios"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Skyforge",
+    "summary": "In Skyforge, you will walk the path from an immortal warrior to a mighty God, gaining followers as you fight to protect your world.\n\nYour loyal followers will help you increase your power as you rise to become an Elder God. The best of the best will join the Order of Keepers and shape the fate of the world.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative",
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3wf8.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "aggregated_rating": 75,
+    "release_date": "2017-04-11 00:00:00",
+    "developers": [
+      "Allods Team"
+    ],
+    "publishers": [
+      "MY.GAMES",
+      "My.com"
+    ]
+  },
+  {
+    "id": 206,
+    "name": "Call of Cthulhu",
+    "summary": "Developed by seasoned studio Cyanide, Call of Cthulhu is an RPG-Investigation game with psychological horror and stealth mechanics, set in a deeply immersive world. On a mission to find the truth behind the death of an acclaimed artist and her family on a backwater island, the player will soon uncover a more disturbing truth as the Great Dreamer, Cthulhu, prepares its awakening...",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2d3a.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "collection": "Call of Cthulhu",
+    "aggregated_rating": 64.75,
+    "release_date": "2018-10-30 00:00:00",
+    "developers": [
+      "Cyanide Studio"
+    ],
+    "publishers": [
+      "Focus Home Interactive"
+    ]
+  },
+  {
+    "id": 167,
+    "name": "Deadly Premonition: Director's Cut",
+    "summary": "Deadly Premonition is a third-person survival horror action game which puts players in the role of the intuitive FBI Agent Francis York Morgan. In the process of investigating a murder, players will examine a series of interlocking mysteries in a remote rural town and will encounter an array of complex characters pivotal to the unraveling of the storyline's mystery. Suspenseful action sequences will force players to make strategic moves, gliding by enemies in the shadows or engaging them with long-range weapons or hand-to-hand melee combat. From the unparalleled atmosphere, music and mysterious storyline to driving vehicles and exploring the entire town, Deadly Premonition will offer players a unique and haunting interactive gaming experience unlike any other.\n\nThe Classified Edition of Deadly Premonition: The Director\u2019s Cut comes in a \u201cCollector\u2019s\u201d box and includes:\n\n- Deadly Premonition Classified Edition Voucher containing all of the DLC from the game.\n- 30+ page, full-color hardcover art book (5.8\u2033 x 5.5\u2033).\n- 25 track, single disc original soundtrack with jewel case.\n- Deck of 54 custom Bicycle brand playing cards.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 3"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3xrs.jpg",
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ],
+    "collection": "Deadly Premonition",
+    "aggregated_rating": 74.1666666666667,
+    "release_date": "2013-04-30 00:00:00",
+    "developers": [
+      "Toybox Inc."
+    ],
+    "publishers": [
+      "Rising Star Games"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Wakfu",
+    "summary": "Wakfu takes place 1,000 years after Ankama's previous game, Dofus.\n\nA spin-off game, Islands of Wakfu, was released on Xbox Live Arcade on March 30, 2011. An animated television series based on the game began airing in France from October 30, 2008. The series has also spawned various comics, a trading card game and a board game.",
+    "game_modes": [
+      "Multiplayer",
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co226x.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Tactical",
+      "Adventure",
+      "Indie"
+    ],
+    "collection": "Krosmoz",
+    "release_date": "2012-02-29 00:00:00",
+    "developers": [
+      "Ankama"
+    ],
+    "publishers": [
+      "Ankama"
+    ]
+  },
+  {
+    "id": 241,
+    "name": "Skullgirls",
+    "summary": "Skullgirls is a fast-paced 2-D fighting game that puts players in control of fierce warriors in an extraordinary Dark Deco world. Featuring all-new game systems which test the skills of veteran fighting game fans while also making the genre enjoyable and accessible to newcomers, Skullgirls is a modern take on classic arcade fighters with a hand-drawn high-definition twist. It\u2019s a one-of-a-kind, action-packed competition complete with awesome combos and an intriguing backstory.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360",
+      "Mac",
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2e3u.jpg",
+    "genres": [
+      "Fighting",
+      "Indie",
+      "Arcade"
+    ],
+    "aggregated_rating": 78.75,
+    "release_date": "2012-04-10 00:00:00",
+    "developers": [
+      "Lab Zero Games",
+      "Reverge Labs",
+      "Hidden Variable Studios"
+    ],
+    "publishers": [
+      "Marvelous AQL",
+      "Autumn Games",
+      "CyberFront"
+    ]
+  },
+  {
+    "id": 217,
+    "name": "Super Smash Bros. for Wii U",
+    "summary": "Super Smash Bros. for Wii U is the fourth console-based entry in the popular Super Smash Bros. series of fighting games. With an even larger roster of fighters than its predecessors and the introduction eight player battles, Smash for Wii U continues to add to the formula that gamers have loved since 1999.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative",
+      "Split screen"
+    ],
+    "platforms": [
+      "Wii U"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co213x.jpg",
+    "genres": [
+      "Fighting",
+      "Platform"
+    ],
+    "collection": "Super Smash Bros.",
+    "aggregated_rating": 94.8,
+    "release_date": "2014-11-21 00:00:00",
+    "developers": [
+      "Sora",
+      "Bandai Namco Studios"
+    ],
+    "publishers": [
+      "Nintendo"
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Brawlhalla",
+    "summary": "A 2D platform fighter where the best of the baddest-ass warriors in history battle each other in an eternal tourney of champions for bragging rights, infinite mead, and the pure pleasure of delivering a beatdown.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac",
+      "Android",
+      "iOS",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co233h.jpg",
+    "genres": [
+      "Fighting",
+      "Platform",
+      "Indie",
+      "Arcade"
+    ],
+    "aggregated_rating": 75,
+    "release_date": "2014-04-30 00:00:00",
+    "developers": [
+      "Blue Mammoth Games"
+    ],
+    "publishers": [
+      "Blue Mammoth Games",
+      "Ubisoft"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Crossy Road",
+    "summary": "Crossy Road is a mobile game that was released on November 20, 2014. It was developed by the indie company Hipster Whale and developers Andy Sum, Matt Hall, and Ben Weatherall. The name and concept of the game is a play on the joke Why did the chicken cross the road?",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Android",
+      "iOS",
+      "Windows Phone"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1o62.jpg",
+    "genres": [
+      "Arcade"
+    ],
+    "collection": "Crossy Road",
+    "aggregated_rating": 80,
+    "release_date": "2014-10-24 00:00:00",
+    "developers": [
+      "Hipster Whale"
+    ],
+    "publishers": [
+      "Hipster Whale"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Ratchet & Clank",
+    "summary": "Ratchet & Clank is a new game based on elements from the original Ratchet & Clank (PS2), featuring more than an hour of new cinematics (including footage from the film) in vibrant 1080p, new locations, weapons, bosses and more. Join Ratchet, Clank, Captain Qwark and new friends as they embark on an intergalactic adventure, and experience the start of an epic friendship (again) on PlayStation 4.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PlayStation 4"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co230k.jpg",
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Adventure"
+    ],
+    "aggregated_rating": 84.2222222222222,
+    "release_date": "2016-04-12 00:00:00",
+    "developers": [
+      "Insomniac Games"
+    ],
+    "publishers": [
+      "Sony Computer Entertainment, Inc. (SCEI)"
+    ]
+  },
+  {
+    "id": 155,
+    "name": "Horizon Zero Dawn",
+    "summary": "Horizon Zero Dawn, an exhilarating new action role playing game exclusively for the PlayStation 4 system, developed by the award winning Guerrilla Games, creatos of PlayStation's venerated Killzone franchise. As Horizon Zero Dawn's main protagonist Aloy, a skilled hunter, explore a vibrant and lush world inhabited by mysterious mechanized creatures.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PlayStation 4"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2una.jpg",
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)"
+    ],
+    "collection": "Horizon",
+    "aggregated_rating": 88.8461538461538,
+    "release_date": "2017-02-28 00:00:00",
+    "developers": [
+      "Guerrilla Games"
+    ],
+    "publishers": [
+      "Sony Interactive Entertainment"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Warhammer 40,000: Inquisitor - Martyr",
+    "summary": "Enter the Chaos-infested Caligari Sector and purge the unclean with the most powerful agents of the Imperium of Man. \nWarhammer 40,000: Inquisitor \u2013 Martyr is a grim Action-RPG featuring multiple classes of the Inquisition who will carry out the Emperor\u2019 will in the darkest reaches of the Imperium!",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co24kj.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "aggregated_rating": 62,
+    "release_date": "2017-08-31 00:00:00",
+    "developers": [
+      "NeoCore Games"
+    ],
+    "publishers": [
+      "NeoCore Games",
+      "Bigben Interactive"
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Angel Beats! -1st beat-",
+    "summary": "Angel Beats! -1st beat- is an all ages Japanese visual novel developed by Key and the first in a series of six volumes. The game is based on the 2010 anime television series Angel Beats! and also adapts scenes featured in the anime. The gameplay in Angel Beats! follows an interactive branching plot line with multiple scenarios. The story takes place in the afterlife and focuses on Otonashi, a boy who lost his memories of his life after dying. He is enrolled into the afterlife school and meets a girl named Yuri who invites him to join the Afterlife Battlefront\u2014an organization she leads which fights against God. The Battlefront fight against the student council president Angel, a girl with supernatural powers.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3rvi.jpg",
+    "genres": [
+      "Adventure",
+      "Visual Novel"
+    ],
+    "collection": "Angel Beats!",
+    "release_date": "2015-06-25 00:00:00",
+    "developers": [
+      "Key"
+    ],
+    "publishers": [
+      "Visual Arts"
+    ]
+  },
+  {
+    "id": 223,
+    "name": "Dragon Quest XI: Echoes of an Elusive Age",
+    "summary": "Dragon Quest XI continues the gameplay of previous games in the series, in which players explore worlds and fight against various monsters, including the ability to explore high areas. The Nintendo 3DS version features a different style than the PlayStation 4 version, showcasing 3D graphics on the top screen and 16-bit styled sprites on the bottom screen. Before entering battle, players can also toggle between the 3D and 2D graphical styles. The game features the series' traditional turn-based battle system.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Google Stadia"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1x9d.jpg",
+    "genres": [
+      "Role-playing (RPG)"
+    ],
+    "collection": "Dragon Warrior",
+    "aggregated_rating": 84,
+    "release_date": "2017-07-29 00:00:00",
+    "developers": [
+      "Armor Project",
+      "Bird Studio",
+      "Square Enix"
+    ],
+    "publishers": [
+      "Square Enix"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Kantai Collection",
+    "summary": "Kantai Collection is a Japanese free-to-play web browser game. The gameplay is centered upon building squadrons composed of individual characters represented as cards with different attributes, and then sending said squadrons out on missions. Each of the characters are moe anthropomorphisms of World War II naval warships which are depicted as cute girls, known as \"Fleet girls\". These personified warships are based on real-life vessels which are explained in detail within the game; the physical characteristics, appearances and personalities of each of the girls correlate in some way to the real-life vessel (for example, ships with a larger displacement tonnage are usually depicted as older girls with more mature bodies, while smaller ships have petite and underdeveloped figures, with a few exceptions). The player takes on the role of an admiral and organizes their fleets in battle in order to win. Combat is largely automated, and manual actions by the player include micromanagement such as building and repairing.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "Web browser"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2qh5.jpg",
+    "genres": [
+      "Simulator",
+      "Turn-based strategy (TBS)"
+    ],
+    "collection": "Kantai Collection",
+    "release_date": "2013-04-23 00:00:00",
+    "developers": [
+      "Kadokawa Games"
+    ],
+    "publishers": [
+      "DMM.com"
+    ]
+  },
+  {
+    "id": 150,
+    "name": "Romance of the Three Kingdoms",
+    "summary": "The player takes control of a master, a general capable of commanding as many states as he can acquire, and, if successful, unifies China. As many as eight may play, but only one can succeed. There are five chronologically arranged scenarios. The first has China in its most disorganized period and the last has virtually all of China controlled by one of three generals. The precise requirements for success in each of these scenarios differs, but in all cases the goal is to rule as many states as possible. After the completion of any scenario but number five the game will automatically advance to the next. You may start the game at any scenario.\n\nKoei's Romance of The Three Kingdoms is based on an historical novel of the same name written in the Fourteenth Century, which was in turn based on a more serious official work of history by Ch'en Shou (233-297 A.D.), who chronicled major historical events in China from 220 to 265 A.D. Your master strives to unite China. You must enlist the help of others, fight well and negotiate shrewdly. Without able and loyal subordinates you will not be able to win the game. Choosing good people and winning their loyalty will not be easy and all the able and loyal subordinates in the world will not help if diplomatic and military resources are not used well.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Amiga",
+      "Nintendo Entertainment System (NES)",
+      "MSX",
+      "Game Boy",
+      "PC-8801"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/qg3lpldmcmqgmhxsxvxk.jpg",
+    "genres": [
+      "Strategy"
+    ],
+    "collection": "Romance of the Three Kingdoms",
+    "release_date": "1985-12-31 00:00:00",
+    "developers": [
+      "Koei"
+    ],
+    "publishers": [
+      "Koei"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Rain World",
+    "summary": "Rain World is a survival platformer set in an abandoned industrial environment ravaged by a shattered ecosystem. \n \nBone-crushingly intense rains pound the surface, making life as we know it almost impossible. The creatures in this world hibernate most of the time, but in the few brief dry periods they go out in search of food. \n \nYou are a nomadic slugcat, both predator and prey in this land. \nYou must hunt enough food to survive another cycle of hibernation. \nOther \u2014 bigger \u2014 creatures have the same plan.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co24pm.jpg",
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Indie"
+    ],
+    "aggregated_rating": 62.0909090909091,
+    "release_date": "2017-03-28 00:00:00",
+    "developers": [
+      "Videocult"
+    ],
+    "publishers": [
+      "Adult Swim Games"
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Unreal Tournament",
+    "summary": "This is an early version of the Unreal Tournament experience, featuring new content and returning classics. There\u2019s still a lot of work to be done, but you\u2019re able to participate, today, and earn in-game rewards available only to Pre-Alpha participants.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1i2j.jpg",
+    "genres": [
+      "Shooter"
+    ],
+    "collection": "Unreal",
+    "release_date": "2016-05-01 00:00:00",
+    "developers": [
+      "Epic Games"
+    ],
+    "publishers": [
+      "Epic Games"
+    ]
+  },
+  {
+    "id": 228,
+    "name": "VA-11 HALL-A: Cyberpunk Bartender Action",
+    "summary": "Learn about daily life in a cyberpunk dystopia.\n\nA branching storyline where your decisions do not depend on traditional choices, but through the drinks you prepare.\n\nVisuals inspired by old japanese adventure games for the PC-98, with a modern touch for an other-wordly experience.\n\nA beatiful soundtrack composed entirely by Garoad.\n\nGet to know your clients, their tastes, and prepare the drink that will change their lives.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac",
+      "iOS",
+      "PlayStation Vita",
+      "PlayStation 4",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2z8k.jpg",
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie",
+      "Visual Novel"
+    ],
+    "collection": "Cyberpunk Bartender Action",
+    "aggregated_rating": 83.8888888888889,
+    "release_date": "2016-06-21 00:00:00",
+    "developers": [
+      "SUKEBAN"
+    ],
+    "publishers": [
+      "Ysbryd Games"
+    ]
+  },
+  {
+    "id": 236,
+    "name": "Escape from Tarkov",
+    "summary": "Escape from Tarkov is a hardcore and realistic online first-person action RPG/Simulator with MMO features and story-driven walkthrough.",
+    "game_modes": [
+      "Single player",
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2xlq.jpg",
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Simulator",
+      "Tactical"
+    ],
+    "collection": "Russia 2028",
+    "aggregated_rating": 0,
+    "release_date": "2016-08-04 00:00:00",
+    "developers": [
+      "Battlestate Games"
+    ],
+    "publishers": [
+      "Battlestate Games"
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Titanfall 2",
+    "summary": "Titanfall 2 will deliver a crafted experience that explores the unique bond between man and machine. Playable offline, the single player campaign in Titanfall 2 will let fans step out onto the Frontier as a Militia rifleman with aspirations of becoming an elite Pilot. Stranded behind enemy lines and facing overwhelming odds, players must team up with a veteran Titan to uphold a mission they were never meant to carry out.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/fhbeilnghyhhmjqhinqa.jpg",
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ],
+    "collection": "Titanfall",
+    "aggregated_rating": 88.9130434782609,
+    "release_date": "2016-10-28 00:00:00",
+    "developers": [
+      "Respawn Entertainment"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Citybound",
+    "summary": "Cities are complex and that's why you love them.\nExperience a true city: millions of interactions between people, companies and neighborhoods. Follow detailed daily lifes, see businesses struggle in the local economy and be mesmerized by the traffic simulation. Each citizen is simulated individually, their behaviour is realistic and adorably human.\n\nThink and plan as the urban developer that you are.\nPrepare changes to your city by creating the perfect plan. Use the most powerful and yet intuitive drawing tools in any city sim ever. Create the craziest roads and intersections, lay out custom parks or even airports. Juggle projects, set priorities and recover from bad situations.\n\nCreate a city that looks like a city.\nLet your city grow across a beautiful landscape, without boundaries. Enjoy detailed control over zones that curve along roads. Be surprised by procedural architecture that uniquely adapts to the available space and the local circumstances. What style and flavor will your city have?",
+    "game_modes": [
+      "Single player"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/c78iupuad4wxqfrpz3tx.jpg",
+    "genres": [
+      "Simulator",
+      "Tactical"
+    ],
+    "developers": [
+      "AE Play"
+    ],
+    "publishers": []
+  },
+  {
+    "id": 234,
+    "name": "UnReal World",
+    "summary": "UnReal World is a unique combination of roguelike roleplaying game and survival simulation set in the Far North long, long ago. Throughout the years, UnReal World has been praised for its depth, realism, atmosphere and immersion. The game is completely open-ended and you decide whether you wish to lead a life of a fisherman, a hermit searching for the peace, a brave adventurer, a rough hunter, a trapper or a tradesman.\n\nAs a member of one of the nine different cultures you'll enter a detailed and enchanting iron-age game world in which northern folklore, knowledge and way of life play an important part. The world and mechanics of the game are highly realistic, rich with historical atmosphere and emphasized on survival in the harsh ancient wilderness.\n\nA wide world with vast forests, mires and mountains to roam and watercourses to row is randomly and procedurally generated - and you can live off the land and explore it on very detailed level. Track animals, set traps, hunt with bows and spears, tan hides, go fishing, pick berries, cook food, sleep in a temporary shelter or build a log cottage, trade with the villagers, craft items, interact with cultures near and far -- and so much more.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "PC DOS",
+      "Mac"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1syq.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ],
+    "release_date": "1992-06-17 00:00:00",
+    "developers": [
+      "Sami Maaranen"
+    ],
+    "publishers": [
+      "Enormous Elk"
+    ]
+  },
+  {
+    "id": 178,
+    "name": "Monster Strike",
+    "summary": "Monster Strike (\u30e2\u30f3\u30b9\u30bf\u30fc\u30b9\u30c8\u30e9\u30a4\u30af Monsut\u0101 Sutoraiku) is a physics game with elements of RPGs, strategy games and cooperative multiplayer.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1sxt.jpg",
+    "genres": [
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Strategy",
+      "Pinball"
+    ],
+    "release_date": "2013-08-08 00:00:00",
+    "developers": [
+      "Mixi"
+    ],
+    "publishers": []
+  },
+  {
+    "id": 25,
+    "name": "Steep",
+    "summary": "Ride a massive open world of the Alps and Alaska, where the powder is always fresh and the run never ends.Defy and master the world\u2019s most epic mountains on skis, wingsuit, snowboard, and in paraglide. Go solo or drop in side by side with other players. Record and share the most insane stunts ever captured, then challenge the world to beat your best tricks, ride your custom lines, and relive your most epic wipeouts.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2jpb.jpg",
+    "genres": [
+      "Simulator",
+      "Sport",
+      "Adventure"
+    ],
+    "aggregated_rating": 72.8947368421053,
+    "release_date": "2016-12-01 00:00:00",
+    "developers": [
+      "Ubisoft Annecy"
+    ],
+    "publishers": [
+      "Ubisoft Entertainment"
+    ]
+  },
+  {
+    "id": 237,
+    "name": "Jalopy",
+    "summary": "Set during the fall of the Eastern Bloc,travel through each of the socialist fraternal states while maintaining a spluttering 2-stroke car. Jalopy looks to replicate the wild yet philosophical voice of the road found in the great literary experiences such as Robert M. Pirsig's Zen & the Art of Motorcycle.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Xbox One"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co27on.jpg",
+    "genres": [
+      "Racing",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "aggregated_rating": 45,
+    "release_date": "2018-03-28 00:00:00",
+    "developers": [
+      "Minskworks"
+    ],
+    "publishers": [
+      "Excalibur Games"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Dramatical Murder",
+    "summary": "Dramatical Murder is set in the near future on the fictional island of Midorijima (\u78a7\u5cf6), Japan. At some point in the game's recent history, the island was privatized by the powerful Toue Konzern (\u6771\u6c5f\u30b3\u30f3\u30c4\u30a7\u30eb\u30f3, T\u014de Kontserun) and turned into a resort called Platinum Jail (\u30d7\u30e9\u30c1\u30ca\u30fb\u30b8\u30a7\u30a4\u30eb, Purachina Jeiru), with the island's original residents being forced to live in the Old Residential District (\u65e7\u4f4f\u6c11\u533a, Ky\u016b-J\u016bmin-ku). Protagonist Aoba Seragaki lives on the island and works at a store named Junk Shop Mediocrity (\u5e73\u51e1, Heibon), hoping to live a simple life. However, after being forcefully dragged into the popular cyber game Rhyme (\u30e9\u30a4\u30e0, Raimu) with its virtual world and its use of Allmates (\u30aa\u30fc\u30eb\u30e1\u30a4\u30c8, \u014cru Meito), mobile devices that usually appear as if they are the owner's pets, and hearing rumors about disappearances involving Ribstiez (\u30ea\u30d6\u30b9\u30c6\u30a3\u30fc\u30ba, Ribusut\u012bzu), turf wars between groups, all semblance of a peaceful life for Aoba ends.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co23j9.jpg",
+    "genres": [
+      "Adventure",
+      "Visual Novel"
+    ],
+    "collection": "Dramatical Murder",
+    "release_date": "2012-03-23 00:00:00",
+    "developers": [
+      "Nitro+CHiRAL"
+    ],
+    "publishers": [
+      "Nitro+CHiRAL",
+      "JAST Blue"
+    ]
+  },
+  {
+    "id": 205,
+    "name": "Super Mario Run",
+    "summary": "Super Mario goes mobile!\n\nUnlike other games in the franchise, Mario will run on his own. All you do is tap the screen to jump. The longer you tap, the higher the jump meaning that you can play the game with one hand.\n\nIn this game, Mario constantly moves forward through the courses while you use a variety of jumps to navigate. Mario will behave differently depending on the timing of your taps, so it's up to you to show off particularly smooth moves, gather coins, and reach the goal.\n\nThere are three different game modes to play. The first mode features challenging courses for you to complete while collecting coins. The second mode has you challenge the play data of other players to show who can beat a course with the most style to impress Toads into joining you. In the third mode, you get to create your own Mushroom Kingdom using the coins and Toads collected by playing the first two game modes.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1te0.jpg",
+    "genres": [
+      "Platform",
+      "Arcade"
+    ],
+    "collection": "Super Mario",
+    "aggregated_rating": 70.3333333333333,
+    "release_date": "2016-12-15 00:00:00",
+    "developers": [
+      "Nintendo EPD"
+    ],
+    "publishers": [
+      "Nintendo"
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Pok\u00e9mon Trading Card Game Online",
+    "summary": "Pok\u00e9mon Trading Card Game Online (also referred to as Pok\u00e9mon TCG Online or TCGO) is a downloadable game and the first Pok\u00e9mon game of the MMOTCG (massively-multiplayer online trading card game) genre. It is based on the Pok\u00e9mon Trading Card Game or TCG aspect of the Pok\u00e9mon franchise and follows the same rules. The game was originally released as a browser-based game in March 2011 before being relaunched as a downloadable game in 2012 for the PC and Mac, iPad in 2014, and Android tablets in 2016. It officially emerged from open beta testing in February 2015 but continues to be refined and improved upon on a continual basis. The game is free to download and is accessible to both beginners and experienced players. It is also intended to be used by both adults and children. Players do not need to purchase physical Theme decks or Booster packs from a store in order to play. Players are provided with everything they need, and there are multiple means of earning new cards and other rewards as the game is played.",
+    "game_modes": [
+      "Single player",
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac",
+      "Android",
+      "iOS",
+      "Web browser"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1z22.jpg",
+    "genres": [
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Adventure",
+      "Card & Board Game"
+    ],
+    "release_date": "2011-03-24 00:00:00",
+    "developers": [
+      "Electrified Games",
+      "Sleepy Giant Entertainment",
+      "Plexipixel",
+      "Inversoft"
+    ],
+    "publishers": [
+      "The Pok\u00e9mon Company"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Necropolis: Brutal Edition",
+    "summary": "NECROPOLIS: BRUTAL EDITION is a major update featuring a new playable adventurer (The Brute), a completely new outdoor environment (The Black Forest), and lots of new enemies, weapons, armor, traps, potions, scrolls, and other big improvements to the game.",
+    "game_modes": [
+      "Single player",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co497y.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up"
+    ],
+    "collection": "Necropolis",
+    "aggregated_rating": 80,
+    "release_date": "2016-09-06 00:00:00",
+    "developers": [
+      "Harebrained Schemes"
+    ],
+    "publishers": []
+  },
+  {
+    "id": 35,
+    "name": "Yandere Simulator",
+    "summary": "Yandere Simulator is a stealth game about stalking a young man and secretly eliminating anyone who seems interested in him, while maintaining the image of an innocent student.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/kqntzoygngvsf82csfvx.jpg",
+    "genres": [
+      "Simulator"
+    ],
+    "release_date": "2014-12-31 00:00:00",
+    "developers": [
+      "YandereDev"
+    ],
+    "publishers": [
+      "YandereDev"
+    ]
+  },
+  {
+    "id": 127,
+    "name": "MechWarrior 5: Mercenaries",
+    "summary": "In MechWarrior 5: Mercenaries you will adopt the role of a rookie MechWarrior pilot thrust into combat as the Third Succession War continues to fracture the Inner Sphere. Take contracts from the factions of your choosing and engage in tactical, first-person, PvE \u2018Mech combat through an immersive, career-based Mercenary campaign driven by player choice. Victory, prestige, and profit will not only require skill on the battlefield, but in the acquisition, maintenance, and enhancement of your BattleMechs.\nSet for release in 2018, MechWarrior 5: Mercenaries is under development by a dedicated development team at Piranha Games. MechWarrior Online, Piranha\u2019s existing F2P multiplayer-focused tactical \u2018Mech combat game, will continue its ongoing live development by the MWO team at Piranha.",
+    "game_modes": [
+      "Single player",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One",
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1q7q.jpg",
+    "genres": [
+      "Fighting",
+      "Shooter",
+      "Simulator",
+      "Tactical"
+    ],
+    "collection": "MechWarrior",
+    "aggregated_rating": 73.2857142857143,
+    "release_date": "2019-12-10 00:00:00",
+    "developers": [
+      "Piranha Games"
+    ],
+    "publishers": [
+      "Sold Out"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Blasphemous",
+    "summary": "Blasphemous is a punishing action-platformer that combines the fast-paced, skilled combat of a hack-n-slash game with a deep and evocative narrative core. Explore this nightmarish world of twisted religion and discover its many secrets hidden deep inside. Use devastating combos and brutal executions to smite the hordes of grotesque monsters and titanic bosses, who are all ready to rip your limbs off. Locate and equip relics, rosary beads and prayers that call on the powers of the heavens to aid you in your quest to break your eternal damnation.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2eyn.jpg",
+    "genres": [
+      "Platform",
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie"
+    ],
+    "collection": "Blasphemous",
+    "aggregated_rating": 78.25,
+    "release_date": "2019-09-10 00:00:00",
+    "developers": [
+      "The Game Kitchen",
+      "The Game Kitchen"
+    ],
+    "publishers": [
+      "Team17",
+      "The Game Kitchen"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Revelation Online",
+    "summary": "Revelation Online is a free-to-play massive multiplayer online role-playing game developed by NetEase, under the title \"Revelation\" in China and Revelation Online in the rest of the world. It is published by My.com in Europe and North America, and received an open release worldwide on March 6, 2017.",
+    "game_modes": [
+      "Multiplayer",
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1tvj.jpg",
+    "genres": [
+      "Role-playing (RPG)"
+    ],
+    "release_date": "2015-06-01 00:00:00",
+    "developers": [
+      "NetEase Games"
+    ],
+    "publishers": [
+      "My.com"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Final Fantasy: Record Keeper",
+    "summary": "Relive some of the Final Fantasy series' most memorable battles with 16-bit(-ish) sprites and mix-and-match party gameplay.",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1vl5.jpg",
+    "genres": [
+      "Role-playing (RPG)"
+    ],
+    "collection": "Final Fantasy",
+    "release_date": "2014-09-24 00:00:00",
+    "developers": [
+      "Square Enix"
+    ],
+    "publishers": [
+      "Mobage"
+    ]
+  },
+  {
+    "id": 215,
+    "name": "Habbo",
+    "summary": "Habbo (formerly known as Habbo Hotel) is an online vintage pixel-art style virtual community where you can create your own avatar, make friends, chat, build rooms, design + play games and so much more! Almost anything is possible in this strange place full of awesome people.",
+    "game_modes": [
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "Android",
+      "iOS",
+      "Web browser"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co22g7.jpg",
+    "genres": [
+      "Point-and-click",
+      "Role-playing (RPG)"
+    ],
+    "release_date": "2000-08-01 00:00:00",
+    "developers": [
+      "Sulake"
+    ],
+    "publishers": [
+      "Sulake"
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Code Vein",
+    "summary": "Code Vein is set in the not too distant future where a disaster has brought the world to ruin and vampire-like beings battle for dominance.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1r69.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "aggregated_rating": 72.9090909090909,
+    "release_date": "2019-09-26 00:00:00",
+    "developers": [
+      "Shift",
+      "Bandai Namco Studios"
+    ],
+    "publishers": [
+      "Bandai Namco Entertainment"
+    ]
+  },
+  {
+    "id": 164,
+    "name": "Critical Ops",
+    "summary": "Critical Ops is a fast-paced FPS that will test your reflexes and tactical skill. Experience the thrill of modern terrorist warfare as you fight a critical strike operation as a counter-terrorist or aim to cause destruction as a terrorist.\nStart or join a clan and fight for domination alongside your friends, or show the world your skill by leading the individual scoreboard.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2krs.jpg",
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ],
+    "release_date": "2016-01-01 00:00:00",
+    "developers": [
+      "Critical Force"
+    ],
+    "publishers": [
+      "Critical Force"
+    ]
+  },
+  {
+    "id": 194,
+    "name": "Lords Mobile",
+    "summary": "Want to clash with 50 million global players? Dive into LORDS MOBILE, the real-time-strategy mobile MMO game. \n \nExplore exotic magical lands thrown into chaos by terrifying monsters and powerful enemies. Choose your favorite heroes, make new friends, and charge fearlessly into war! Strike down your foes and build an empire!",
+    "game_modes": [
+      "Multiplayer",
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2qlc.jpg",
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Role-playing (RPG)",
+      "Strategy"
+    ],
+    "release_date": "2016-03-01 00:00:00",
+    "developers": [
+      "IGG.COM"
+    ],
+    "publishers": [
+      "IGG.COM"
+    ]
+  },
+  {
+    "id": 174,
+    "name": "Eternal Card Game",
+    "summary": "Eternal is a free-to-play online collectible card video game developed and published by Dire Wolf Digital. Eternal is currently available for iPhone and iPad iOS devices on the App Store, PCs using Steam, and for Android devices using Google Play. It is also available on Xbox, and Nintendo Switch. The game features cross-platform play, allowing players to use any of the supported platforms to compete with each other. \n \nThe game is a turn-based card game between two opponents that use constructed decks with various amounts of cards. Players use their power cards to cast spells, use attachments or summon units to attack the opponent, with the goal of reducing the opponent's health to zero. Winning matches and completing quests will earn in-game gold, rewards in the form of new cards or packs, and other in-game prizes. Players can then buy card packs or buy access to card drafting modes by using gold or microtransactions to collect cards for their decks. The game features several modes of play, including ranked matches and single-player campaigns. New content for the game involves the addition of new card sets and gameplay, taking the form of either expansion packs or campaigns that reward the player with collectible cards upon completion.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac",
+      "Android",
+      "iOS",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1toe.jpg",
+    "genres": [
+      "Puzzle",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Card & Board Game"
+    ],
+    "release_date": "2018-11-15 00:00:00",
+    "developers": [
+      "Dire Wolf Digital"
+    ],
+    "publishers": [
+      "Dire Wolf Digital"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Rec Room",
+    "summary": "Rec Room is the best place to build and play games together. Party up with friends from all around the world to chat, hang out, explore MILLIONS of player-created rooms, or build something new and amazing to share with us all.\n\nRec Room is free, and cross plays on everything from phones to VR headsets. It\u2019s the social app you play like a video game!",
+    "game_modes": [
+      "Multiplayer",
+      "Co-operative",
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Android",
+      "iOS",
+      "PlayStation 4",
+      "Xbox One",
+      "Oculus Quest",
+      "Oculus Rift",
+      "Oculus Quest 2"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co24pa.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Sport",
+      "Adventure"
+    ],
+    "release_date": "2016-06-28 00:00:00",
+    "developers": [
+      "Against gravity"
+    ],
+    "publishers": [
+      "Against gravity"
+    ]
+  },
+  {
+    "id": 171,
+    "name": "DomiNations",
+    "summary": "Battle nations from throughout history in DomiNations! Build your empire and command nations as you make them grow from a small village to a thriving metropolis, and battle as one of the great civilizations from the history of the world.",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1tzc.jpg",
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Strategy"
+    ],
+    "release_date": "2015-04-01 00:00:00",
+    "developers": [
+      "Big Huge Games",
+      "Nexon"
+    ],
+    "publishers": [
+      "Nexon M Inc."
+    ]
+  },
+  {
+    "id": 147,
+    "name": "Fighting EX Layer",
+    "summary": "A video game revealed on April fools day, the trick being it was an actual game that had secretly been in development, that has characters from the Street Fighters EX series but no official name was announced at the time.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Arcade"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1pwc.jpg",
+    "genres": [
+      "Fighting",
+      "Arcade"
+    ],
+    "collection": "Fighting Layer",
+    "aggregated_rating": 70,
+    "release_date": "2018-06-28 00:00:00",
+    "developers": [
+      "Arika Co., Ltd."
+    ],
+    "publishers": [
+      "Arika Co., Ltd."
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Islands of Nyne: Battle Royale",
+    "summary": "Islands of Nyne: Battle Royale is an online, competitive, first-person shooter inspired by works such as Battle Royale and The Hunger Games. Handpicked by a mysterious alien race and taken to a distant homeworld, 100 players must fight each other to the death in 1 of 3 ever-shrinking arenas. Drop in, find a weapon, and stay alive... for only 1 can emerge victorious. The rest must die!",
+    "game_modes": [
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2qfz.jpg",
+    "genres": [
+      "Shooter",
+      "Indie"
+    ],
+    "release_date": "2018-07-12 00:00:00",
+    "developers": [
+      "Define Human Studios"
+    ],
+    "publishers": [
+      "Define Human Studios"
+    ]
+  },
+  {
+    "id": 218,
+    "name": "Black Survival",
+    "summary": "Black Survival is a Real-Time Survival Game, where you must survive by any means out of 10 competitors in a deserted island. Make split-second decisions with a single click! Immerse yourself in the fierce battle for survival; you do not have a second to spare! Search, Craft, Attack, and Run!",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1pjk.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ],
+    "release_date": "2019-03-19 00:00:00",
+    "developers": [
+      "Nimble Neuron"
+    ],
+    "publishers": [
+      "Nimble Neuron"
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Legends of Aria",
+    "summary": "Discover a world forged by players, where your choices write the story. From seasoned Mage to ambitious Warrior, from adventurous Treasure Hunter to skilled Blacksmith, choose your path and experience Legends of Aria on your own terms.",
+    "game_modes": [
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co21pv.jpg",
+    "genres": [
+      "Role-playing (RPG)"
+    ],
+    "release_date": "2019-08-06 00:00:00",
+    "developers": [
+      "Citadel Studios"
+    ],
+    "publishers": [
+      "Citadel Studios"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Onmyoji",
+    "summary": "A Japanese RPG style mobile card game produced by NetEase Games, released on iOS and Android. Although the game is produced by a Chinese company, it's dubbing and story line are in Japanese.",
+    "game_modes": [
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1qt6.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Adventure"
+    ],
+    "release_date": "2018-04-18 00:00:00",
+    "developers": [
+      "NetEase Games"
+    ],
+    "publishers": [
+      "NetEase Games"
+    ]
+  },
+  {
+    "id": 146,
+    "name": "Pine",
+    "summary": "Pine is an open-world action adventure simulation game. Players are dropped in an ever-evolving world in which AI organisms have lives, goals and quests of their own. Species trade and fight with each other, while the player learns about ways to influence the simulation and shape their story through the different biomes of Albamare. Take the role of Hue, a scared but brave adolescent belonging to one of the last remaining human tribes on the island of Albamare, fighting for the survival of their species. Find your way to a new home to thrive and survive as a species.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac",
+      "PlayStation 4",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1i9s.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "release_date": "2019-10-10 00:00:00",
+    "developers": [
+      "Twirlbound"
+    ],
+    "publishers": [
+      "Kongregate"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Shin Megami Tensei: Liberation Dx2",
+    "summary": "A free-to-play mobile rpg developed by SEGA based on the Atlus series Shin Megami Tensei. \n \n\"Shin Megami Tensei: Liberation Dx2 is a turn-based role-playing game coming to Android and iOS mobile devices. Summon, fuse, and raise your own demons to fight by your side. The game will feature sweet AR functionalities and intense multiplayer feats!\"",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/rqmntq1wknogembbamec.jpg",
+    "genres": [
+      "Role-playing (RPG)"
+    ],
+    "collection": "Shin Megami Tensei",
+    "release_date": "2018-01-22 00:00:00",
+    "developers": [
+      "Sega"
+    ],
+    "publishers": [
+      "Sega"
+    ]
+  },
+  {
+    "id": 200,
+    "name": "Taiko no Tatsujin: Atsumete\u2605Tomodachi Daisakusen!",
+    "summary": "Atsumete\u2605Tomodachi Daisakusen! (lit. Gather Buddy Attack!) is the third Taiko videogame for the Wii U home console, and the second console game to be released in occasion of the 15th Anniversary of the Taiko no Tatsujin franchise; as such, the Game + Tatacon bundle of this title also includes a set of promotional goods related to the anniversary celebrations.\n\nThis installment inherits the signature multiplayer modes from the previous Wii U games (Baton Pass from Wii U Version and Intro Don! from Tokumori), with the addition of the new 'Buddy Attack' single-player mode, in which Taiko sibling Kat-Chan tries to become a popular star by befriending wild animals from the streets with music. Content unlocking through the Mekadon Gacha and DLC supports make their return, as well as the coming of Nintendo-exclusive features to the game like Miiverse support and, for the first time ever, compatibility with Nintendo's Amiibo figurines.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "Wii U"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3tf3.jpg",
+    "genres": [
+      "Music"
+    ],
+    "collection": "Taiko no Tatsujin",
+    "release_date": "2015-11-26 00:00:00",
+    "developers": [
+      "Bandai Namco Entertainment",
+      "Taiko Team"
+    ],
+    "publishers": [
+      "Bandai Namco Entertainment"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Aim Lab",
+    "summary": "Aim Lab is the ultimate FPS training solution. Built by neuroscientists, Aim Lab blends cutting-edge performance tracking and analytics with AI-based training to make you better, faster.\n\nBad at flick shots to your left? Can\u2019t hit strafing or jumping targets? We fix that. Our AI-based training system will learn your strengths and weaknesses, and adapt accordingly to optimize training gains.\n\nEach training task has its own unique analytics focused on a particular area, while your data profile allows you to measure and track performance improvements over time. Rich data visualizations help you understand your performance.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3e0r.jpg",
+    "genres": [
+      "Shooter",
+      "Simulator",
+      "Indie"
+    ],
+    "release_date": "2018-06-01 00:00:00",
+    "developers": [
+      "Statespace"
+    ],
+    "publishers": [
+      "Statespace"
+    ]
+  },
+  {
+    "id": 165,
+    "name": "Puella Magi Madoka Magica Side Story: Magia Record",
+    "summary": "Puella Magi Madoka Magica Side Story: Magia Record is a mobile game developed by f4samurai, and is part of the Puella Magi Madoka Magica franchise.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2r0y.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Turn-based strategy (TBS)"
+    ],
+    "collection": "Puella Magi Madoka Magica",
+    "release_date": "2017-08-22 00:00:00",
+    "developers": [
+      "f4samurai"
+    ],
+    "publishers": [
+      "Aniplex Inc."
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Starborne: Sovereign Space",
+    "summary": "Starborne is the definitive MMORTS for PC. Play for free alongside thousands of other players and grow your empire as you conquer distant galaxies. Will your name stand the test of time, or forever fade away into the dark?",
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2rf2.jpg",
+    "genres": [
+      "Strategy"
+    ],
+    "developers": [
+      "Solid Clouds"
+    ],
+    "publishers": []
+  },
+  {
+    "id": 107,
+    "name": "ONRUSH",
+    "summary": "ONRUSH is an all-action arcade racing game like no other. GET READY FOR THE RUSH!",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2qw1.jpg",
+    "genres": [
+      "Racing"
+    ],
+    "aggregated_rating": 78.9,
+    "release_date": "2018-06-05 00:00:00",
+    "developers": [
+      "Codemasters"
+    ],
+    "publishers": [
+      "Codemasters"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "KurtzPel",
+    "summary": "KurtzPel: Bringer of Chaos is a 2v2 fighting game being developed by KOG Studios, the makers of Elsword. \nThe game has a character creator with a lot of customization options to design your fighter. \nThere are currently 4 classes that each have 3 skills and a finisher attack. \nA character can have 2 classes and is able to switch between them in a battle.",
+    "game_modes": [
+      "Multiplayer",
+      "Co-operative",
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co26nk.jpg",
+    "genres": [
+      "Fighting"
+    ],
+    "release_date": "2018-12-31 00:00:00",
+    "developers": [
+      "KOG studios"
+    ],
+    "publishers": [
+      "KOG studios"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Mindustry",
+    "summary": "Mindustry is a hybrid tower-defense sandbox factory game. Create elaborate supply chains of conveyor belts to feed ammo into your turrets, produce materials to use for building, and defend your structures from waves of enemies. Features include a map editor, numerous built-in maps, cross-platform multiplayer, and large-scale PvP unit battles.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac",
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2sb7.jpg",
+    "genres": [
+      "Puzzle",
+      "Strategy",
+      "Indie"
+    ],
+    "release_date": "2019-09-26 00:00:00",
+    "developers": [
+      "AnukenDev"
+    ],
+    "publishers": [
+      "AnukenDev"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Farm Together",
+    "summary": "Grow your own farm all by yourself, or cooperate with your friends in this unique, relaxing farming experience!",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1j0j.jpg",
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ],
+    "aggregated_rating": 80,
+    "release_date": "2018-10-11 00:00:00",
+    "developers": [
+      "Milkstone Studios"
+    ],
+    "publishers": [
+      "Milkstone Studios"
+    ]
+  },
+  {
+    "id": 240,
+    "name": "Dark Souls III: Day One Edition",
+    "summary": "The Day One Edition which you can get if you pre-order the game, comes with the following:\n- The Game Itself\n- A Prima Starter Guide\n- The Official Dark Souls III Soundtrack\n- Exclusive O-Sleeve Packaging",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One",
+      "Windows Mixed Reality"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3h03.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "collection": "Dark Souls",
+    "release_date": "2016-03-24 00:00:00",
+    "developers": [
+      "FromSoftware"
+    ],
+    "publishers": [
+      "Bandai Namco Entertainment"
+    ]
+  },
+  {
+    "id": 133,
+    "name": "Starfield",
+    "summary": "In this next generation role-playing game set amongst the stars, create any character you want and explore with unparalleled freedom as you embark on an epic journey to answer humanity\u2019s greatest mystery.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Xbox Series X|S"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co39vv.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "release_date": "2022-11-11 00:00:00",
+    "developers": [
+      "Bethesda Game Studios"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ]
+  },
+  {
+    "id": 232,
+    "name": "Pok\u00e9mon Quest",
+    "summary": "\"Welcome to Tumblecube Island! With cube-shaped Pok\u00e9mon to befriend and hidden treasures to uncover, Pok\u00e9mon Quest is a free-to-start game that introduces a brand-new land to explore.\"",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "Android",
+      "iOS",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1zjv.jpg",
+    "genres": [
+      "Strategy",
+      "Adventure"
+    ],
+    "aggregated_rating": 60,
+    "release_date": "2018-05-29 00:00:00",
+    "developers": [
+      "Game Freak"
+    ],
+    "publishers": [
+      "Nintendo",
+      "The Pok\u00e9mon Company"
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Realm Royale",
+    "summary": "Be the last Champion standing in Realm Royale! Choose a class, then loot deadly weapons and powerful abilities to create your own Champion. Explore a fantasy world from horseback, and craft game-changing legendary gear. Can you survive the first 100-person fantasy Battle Royale?",
+    "game_modes": [
+      "Multiplayer",
+      "Battle Royale"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1p3v.jpg",
+    "genres": [
+      "Shooter"
+    ],
+    "collection": "Paladins",
+    "aggregated_rating": 78,
+    "release_date": "2018-06-05 00:00:00",
+    "developers": [
+      "Hi-Rez Studios"
+    ],
+    "publishers": [
+      "Hi-Rez Studios"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Gears 5",
+    "summary": "From one of gaming\u2019s most acclaimed sagas, Gears is bigger than ever, with five thrilling modes and the deepest campaign yet. With all-out war descending, Kait Diaz breaks away to uncover her connection to the enemy and discovers the true danger to Sera \u2013 herself.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Xbox One",
+      "Xbox Series X|S"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2oz5.jpg",
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ],
+    "collection": "Gears of War",
+    "aggregated_rating": 87.8333333333333,
+    "release_date": "2019-09-10 00:00:00",
+    "developers": [
+      "The Coalition"
+    ],
+    "publishers": [
+      "Xbox Game Studios"
+    ]
+  },
+  {
+    "id": 239,
+    "name": "Control",
+    "summary": "Control is a supernatural 3rd person action-adventure will challenge you to master the combination of supernatural abilities, modifiable loadouts and reactive environments while fighting through a deep and unpredictable world.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One",
+      "PlayStation 5",
+      "Google Stadia"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2evj.jpg",
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ],
+    "aggregated_rating": 83.4,
+    "release_date": "2019-08-27 00:00:00",
+    "developers": [
+      "Remedy Entertainment"
+    ],
+    "publishers": [
+      "505 Games"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Nioh 2",
+    "summary": "Master the lethal arts of the samurai as a mysterious half-human, half-supernatural Yokai warrior, in this challenging action RPG sequel.\nExplore violent Sengoku-era Japan and the deadly Dark Realm, both plagued with grotesque, merciless demons.\n\nUnsheathe your deadly weapons and cut down all enemies in your path using a revamped combat system and the ability to transform into a full Yokai to unleash devastating paranormal powers.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PlayStation 4"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1sh7.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "collection": "Nioh",
+    "aggregated_rating": 84.4444444444444,
+    "release_date": "2020-03-13 00:00:00",
+    "developers": [
+      "Team Ninja"
+    ],
+    "publishers": [
+      "Koei Tecmo Games",
+      "Sony Interactive Entertainment"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "The Cycle",
+    "summary": "The Cycle is a Competitive Quest Shooter or PvEvP for insiders. You play as a prospector sent on Fortuna III, a living and unstable planet swarming with hostile alien wildlife. Compete or deal a fragile pact with other Prospectors to claim as many resources as possible.",
+    "game_modes": [
+      "Multiplayer",
+      "Co-operative",
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co43p8.jpg",
+    "genres": [
+      "Shooter"
+    ],
+    "release_date": "2019-09-12 00:00:00",
+    "developers": [
+      "Yager Development"
+    ],
+    "publishers": [
+      "Yager Development"
+    ]
+  },
+  {
+    "id": 208,
+    "name": "Bless Unleashed",
+    "summary": "Bless Unleashed is the premiere next-generation MMORPG, coming first to Xbox One.\n\nBuilt for mature audiences, Bless Unleashed takes players on an epic multiplayer journey across a vibrant persistent world, and tasks the brave with battling \u2013 and surviving \u2013vicious, lethal monsters that inhabit this untamed landscape.\n\nAncient betrayal and earthshaking disaster has led to thousands of years of enmity between the mortal and the divine. Now, heavenly whispers speak. The mad mistress of the dark, great and terrible Lumenas, will return to destroy the race of man and sink the earth into endless night. How long will she remain sealed before she breaks free to wreak havoc on the world?\n\nGather your allies close. As the unspeakable monsters of the world salivate for your grim end, stand fast and stoke your fury.\n\nYour endless foes would see you weakened and beaten.\n\nBut you\u2026 You will make them pray.",
+    "game_modes": [
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co24ew.jpg",
+    "genres": [
+      "Role-playing (RPG)"
+    ],
+    "collection": "Bless",
+    "release_date": "2020-03-12 00:00:00",
+    "developers": [
+      "Round 8 Studio"
+    ],
+    "publishers": [
+      "Bandai Namco Entertainment",
+      "NEOWIZ"
+    ]
+  },
+  {
+    "id": 227,
+    "name": "Hack the Box",
+    "summary": "Hack The Box is an online platform allowing you to test your penetration testing skills and exchange ideas and methodologies with thousands of people in the security field. Presented in a game format, it's a great way for coders to learn about security flaws and their exploits.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Battle Royale"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3txk.jpg",
+    "developers": [
+      "Hack The Box"
+    ],
+    "publishers": []
+  },
+  {
+    "id": 247,
+    "name": "Epic Seven",
+    "summary": "With Epic Seven's outstanding illustrations, it's the first domestic RPG to feature full frame animation for all of its characters and cutscenes. It's a turn-based RPG that has good pace, visuals that rival an action game, and unique strategies to challenge players during battles.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "Mac",
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3wj9.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Turn-based strategy (TBS)"
+    ],
+    "aggregated_rating": 79,
+    "release_date": "2018-11-08 00:00:00",
+    "developers": [
+      "Super Creative"
+    ],
+    "publishers": [
+      "Smilegate Megaport"
+    ]
+  },
+  {
+    "id": 188,
+    "name": "Spellbreak",
+    "summary": "Spellbreak is an epic fantasy action-spellcasting game where players fight to become an all-powerful battlemage. Weave spectacular spell combinations, craft strategic builds, and master your environment as you dominate the Hollow Lands solo or with friends in a non-stop quest for survival.",
+    "game_modes": [
+      "Multiplayer",
+      "Battle Royale"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2nwn.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "aggregated_rating": 75.6666666666667,
+    "release_date": "2020-09-03 00:00:00",
+    "developers": [
+      "Proletariat, Inc."
+    ],
+    "publishers": [
+      "Proletariat, Inc."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Granblue Fantasy: Versus",
+    "summary": "\"Embark on a new fight, O champions of the skies! \n \nTake a ringside seat for this brawltastic work from Cygames and ARC SYSTEM WORKS! An exciting new title in the Granblue Fantasy series is finally revealed! \n \nFeaturing stunning visuals, heart-pounding music, and innovative game mechanics, it\u2019ll usher in a new era of fighting games! Stay tuned!\"",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2whi.jpg",
+    "genres": [
+      "Fighting"
+    ],
+    "aggregated_rating": 78,
+    "release_date": "2020-02-06 00:00:00",
+    "developers": [
+      "Arc System Works"
+    ],
+    "publishers": [
+      "Cygames"
+    ]
+  },
+  {
+    "id": 156,
+    "name": "\u201983",
+    "summary": "\u201883 is a Cold-War-Gone-Hot, combined arms, first-person military shooter for high player counts (80+) currently in development at Antimatter Games. \n \n\u201883 pits two large platoons of players against each other in massive maps, fighting over a number of objectives that have a tangible impact on the battle as a whole when held by the victorious faction. \n \nPlayers will have access to a selection of real-world infantry weapons and equipment, as well as a selection of powerful land and air vehicles which can decisively turn the tide of a battle.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1jqs.jpg",
+    "genres": [
+      "Shooter",
+      "Simulator",
+      "Strategy"
+    ],
+    "developers": [
+      "Antimatter Games"
+    ],
+    "publishers": [
+      "Toadman Interactive"
+    ]
+  },
+  {
+    "id": 163,
+    "name": "Tangledeep: Legend of Shara",
+    "summary": "A New Prequel Story: Shara's Story \nLegend of Shara allows you to play as Shara in a new prequel that takes place before the story of Mirai \u2013 Tangledeep\u2019s original protagonist. While the core dungeon progression is similar to the main game, the dialogue and bosses are quite different. In this gameplay mode, there isn\u2019t a town, meta progress, or job system. Shara does not gain XP nor levels like Mirai does. Instead, you can spend JP (Job Points) to level up your core stats. By doing so, your XP level increases gradually.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1kdn.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "release_date": "2019-04-04 00:00:00",
+    "developers": [
+      "Impact Gameworks"
+    ],
+    "publishers": [
+      "Impact Gameworks"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Anno 1800: Deluxe Edition",
+    "summary": "Anno 1800: Deluxe Edition includes:\n\nThe Anarchist mission: meet Doctor Hugo Mercier, who will put your city-building and diplomatic skills to the test.\n\nFour exclusive company logos to customize your in-game profile.\n\nA selection of music from the game's orchestral soundtrack.\n\nA digital art book.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co38wl.jpg",
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "collection": "Anno",
+    "release_date": "2019-04-16 00:00:00",
+    "developers": [
+      "Ubisoft Blue Byte"
+    ],
+    "publishers": [
+      "Ubisoft"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Pok\u00e9mon Masters",
+    "summary": "Pok\u00e9mon Masters takes place on the island of Pasio, where the rules of battle are different and the treasured bond between Trainer and Pok\u00e9mon is taken to the next level with sync pairs\u2014the combination of a Trainer and their partner Pok\u00e9mon. For the very first time in a Pok\u00e9mon game, Trainers and their partner Pok\u00e9mon from every Pok\u00e9mon region will come together to form sync pairs. Players can team up with duos such as Korrina & Lucario, Brendan & Treecko, Clair & Kingdra, and many more. With all sorts of Trainers on Pasio, there are sure to be some exciting and unexpected encounters in this new story.",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2kii.jpg",
+    "genres": [
+      "Strategy"
+    ],
+    "release_date": "2019-08-29 00:00:00",
+    "developers": [
+      "DeNA"
+    ],
+    "publishers": [
+      "The Pok\u00e9mon Company"
+    ]
+  },
+  {
+    "id": 187,
+    "name": "Destruction Darius 2",
+    "summary": "Destruction Darius 2 is the sequel to Destruction Darius.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2yri.jpg",
+    "genres": [
+      "Puzzle",
+      "Indie",
+      "Arcade"
+    ],
+    "collection": "Destruction Darius",
+    "developers": [
+      "Philip Dyer"
+    ],
+    "publishers": [
+      "Philip Dyer"
+    ]
+  },
+  {
+    "id": 214,
+    "name": "Little Nightmares II",
+    "summary": "Little Nightmares II is a suspense-adventure game in which you play as Mono, a young boy trapped in a world that has been distorted by the humming transmission of a distant tower. With Six, the girl in a yellow raincoat, as his guide, Mono sets out to discover the dark secrets of The Signal Tower and save Six from her terrible fate; but their journey will not be straightforward as Mono and Six will face a gallery of new threats from the terrible residents of this world.\n\nWill you dare to face this collection of new, little nightmares?",
+    "game_modes": [
+      "Single player",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "PlayStation 5",
+      "Xbox Series X|S",
+      "Google Stadia"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1p7d.jpg",
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Adventure"
+    ],
+    "collection": "Little Nightmares",
+    "aggregated_rating": 82.2307692307692,
+    "release_date": "2021-02-11 00:00:00",
+    "developers": [
+      "Tarsier Studios"
+    ],
+    "publishers": [
+      "Bandai Namco Entertainment"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Soul Knight",
+    "summary": "\u201cIn a time of gun and sword, the magical stone that maintains the balance of the world is stolen by high-tech aliens. The world is hanging on a thin thread. It all depends on you retrieving the magical stone\u2026\u201d\n\nWe honestly can\u2019t keep making it all up. Let\u2019s just shoot some alien minions!\n\nThis is the game you have always wanted in your subconscious. Explore the dungeon, collect crazy weapons, dodge bullets and shoot\u2018em all up! Extremely easy and intuitive control; super smooth and enjoyable gameplay, mixed with rogue-like elements. Best shooter game you will find on the mobile store so far.\n\nFeatures:\n\n* Unique heroes, with unique ability.\n\n* 120+ weapons waiting for you to explore.\n\n* Randomly generated dungeon world, new experience every time.\n\n* NPCs that actually matter! They will fight by your side!\n\n* Auto-aim mechanism for super intuitive control.\n\n* Many more features that you will find out in game.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "Android",
+      "iOS",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2f6c.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie",
+      "Arcade"
+    ],
+    "release_date": "2017-02-17 00:00:00",
+    "developers": [
+      "ChillyRoom"
+    ],
+    "publishers": [
+      "ChillyRoom"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Curse of the Dead Gods",
+    "summary": "You seek untold riches, eternal life, divine powers - it leads to this accursed temple, a seemingly-infinite labyrinth of bottomless pits, deadly traps, and monsters. \n \nYour greed will lead you to death, but that is not an escape. Rise to fight again. Delve deeper again. Defy the malignant deities that linger in this place. Battle through hordes of enemies in dark, cavernous passages filled with traps and secrets of all sorts - fire-spewing statues, explosives, hidden spikes, and worse. \n \nCollect mystical Relics and an arsenal of weapons to make yourself unstoppable. Corruption builds in you with every step - encourage or ignore it, but each powerful curse can be a double-edged sword. \n \n- A skill-based roguelike exploring a cruel, dark temple made of endless rooms and corridors \n- Swords, spears, bows, guns - wield these and many more \n- Unique curses influence each attempt, putting a twist on every action \n- Dozens of enemies, with powerful champions and deadly bosses to face off against",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1zv7.jpg",
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "aggregated_rating": 84.25,
+    "release_date": "2021-02-23 00:00:00",
+    "developers": [
+      "Passtech Games"
+    ],
+    "publishers": [
+      "Focus Home Interactive"
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Dengeki Bunko: Crossing Void",
+    "summary": "Get ready to fight with your favorite characters from the Dengeki Bunko masterpieces in Dengeki Bunko: Crossing Void ( aka. Crossing Void ) - an anime crossover turn-based RPG game!\n\n* Authentic Japanese Gaming Experience\n- Exclusively licensed by Dengeki Bunko, Crossing Void brings you brand-new storylines developed under direct supervision of the original authors!\n- Fabulous animated illustrations drawn by the world-class artists!\n\n* Fascinating Anime Crossover!\n- Iconic figures from 25 original Dengeki Bunko masterpieces collide and clash in this mysterious dimension\n- Everyone is here! Kirito, Kuroyukihime, Asuna, Shizuo, Izaya, Shana, Mikoto \u2026 Who will you choose to be on your team?\n\n* Build Your Dream Team\uff01\n- Unlock, collect and upgrade your characters!\n- Prepare for strategic turn-based PVP combats!\n- Explore the unprecedented \u201ccross skills\u201d between two characters! Guess what kind of cross skill will Yuuki and Asuna use as a team in the battlefield?\n\n* Original Voice Cast!\n- Dream voice acting cast from the original anime series!\n- Bonus interactive lines voiced by Rie Kugimiya, Hiroshi Kamiya, Kana Hanazawa and many others are waiting for you to explore!",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co25ht.jpg",
+    "genres": [
+      "Fighting",
+      "Role-playing (RPG)",
+      "Turn-based strategy (TBS)"
+    ],
+    "release_date": "2018-08-07 00:00:00",
+    "developers": [
+      "91Act"
+    ],
+    "publishers": [
+      "91Act"
+    ]
+  },
+  {
+    "id": 191,
+    "name": "Godfall",
+    "summary": "Godfall is a third-person fantasy looter-slasher focused on melee combat, coming to PlayStation 5 & Epic Games Store Holiday 2020. Developed by Counterplay Games & published by Gearbox Publishing.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "PlayStation 5"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2cri.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "aggregated_rating": 68.3333333333333,
+    "release_date": "2020-11-12 00:00:00",
+    "developers": [
+      "Counterplay Games"
+    ],
+    "publishers": [
+      "Gearbox Publishing"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Command & Conquer: Remastered",
+    "summary": "A remastered version of the original Command & Conquer, part of the \nCommand & Conquer Remastered Collection. Created by the former Westwood Studios team members at Petroglyph Games alongside the dedicated community. Every game element has been recreated in 4K detail, including the completely remastered legendary soundtrack by Frank Klepacki.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co1xi7.jpg",
+    "genres": [
+      "Real Time Strategy (RTS)"
+    ],
+    "collection": "Command & Conquer",
+    "release_date": "2020-06-05 00:00:00",
+    "developers": [
+      "Petroglyph Games"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ]
+  },
+  {
+    "id": 224,
+    "name": "Sandship",
+    "summary": "A factory management game set in a post-apocalyptic sci-fi universe. You control the last remaining sandship: a gigantic, artificially intelligent mega-factory, which roams across the endless deserts of a far-away planet.",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co30ib.jpg",
+    "genres": [
+      "Simulator"
+    ],
+    "release_date": "2020-05-07 00:00:00",
+    "developers": [
+      "Rockbite Games"
+    ],
+    "publishers": [
+      "Rockbite Games"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "FIFA 21",
+    "summary": "Win as One in EA SPORTSFIFA 21, powered by Frostbite. Whether it's on the streets or in the stadium, FIFA 21 has more ways to play than ever before - including the UEFA Champions League and CONMEBOL Libertadores.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative",
+      "Split screen"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One",
+      "PlayStation 5",
+      "Xbox Series X|S",
+      "Google Stadia"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3wm2.jpg",
+    "genres": [
+      "Simulator",
+      "Sport"
+    ],
+    "collection": "FIFA",
+    "aggregated_rating": 72.375,
+    "release_date": "2020-10-08 00:00:00",
+    "developers": [
+      "EA Vancouver"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ]
+  },
+  {
+    "id": 246,
+    "name": "Blankos Block Party",
+    "summary": "Blankos Block Party, an open-world multiplayer game with a heavy focus on player-designed levels, is the debut title from Mythical, a new studio led by game industry veterans who helped develop major franchises including Call of Duty, World of Warcraft, Guitar Hero and Skylanders. Coming to PC in 2020, the inclusive world is styled like a giant block party, where players can compete on levels created by Mythical or by the community, build their own minigames to share, take on daily challenges and more!\n\nThe stars of Blankos Block Party are collectible interactive digital vinyl toys called Blankos, designed by some of the world\u2019s top artists including John-Paul Kaiser, Tara McPherson and Pete Fowler. Unlike other games, where the content you pay for is only licensed, in Blankos Block Party players will have ownership of the Blankos they buy, eliminating the need for grey markets and allowing the community to dictate the value of what is bought and sold in secondary marketplaces supported by Mythical.\n\nBlankos Block Party is developed by Mythical in partnership with Third Kind Games, and will be self-published by Mythical.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Massively Multiplayer Online (MMO)"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co29me.jpg",
+    "genres": [
+      "Adventure"
+    ],
+    "release_date": "2021-12-31 00:00:00",
+    "developers": [
+      "Mythical Games"
+    ],
+    "publishers": [
+      "Mythical Games"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Returnal",
+    "summary": "Returnal combines action with roguelike gameplay into a third-person shooter where players fight to survive a hostile planet that changes with every death. Players can switch instinctively between firing modes by using a single adaptive trigger and can get right back into the action after dying. PS5's immersive 3D audio brings the alien world to life around the player, helping players navigate the intense positional combat.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PlayStation 5"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3wc1.jpg",
+    "genres": [
+      "Shooter"
+    ],
+    "aggregated_rating": 90.6153846153846,
+    "release_date": "2021-04-30 00:00:00",
+    "developers": [
+      "Housemarque"
+    ],
+    "publishers": [
+      "Sony Interactive Entertainment"
+    ]
+  },
+  {
+    "id": 213,
+    "name": "Bugsnax",
+    "summary": "We are what we eat. Bugsnax takes you on a whimsical adventure to Snaktooth Island, home of the legendary half-bug half-snack creatures, Bugsnax.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac",
+      "PlayStation 4",
+      "PlayStation 5"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co45t5.jpg",
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "aggregated_rating": 74.8333333333333,
+    "release_date": "2020-11-12 00:00:00",
+    "developers": [
+      "Young Horses"
+    ],
+    "publishers": [
+      "Young Horses"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Icarus",
+    "summary": "An alien world for the taking. Explore, survive and make your fortune if you dare. Icarus is a multiplayer co-operative survival game with persistent metagame progression.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer",
+      "Co-operative"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co29oc.jpg",
+    "genres": [
+      "Simulator",
+      "Adventure"
+    ],
+    "release_date": "2021-12-04 00:00:00",
+    "developers": [
+      "RocketWerkz"
+    ],
+    "publishers": [
+      "RocketWerkz",
+      "Yooreka Studio"
+    ]
+  },
+  {
+    "id": 157,
+    "name": "DOOM Eternal: The Ancient Gods - Part One",
+    "summary": "The Ancient Gods picks up after the end of the main story in a time where, due to the Slayer's actions, the armies of heaven and hell have fallen out of balance. The demons have flooded in to overtake the weakened angelic realm, so the Slayer's been called in to clean up the mess.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "Google Stadia"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3f5b.jpg",
+    "genres": [
+      "Shooter",
+      "Arcade"
+    ],
+    "collection": "Doom",
+    "aggregated_rating": 80,
+    "release_date": "2020-10-20 00:00:00",
+    "developers": [
+      "id Software",
+      "Panic Button Games"
+    ],
+    "publishers": []
+  },
+  {
+    "id": 41,
+    "name": "Manor Lords",
+    "summary": "Upcoming medieval strategy game for PC that combines deep, organic and realistic city building with large scale, tactical battles.",
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2id5.jpg",
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Strategy"
+    ],
+    "developers": [
+      "Slavic Magic"
+    ],
+    "publishers": [
+      "Slavic Magic"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Hyrule Warriors: Age Of Calamity",
+    "summary": "See Hyrule 100 years before the Legend of Zelda: Breath of the Wild game and experience the events of the Great Calamity.\n\nJoin the struggle that brought Hyrule to its knees. Learn more about Zelda, the four Champions, the King of Hyrule and more through dramatic cutscenes as they try to save the kingdom from Calamity. The Hyrule Warriors: Age of Calamity game is the only way to see firsthand what happened 100 years ago.\n\nBattle hordes of Hyrule\u2019s most formidable foes. From barbaric Bokoblins to towering Lynels, menacing monsters have emerged in droves. In addition to Link and Zelda, take control of characters like the four Champions and a young Impa. Use their distinct abilities to carve through hundreds of enemies to save Hyrule from the impending Calamity.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3p4a.jpg",
+    "genres": [
+      "Fighting",
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "collection": "Hyrule Warriors",
+    "aggregated_rating": 80.4444444444444,
+    "release_date": "2020-11-20 00:00:00",
+    "developers": [
+      "Omega Force"
+    ],
+    "publishers": [
+      "Nintendo",
+      "Koei Tecmo"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Disgaea 6: Defiance of Destiny",
+    "summary": "The first new Disgaea game in six years is here! Meet Zed, a zombie that has risen above them all except one - a God of Destruction!\n\nCan a mere Netherworld zombie rise up and destroy a god? Find out in the newest installment of the Disgaea series! Features such as Super Reincarnation, 3D visuals (a first for this series), and adjustable gameplay settings make this the perfect game for both new and old Disgaea fans!",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PlayStation 4",
+      "Nintendo Switch"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3bd4.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy"
+    ],
+    "collection": "Disgaea",
+    "aggregated_rating": 75.5,
+    "release_date": "2021-01-28 00:00:00",
+    "developers": [
+      "Nippon Ichi Software"
+    ],
+    "publishers": [
+      "NIS America"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Blue Archive",
+    "summary": "Blue Archive is a new RPG developed by NAT Games, a subsidiary of Nexon Korea, and published and operated by Yostar. In the game, players will guide various students to solve the events in the city in the Japanese animation style and create a character collection RPG with next-generation graphics and strategic elements.",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2z1g.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Strategy"
+    ],
+    "release_date": "2021-02-04 00:00:00",
+    "developers": [
+      "Nat Games"
+    ],
+    "publishers": [
+      "Yostar Games"
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Action Taimanin",
+    "summary": "An intense, gorgeous hack-and-slash action RPG from the Taimanin fame!",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2m6c.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "collection": "Taimani",
+    "release_date": "2019-12-24 00:00:00",
+    "developers": [
+      "Lilith",
+      "Gremory Games Inc."
+    ],
+    "publishers": [
+      "Infini-Brain inc.",
+      "Gremory Games Inc."
+    ]
+  },
+  {
+    "id": 170,
+    "name": "6 Seasons and a Game",
+    "summary": "A completely free, volunteer made, multiplayer, satirical parody of common thematic elements found in American broadcast television serieses (yes that's actually a word)",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2p0t.jpg",
+    "genres": [
+      "Shooter"
+    ],
+    "release_date": "2021-01-31 00:00:00",
+    "developers": [
+      "Moto Studios"
+    ],
+    "publishers": [
+      "Moto Studios"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Caves (Roguelike)",
+    "summary": "A turn-based tactical Dungeon-delving game with perma-death. Each run can help you find blueprints or new armor to aid you in the caves.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "Android",
+      "Legacy Cellphone"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2mvx.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Turn-based strategy (TBS)",
+      "Indie"
+    ],
+    "release_date": "2015-11-14 00:00:00",
+    "developers": [
+      "36dev"
+    ],
+    "publishers": []
+  },
+  {
+    "id": 189,
+    "name": "Citystate II",
+    "summary": "Build the cities of a new Nation and bring about your vision of the ideal society. Citystate II is a modern city-builder featuring political customization and realistic economics with a focus on macro management.",
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2nm3.jpg",
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "release_date": "2021-09-23 00:00:00",
+    "developers": [
+      "Andy Sztark"
+    ],
+    "publishers": [
+      "Andy Sztark"
+    ]
+  },
+  {
+    "id": 166,
+    "name": "The Bazaar",
+    "summary": "The Bazaar is a digital deckbuilding game set in an intergalactic marketplace where players go head-to-head in a strategic battle to take down their opponent.",
+    "game_modes": [
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2ugi.jpg",
+    "genres": [
+      "Strategy",
+      "Card & Board Game"
+    ],
+    "developers": [
+      "Tempo Games"
+    ],
+    "publishers": [
+      "Tempo Games"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "X3: Farnham's Legacy",
+    "summary": "X3: Farnham's Legacy is a new game in the X3 space game series. TRADE, FIGHT, BUILD, THINK in a living and breathing universe. It incorporates a new storyline and yet more additions to the open, free-form gameplay that forms the core of all X series games. X3: Farnham's Legacy is free to owners of X3: Albion Prelude.\n\nSet in the years after X3: Albion Prelude, as the chaos caused by the gate shutdown really takes hold, X3: Farnham's Legacy starts very differently to previous games in the X3 series. Trapped in an isolated area of space, you'll first need to make use of the new exploration features to find your way back to civilisation. Then, once you're there, you'll be able to use the new diplomacy options to help shape your relationships with the factions you find.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co2x8m.jpg",
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ],
+    "collection": "X3",
+    "release_date": "2021-05-04 00:00:00",
+    "developers": [],
+    "publishers": [
+      "Egosoft"
+    ]
+  },
+  {
+    "id": 102,
+    "name": "No Humanity",
+    "summary": "The genre of the game is bullet hell without shoot'em up, it looks relatively low effort. It's like b-movies, it's so bad it's good. The game design philosophy behind is controlled chaos, if you can't control or learn from randomness, you might have a hard time mastering this very unique game. It also includes a handy map editor, a world explorer full of stuff created by our community, a fun fast paced multiplayer mode and lots of ships and cosmetics to unlock",
+    "game_modes": [
+      "Single player",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co38we.jpg",
+    "genres": [
+      "Strategy",
+      "Indie",
+      "Arcade"
+    ],
+    "release_date": "2015-01-29 00:00:00",
+    "developers": [
+      "Sweaty Chair"
+    ],
+    "publishers": [
+      "Sweaty Chair"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "F1 Clash",
+    "summary": "F1 Clash is a racing management/strategy video game developed and published by Hutch. The game was initially released with the name F1 Manager for both iOS and Android on May 7, 2019. In May 2021 the game was rebranded to F1 Clash and it currently features all the official circuits, teams and drivers from the 2021 Formula One World Championship.",
+    "game_modes": [
+      "Multiplayer"
+    ],
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3byh.jpg",
+    "genres": [
+      "Racing",
+      "Sport",
+      "Strategy"
+    ],
+    "release_date": "2019-05-07 00:00:00",
+    "developers": [
+      "Hutch"
+    ],
+    "publishers": [
+      "Hutch"
+    ]
+  },
+  {
+    "id": 245,
+    "name": "eFootball",
+    "summary": "A new brand identity for a new generation of consoles and players, eFootball represents a fresh approach for the long-running franchise. Overhauled graphics, animations and gameplay signal a new era of virtual football. Available free-to-play and completely rebuilt in Unreal Engine.",
+    "game_modes": [
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Android",
+      "iOS",
+      "PlayStation 4",
+      "Xbox One",
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3h8g.jpg",
+    "genres": [
+      "Simulator",
+      "Sport"
+    ],
+    "collection": "Pro Evolution Soccer",
+    "aggregated_rating": 30,
+    "release_date": "2021-06-24 00:00:00",
+    "developers": [
+      "Konami"
+    ],
+    "publishers": [
+      "Konami"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Everdale",
+    "summary": "Grow your village and lead your villagers to establish a peaceful, prosperous community in Everdale, a simulation mobile game.",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co3nsd.jpg",
+    "genres": [
+      "Simulator"
+    ],
+    "release_date": "2021-08-23 00:00:00",
+    "developers": [
+      "Supercell"
+    ],
+    "publishers": [
+      "Supercell"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Star Ocean: The Divine Force",
+    "summary": "Star Ocean: The Divine Force is the next installment in the Star Ocean series. The game features a story that blends sci-fi and fantasy, a rich lineup of characters and side stories, a battle system delivering exhilarating combat with easy controls, and more. The \u201cDouble Hero\u201d system returns in which the story spanning the stars and beyond will unfold from the perspective of each protagonist, one from an advanced civilization (sci-fi) and the other from an underdeveloped planet (fantasy). Events that unfold throughout the story as well as the ally characters you end up with will differ based on the protagonist the player chooses.",
+    "game_modes": [
+      "Single player"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One",
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "cover": "//images.igdb.com/igdb/image/upload/t_thumb/co45km.jpg",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "collection": "Star Ocean",
+    "release_date": "2022-12-31 00:00:00",
+    "developers": [
+      "tri-Ace"
+    ],
+    "publishers": [
+      "Square Enix"
+    ]
+  }
+]

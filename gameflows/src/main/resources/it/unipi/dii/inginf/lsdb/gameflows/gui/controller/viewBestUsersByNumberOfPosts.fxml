@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="639.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.ViewBestUsersByNumberOfPostsController">
+    <children>
+        <AnchorPane fx:id="bestUsersAnchorPane" layoutX="23.0" layoutY="92.0" prefHeight="523.0" prefWidth="656.0" style="-fx-background-color: #FFFFFFFF;" AnchorPane.leftAnchor="23.0" AnchorPane.rightAnchor="21.0">
+            <children>
+                <Button fx:id="nextButton" layoutX="342.0" layoutY="474.20000000000005" mnemonicParsing="false" onAction="#goNextPage" prefHeight="25.0" prefWidth="25.0" AnchorPane.bottomAnchor="21.0">
+                    <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../icons/next.png" />
+                            </image>
+                        </ImageView>
+                    </graphic></Button>
+                <Button fx:id="prevButton" layoutX="293.0" layoutY="474.20000000000005" mnemonicParsing="false" onAction="#goPrevPage" AnchorPane.bottomAnchor="21.0">
+                    <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../icons/next.png" />
+                            </image>
+                        </ImageView>
+                    </graphic></Button>
+                <Button fx:id="returnButton" alignment="BASELINE_RIGHT" layoutX="23.0" layoutY="474.0"
+                        mnemonicParsing="false" onAction="#returnHomePage" prefHeight="28.0" prefWidth="162.0"
+                        text="Return to Home">
+                    <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../icons/return.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <ScrollPane fx:id="bestUsersScrollPane" layoutX="22.0" layoutY="65.0" prefHeight="390.0" prefWidth="610.0" AnchorPane.bottomAnchor="68.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="24.0" AnchorPane.topAnchor="65.0">
+                    <content>
+                        <GridPane fx:id="bestUsersGridPane">
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <padding>
+                                <Insets left="5.0" top="5.0" />
+                            </padding>
+                        </GridPane>
+                    </content>
+                </ScrollPane>
+            <AnchorPane layoutY="-73.0" prefHeight="54.0" prefWidth="658.0" style="-fx-background-color: white;">
+               <children>
+                  <Label alignment="CENTER" layoutX="14.0" layoutY="11.0" prefHeight="32.0" prefWidth="420.0" text="BEST USERS BY NUMBER OF POSTS">
+                     <font>
+                        <Font name="Calibri Bold" size="28.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <TextField fx:id="limitNumber" layoutX="214.0" layoutY="21.0" prefHeight="25.0" prefWidth="107.0" />
+            <Button fx:id="applyFilterButton" alignment="BASELINE_LEFT" contentDisplay="CENTER" layoutX="468.0" layoutY="19.0" mnemonicParsing="false" onAction="#launchRequestOfBestUsers" prefHeight="28.0" prefWidth="162.0" text="Apply Filter and view Users" />
+            <Label alignment="CENTER" layoutX="22.0" layoutY="20.0" prefHeight="26.0" prefWidth="184.0" text="Number of Users to Show:">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="loadingImage" fitHeight="40.0" fitWidth="36.0" layoutX="418.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/spinner.gif" />
+               </image>
+            </ImageView>
+            <Label fx:id="errorLabel" layoutX="395.0" layoutY="471.0" prefHeight="32.0" prefWidth="237.0" text="Error: Impossible retrieve the users" textFill="#f53102">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

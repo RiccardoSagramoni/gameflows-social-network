@@ -1,0 +1,27 @@
+**/target/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+**/buildNumber.properties
+**/.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+**/.mvn/wrapper/maven-wrapper.jar
+**/.idea/
+**/__pycache__/
+
+**/dataset-integration/FINAL-DATASET/comments.json
+**/dataset-integration/FINAL-DATASET/posts.json
+**/DATABASE-DUMP/**/*.json
+**/DATABASE-DUMP/**/*.csv
+**/DATABASE-DUMP/**/*.dump
+**/DATABASE-DUMP/backup/*
+**/dataset-integration/like-generator/**.json
+**/dataset-integration/like-generator/**.csv
+**/dataset-integration/like-generator/**.zip
+**/cluster/local-replicas/r*/
+**/logs/
+**/databases/dump/*
+*.iml

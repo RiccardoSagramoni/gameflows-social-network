@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#click" prefHeight="152.0" prefWidth="570.0" style="-fx-background-radius: 10; -fx-border-width: 5; -fx-border-color: #00a7d3; -fx-border-radius: 10; -fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.ItemInfluencerUserController">
+   <children>
+      <ImageView fx:id="userLogo" fitHeight="82.0" fitWidth="83.0" layoutX="48.0" layoutY="20.0">
+         <image>
+            <Image url="@../logos/logo4/User.PNG" />
+         </image>
+      </ImageView>
+      <Label fx:id="typeUser" alignment="CENTER" layoutX="40.0" layoutY="107.0" prefHeight="21.0" prefWidth="89.0" text="Influencer">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="username" alignment="CENTER" layoutX="328.0" layoutY="26.0" prefHeight="27.0" prefWidth="173.0" style="-fx-border-color: #00a7d3; -fx-border-width: 1;" text="Username">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="usernameLabel" alignment="CENTER" layoutX="221.0" layoutY="24.0" prefHeight="32.0" prefWidth="83.0" text="Username: " textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="rank" alignment="CENTER" layoutX="328.0" layoutY="64.0" prefHeight="26.0" prefWidth="174.0" style="-fx-border-color: #00a7d3; -fx-border-width: 1;" text="Number">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="rankLabel" alignment="CENTER" layoutX="220.0" layoutY="65.0" prefHeight="24.0" prefWidth="83.0" text="Rank: " textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Line endX="-99.99998474121094" endY="103.0" layoutX="273.0" layoutY="32.0" startX="-99.99998474121094" startY="-15.399988174438477" stroke="#00000077" />
+      <Label fx:id="grade" alignment="CENTER" layoutX="328.0" layoutY="101.0" prefHeight="26.0" prefWidth="174.0" style="-fx-border-color: #00a7d3; -fx-border-width: 1;" text="Number">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="gradeLabel" alignment="CENTER" layoutX="220.0" layoutY="102.0" prefHeight="24.0" prefWidth="83.0" text="Grade: " textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" onMousePressed="#click" prefHeight="200.0" prefWidth="200.0" style="-fx-background-radius: 10; -fx-border-color: #032055; -fx-border-width: 5; -fx-border-radius: 10; -fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.ItemVideogameController">
+   <children>
+      <Label fx:id="name" alignment="CENTER" layoutX="20.0" layoutY="139.0" prefHeight="45.0" prefWidth="163.0" text="Videogame Community" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="139.0">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="logo" fitHeight="100.0" fitWidth="103.0" layoutX="50.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="27.0">
+         <image>
+            <Image url="@../icons/videogame_icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

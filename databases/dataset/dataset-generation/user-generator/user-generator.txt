@@ -1,0 +1,1 @@
+https://randomuser.me/api/?results=800&format=pretty&inc=gender,name,email,login,dob,cell,picture,nat&dl&noinfo

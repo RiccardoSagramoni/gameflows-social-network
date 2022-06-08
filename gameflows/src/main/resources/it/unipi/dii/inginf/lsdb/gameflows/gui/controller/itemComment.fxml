@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="149.0" prefWidth="555.0" style="-fx-background-radius: 10; -fx-border-width: 2; -fx-border-color: #15ff00; -fx-border-radius: 10;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.ItemCommentController">
+   <children>
+      <Label alignment="BASELINE_LEFT" layoutX="14.0" layoutY="2.0" prefHeight="25.0" prefWidth="76.0" text="Posted By: ">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="14.0" layoutY="114.0" prefHeight="33.0" prefWidth="40.0" text="Likes:">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="likeButton" layoutX="84.0" layoutY="118.0" mnemonicParsing="false" onAction="#likeDislikeComment" prefHeight="25.0" prefWidth="60.0" text="Like" />
+      <Button fx:id="commentRemoveButton" layoutX="470.0" layoutY="118.0" mnemonicParsing="false" onAction="#removeComment" prefHeight="25.0" prefWidth="76.0" text="Remove" />
+      <Label alignment="BASELINE_LEFT" layoutX="287.0" layoutY="2.0" prefHeight="33.0" prefWidth="26.0" text="On">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Label>
+      <Separator layoutX="14.0" layoutY="28.0" prefHeight="3.0" prefWidth="546.0" />
+      <Label fx:id="commentAuthorLabel" alignment="BASELINE_LEFT" layoutX="88.0" layoutY="2.0" prefHeight="25.0" prefWidth="197.0" text="Luca">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="commentTimestampLabel" alignment="BASELINE_LEFT" layoutX="313.0" layoutY="2.0" prefHeight="33.0" prefWidth="245.0" text="21/01/2022">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="commentLikesLabel" alignment="BASELINE_LEFT" layoutX="52.0" layoutY="114.0" prefHeight="33.0" prefWidth="60.0" text="10">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="commentTextLabel" editable="false" layoutX="13.0" layoutY="36.0" prefHeight="76.0" prefWidth="538.0" wrapText="true">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+CREATE CONSTRAINT username IF NOT EXISTS
+FOR (n:User)
+REQUIRE n.username IS UNIQUE;
+
+CREATE CONSTRAINT videogame_id IF NOT EXISTS
+FOR (n:Videogame)
+REQUIRE n.videogame_id IS UNIQUE;
+
+CREATE CONSTRAINT post_id IF NOT EXISTS
+FOR (n:Post)
+REQUIRE n.post_id IS UNIQUE;
+
+CREATE CONSTRAINT comment_id IF NOT EXISTS
+FOR (n:Comment)
+REQUIRE n.comment_id IS UNIQUE;

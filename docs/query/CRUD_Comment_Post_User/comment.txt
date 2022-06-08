@@ -1,0 +1,42 @@
+/***************************************
+/*************** FIND ******************
+/***************************************
+
+// elenca tutti i commenti
+db.comment.find({})
+
+// elenca i commenti in ordine decrescente di likes
+db.comment.find({}).sort{likes: -1}
+
+// elenca i commenti in ordine decrescente di dislikes
+db.comment.find({}).sort{likes: 1}
+
+// seleziona uno specifico commento
+db.comment.find({_id: ObjectId('61dbfc0692a81a85adebe691')})
+
+// seleziona tutti i commenti di uno specifico post
+db.comment.find({"post.post_id": ObjectId('61dbfbde92a81a85adeb7fd5')})
+
+// ordina i commenti di un post in base al numero di likes, in ordine decrescente
+db.comment.find({"post.post_id": ObjectId('61dbfbde92a81a85adeb7fd5')}).sort(likes: -1)
+
+// ordina i commenti di un post in base al numero di dislikes, in ordine decrescente
+db.comment.find({"post.post_id": ObjectId('61dbfbde92a81a85adeb7fd5')}).sort(likes: 1)
+
+// elenca tutti i commenti di uno specifico utente in ordine decrescente di data
+db.comment.find({author: 'lazypeacock232'}).sort({timestamp: -1})
+
+// elenca tutti i commenti di uno specifico utente sotto lo stesso post, in ordine crescente di data
+db.comment.find({"post.post_id": ObjectId('61dbfbde92a81a85adeb7fd5'), author: 'lazypeacock232'}).sort({timestamp: 1})
+
+/***************************************
+/*************** DELETE ****************
+/***************************************
+
+// elimina commento
+db.comment.deleteOne(
+	{
+		"_id": ObjectId('61dbfc0692a81a85adebe691')
+	}
+);
+

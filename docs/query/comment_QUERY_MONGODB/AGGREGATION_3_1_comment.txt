@@ -1,0 +1,44 @@
+***AGGREGATION 3_1***  
+
+//AVG number of comments per post in a community (disc sorted)
+//aggiungere nome community 
+		
+[{$group: {
+ _id: {
+  post_id: '$post.post_id',
+  community_id: '$post.community_id',
+  community_name: '$post.community_name'
+ },
+ comments_per_post: {
+  $count: {}
+ }
+}}, {$group: {
+ _id: {
+  community_id: '$_id.community_id',
+  community_name: '$_id.community_name'
+ },
+ avg_comments_per_post: {
+  $avg: '$comments_per_post'
+ }
+}}, {$sort: {
+ avg_comments_per_post: -1
+}}]
+
+
+
+*JAVA CODE*
+
+Arrays.asList(new Document("$group", 
+    new Document("_id", 
+    new Document("post", "$post.post_id")
+                .append("community", "$post.community_id"))
+            .append("comments_per_post", 
+    new Document("$count", 
+    new Document()))), 
+    new Document("$group", 
+    new Document("_id", "$_id.community")
+            .append("avg_comments_per_post", 
+    new Document("$avg", "$comments_per_post"))), 
+    new Document("$sort", 
+    new Document("avg_comments_per_post", -1L)))
+

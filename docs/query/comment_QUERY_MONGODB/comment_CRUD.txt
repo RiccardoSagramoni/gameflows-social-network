@@ -1,0 +1,99 @@
+
+
+////////////////////////////////////
+//             CREATE             //
+////////////////////////////////////
+
+//INSERT NEW COMMENT
+db.comment.insertOne(
+	{
+		"text": "text of the comment",
+		"likes": 0,
+		"date" : new Date(),
+		"author": "comment_author",
+		"post": {
+			"post_id": ObjectId("61dbfbd392a81a85adeaf095"),
+			"author": "post_author",
+			"community_id": ObjectId("61dbfbd392a81a85adeaf095")
+			},
+		});
+	
+
+
+
+
+
+
+////////////////////////////////////
+//             READ               //
+////////////////////////////////////
+
+
+//VIEW COMMENTS OF A POST (sorted by date)
+db.comment.find({"post.post_id": ObjectId('61dbfbd392a81a85adeaf095')})  //per post_id 
+
+//VIEW ALL COMMENTS (sorted by date)
+db.comment.find({}).sort({date: 1});
+
+
+
+//VIEW COMMENTS FILTERED BY AUTHOR (no)
+db.comment.find({
+	author:{
+		$regex:'happy',
+		$options:'i'
+		}
+	});
+
+
+
+
+
+
+
+////////////////////////////////////
+//             UPDATE             //
+////////////////////////////////////
+
+//UPDATE TEXT OF THE COMMENT BY ID
+   db.comment.updateOne(
+      { "_id" : ObjectId("61e166fdd1d9fc369dbe0ed5") },
+      { $set: { "text" : "new_comment_text" } }
+   );
+   
+
+
+//INCREMENT COMMENT LIKES ($inc) (UPDATE)
+
+db.comment.updateOne(
+	  { "_id" : ObjectId("61e73ba99d3f215575815501") },
+      { $inc: { "likes" : 1} }
+   );
+
+
+
+
+
+
+
+////////////////////////////////////
+//             DELETE             //
+////////////////////////////////////
+
+//DELETE SINGLE COMMENT BY ID
+db.comment.deleteOne({"_id": ObjectId("61e164fad1d9fc369dbe0ed4")});
+
+
+//DELETE MULTIPLE COMMENTS BY AUTHOR
+db.comment.deleteMany( { "author" : "comment_author" } );
+
+
+//DELETE MULTIPLE COMMENTS BY POST ID
+db.comment.deleteMany( { "post.post_id" : ObjectId("61dbfbd392a81a85adeaf095") } );
+
+
+//DELETE MULTIPLE COMMENTS BY COMMUNITY ID 
+db.comment.deleteMany( { "post.community_id" : ObjectId("61dbfbd392a81a85adeaf095") } );
+
+
+

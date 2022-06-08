@@ -1,0 +1,57 @@
+***AGGREGATION 4***
+
+//top communities of the month by likes (disc sorted)
+
+
+[{$match: {
+  timestamp: {
+    $gt: new ISODate('2021-11-01'),
+    $lt: new ISODate('2022-12-01')
+  }
+}
+}, {
+    $group: {
+        _id: {
+            id: '$community.community_id',
+            name: '$community.community_name'
+        },
+        sum_likes: {
+            $sum: '$likes'
+        }
+    }
+}, {
+    $sort: {
+        sum_likes: -1
+    }
+}]
+
+
+
+
+
+
+
+
+
+
+
+-- NO NO NO
+
+[{$match: {
+  timestamp: {
+    $gt: new ISODate('2021-11-00'),
+    $lt: new ISODate('2022-12-01')
+  },
+  "community.community_genre": "Platform"
+}
+}}, {$group: {
+ _id: {
+  community: '$community'
+ },
+ sum_likes: {
+  $sum: '$likes'
+ }
+}}, {$sort: {
+ sum_likes: -1
+}}]
+

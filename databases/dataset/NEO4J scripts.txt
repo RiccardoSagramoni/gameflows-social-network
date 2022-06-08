@@ -1,0 +1,82 @@
+// USERS
+:auto USING PERIODIC COMMIT 1000
+LOAD CSV WITH HEADERS FROM "file:/user.csv" AS value
+MERGE (u: User {username: value.username});
+
+// VIDEOGAMES
+:auto USING PERIODIC COMMIT 1000
+LOAD CSV WITH HEADERS FROM "file:/videogame.csv" AS value
+MERGE (v: Videogame {videogame_id: value._id})
+ON CREATE SET v.name = value.name;
+
+CALL apoc.load.json("videogame.json")
+YIELD value
+MATCH (v: Videogame {videogame_id: value._id.oid})
+WITH v, value
+UNWIND value.followers AS f
+MATCH (u:User {username: f.username})
+MERGE (u)-[:FOLLOWS]->(v);
+
+// POSTS
+:auto USING PERIODIC COMMIT 1000
+LOAD CSV WITH HEADERS FROM "file:/post.csv" AS value
+MERGE (p: Post {post_id: value._id});
+
+:auto USING PERIODIC COMMIT 1000
+LOAD CSV WITH HEADERS FROM "file:/post.csv" AS value
+MATCH (p: Post {post_id: value._id})
+WITH p,value
+MATCH (v: Videogame {videogame_id: value.community_id})
+MERGE (p)-[:BELONGS]->(v)
+
+:auto USING PERIODIC COMMIT 1000
+LOAD CSV WITH HEADERS FROM "file:/post.csv" AS value
+MATCH (p: Post {post_id: value._id})
+WITH p, value
+MATCH (u: User {username: value.author})
+MERGE (u)-[:WRITES]->(p);
+
+// COMMENTS
+:auto USING PERIODIC COMMIT 1000
+LOAD CSV WITH HEADERS FROM "file:/comment.csv" AS value
+MERGE (c: Comment {comment_id: value._id});
+
+:auto USING PERIODIC COMMIT 1000
+LOAD CSV WITH HEADERS FROM "file:/comment.csv" AS value
+MATCH (c: Comment {comment_id: value._id})
+MATCH (p: Post {post_id: value.post_id})
+MERGE (c)-[:REPLY]->(p);
+
+:auto USING PERIODIC COMMIT 1000
+LOAD CSV WITH HEADERS FROM "file:/comment.csv" AS value
+MATCH (c: Comment {comment_id: value._id})
+MATCH (u: User {username: value.author})
+MERGE (u)-[:WRITES]->(c);
+
+// LIKES
+:auto USING PERIODIC COMMIT 1000
+LOAD CSV WITH HEADERS FROM "file:/likes-post.csv" AS value
+MATCH (p: Post {post_id: value.post})
+MATCH (u: User {username: value.user})
+MERGE (u)-[:LIKES {timestamp: value.timestamp}]->(p);
+
+:auto USING PERIODIC COMMIT 1000
+LOAD CSV WITH HEADERS FROM "file:/likes-comment.csv" AS value
+MATCH (c: Comment {comment_id: value.comment})
+MATCH (u: User {username: value.user})
+MERGE (u)-[:LIKES {timestamp: value.timestamp}]->(c);
+
+// TIMESTAMP
+:auto USING PERIODIC COMMIT 1000
+LOAD CSV WITH HEADERS FROM "file:/comment.csv" AS value
+MATCH (c: Comment {comment_id: value._id})
+MATCH (p: Post {post_id: value.post_id})
+MATCH (c)-[r:REPLY]->(p)
+SET r.timestamp = datetime(value.timestamp);
+
+:auto USING PERIODIC COMMIT 1000
+LOAD CSV WITH HEADERS FROM "file:/post.csv" AS value
+MATCH (p: Post {post_id: value._id})
+MATCH (u: User {username: value.author})
+MATCH (u)-[r:WRITES]->(p);
+SET r.timestamp = datetime(value.timestamp);

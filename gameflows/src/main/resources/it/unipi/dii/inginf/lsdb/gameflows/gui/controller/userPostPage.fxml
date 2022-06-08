@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.UserPostPageController">
+   <children>
+      <AnchorPane fx:id="videogameAnchorPane" layoutX="21.0" layoutY="284.0" prefHeight="358.0" prefWidth="658.0" style="-fx-background-color: #FFFFFFFF;" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="21.0">
+         <children>
+            <ScrollPane fx:id="commentScrollPane" layoutX="17.0" layoutY="8.0" prefHeight="305.0" prefWidth="624.0" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="8.0">
+               <content>
+                  <GridPane fx:id="commentGridPane">
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <padding>
+                        <Insets left="5.0" top="5.0" />
+                     </padding>
+                  </GridPane>
+               </content>
+            </ScrollPane>
+            <Button fx:id="nextButton" layoutX="349.0" layoutY="322.4" mnemonicParsing="false" onAction="#goNextPage" prefHeight="25.0" prefWidth="25.0" AnchorPane.bottomAnchor="8.0">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/next.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="prevButton" layoutX="302.0" layoutY="322.4" mnemonicParsing="false" onAction="#goPrevPage" AnchorPane.bottomAnchor="8.0">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/next.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="refreshButton" alignment="BASELINE_LEFT" layoutX="549.0" layoutY="323.0" mnemonicParsing="false" onAction="#refreshPage" prefHeight="25.0" prefWidth="87.0" text="Refresh">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/refresh.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="returnButton" alignment="BASELINE_RIGHT" layoutX="23.0" layoutY="323.0" mnemonicParsing="false" onAction="#returnCommunityPage" prefHeight="28.0" prefWidth="162.0" text="Return To Community">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/return.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="21.0" layoutY="14.0" prefHeight="255.0" prefWidth="658.0" style="-fx-background-radius: 10; -fx-border-width: 5; -fx-border-color: #00a7d3; -fx-border-radius: 10;">
+         <children>
+            <Label fx:id="name1" alignment="BASELINE_LEFT" layoutX="14.0" layoutY="8.0" prefHeight="33.0" prefWidth="76.0" text="Posted By: ">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="name11" alignment="BASELINE_LEFT" layoutX="15.0" layoutY="225.0" prefHeight="18.0" prefWidth="40.0" text="Likes:">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="addCommentButton" layoutX="531.0" layoutY="224.0" mnemonicParsing="false" onAction="#addComment" prefHeight="25.0" prefWidth="106.0" text="Add Comment" />
+            <Label fx:id="name12" alignment="BASELINE_LEFT" layoutX="399.0" layoutY="8.0" prefHeight="33.0" prefWidth="26.0" text="On">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Label>
+            <Separator layoutX="14.0" layoutY="104.0" prefHeight="3.0" prefWidth="624.0" />
+            <Label fx:id="postAuthorLabel" alignment="BASELINE_LEFT" layoutX="88.0" layoutY="8.0" prefHeight="33.0" prefWidth="162.0" text="Luca">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="postTimestampLabel" alignment="BASELINE_LEFT" layoutX="425.0" layoutY="8.0" prefHeight="33.0" prefWidth="219.0" text="21/01/2022">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="postLikesLabel" alignment="BASELINE_LEFT" layoutX="60.0" layoutY="226.0" prefHeight="15.0" prefWidth="87.0" text="10">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Label>
+            <Separator layoutX="14.0" layoutY="35.0" prefHeight="3.0" prefWidth="624.0" />
+            <Separator layoutX="17.0" layoutY="219.0" prefHeight="3.0" prefWidth="624.0" />
+            <TextArea fx:id="postTextLabel" editable="false" layoutX="12.0" layoutY="112.0" prefHeight="101.0" prefWidth="624.0" text="this is my first post and i want to share with you. I'm wondering if gameflows app is working well. Someone can help me?&#10;" wrapText="true">
+               <font>
+                  <Font name="Calibri" size="14.0" />
+               </font>
+            </TextArea>
+            <TextArea fx:id="postTitleLabel" layoutX="13.0" layoutY="42.0" prefHeight="56.0" prefWidth="624.0" style="-fx-background-color: white;" text="this is my first post and i want to share with you. I'm wondering if gameflows app is working well. Someone can help me?" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </TextArea>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

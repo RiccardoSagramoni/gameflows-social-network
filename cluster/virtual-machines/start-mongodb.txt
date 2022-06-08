@@ -1,0 +1,8 @@
+// First host
+mongod --replSet lsmdb --dbpath ~/data --port 27020 --bind_ip localhost,172.16.4.42 --oplogSize 200
+
+// Second host
+mongod --replSet lsmdb --dbpath ~/data --port 27020 --bind_ip localhost,172.16.4.43 --oplogSize 200
+
+// Third host
+mongod --replSet lsmdb --dbpath ~/data --port 27020 --bind_ip localhost,172.16.4.44 --oplogSize 200

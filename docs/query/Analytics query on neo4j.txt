@@ -1,0 +1,27 @@
+// --------------------------------------------------
+// query su graph per i suggested videovame community
+// --------------------------------------------------
+
+MATCH (target_user: User)-[tg:FOLLOWS]->(his_videogame:Videogame)
+WHERE target_user.username = "bluemeercat428"
+WITH COLLECT(his_videogame.name) AS game_not_to_suggest
+MATCH (his_videogame:Videogame)<-[ou:FOLLOWS]-(other_user:User)-[og:FOLLOWS]->(other_videogame:Videogame)
+WHERE (NOT other_videogame.name IN game_not_to_suggest)
+RETURN DISTINCT other_videogame AS VIDEOGAME, count(og) AS number_of_following
+ORDER BY number_of_following DESC
+LIMIT 5
+
+// --------------------------------------------------
+// query su graph per la creazione degli influcer
+// --------------------------------------------------
+
+MATCH (influencer: User)-[write:WRITES]->(posts:Post)
+MATCH (user_who_liked: User)-[liked:LIKES]->(posts:Post)
+WHERE date(liked.timestamp) >= date("1970-01-01") AND date(liked.timestamp) <= date("2022-01-01")
+MATCH (all_comments: Comment)-[commented:REPLY]->(posts:Post)
+WHERE date(commented.timestamp) >= date("1970-01-01") AND date(commented.timestamp) <= date("2022-01-01")
+RETURN DISTINCT 
+        influencer.username AS INFLUENCER, 
+        (count(DISTINCT user_who_liked) + count(DISTINCT all_comments) ) AS GRADE
+ORDER BY GRADE DESC
+LIMIT 25

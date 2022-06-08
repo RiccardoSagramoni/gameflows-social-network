@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#click" prefHeight="143.0" prefWidth="570.0" style="-fx-background-radius: 10; -fx-border-width: 5; -fx-border-color: #00a7d3; -fx-border-radius: 10; -fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.ItemUserWithStatsController">
+   <children>
+      <ImageView fx:id="userLogo" fitHeight="82.0" fitWidth="83.0" layoutX="48.0" layoutY="20.0">
+         <image>
+            <Image url="@../logos/logo4/User.PNG" />
+         </image>
+      </ImageView>
+      <Label fx:id="typeUser" alignment="CENTER" layoutX="40.0" layoutY="107.0" prefHeight="21.0" prefWidth="89.0" text="User">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="username" alignment="CENTER" layoutX="361.0" layoutY="40.0" prefHeight="27.0" prefWidth="158.0" style="-fx-border-color: #00a7d3; -fx-border-width: 1;" text="Username">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="usernameLabel" alignment="CENTER" layoutX="221.0" layoutY="38.0" prefHeight="32.0" prefWidth="83.0" text="Username: ">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberOfPost" alignment="CENTER" layoutX="361.0" layoutY="81.0" prefHeight="26.0" prefWidth="158.0" style="-fx-border-color: #00a7d3; -fx-border-width: 1;" text="Number">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberOfPostLabel" alignment="CENTER" layoutX="218.0" layoutY="82.0" prefHeight="24.0" prefWidth="122.0" text="Number of Post:">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Line endX="-99.99996948242188" endY="89.60001373291016" layoutX="273.0" layoutY="25.0" startX="-100.0" stroke="#00000077" />
+   </children>
+</AnchorPane>

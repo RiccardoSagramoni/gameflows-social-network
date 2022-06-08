@@ -1,0 +1,42 @@
+***AGGREGATION 3.2***
+
+//AVG number of comments per post for each author (disc sorted)
+
+	
+[{$group: {
+ _id: {
+  post: '$post.post_id',
+  author: '$post.author'
+ },
+ comments_per_user: {
+  $count: {}
+ }
+}}, {$group: {
+ _id: {
+  author: '$_id.author'
+ },
+ avg_comments_per_user: {
+  $avg: '$comments_per_user'
+ }
+}}, {$sort: {
+ avg_comments_per_user: -1
+}}]
+
+
+
+**JAVA CODE
+
+Arrays.asList(new Document("$group", 
+    new Document("_id", 
+    new Document("post", "$post.post_id")
+                .append("author", "$post.author"))
+            .append("comments_per_user", 
+    new Document("$count", 
+    new Document()))), 
+    new Document("$group", 
+    new Document("_id", 
+    new Document("author", "$_id.author"))
+            .append("avg_comments_per_user", 
+    new Document("$avg", "$comments_per_user"))), 
+    new Document("$sort", 
+    new Document("avg_comments_per_user", -1L)))

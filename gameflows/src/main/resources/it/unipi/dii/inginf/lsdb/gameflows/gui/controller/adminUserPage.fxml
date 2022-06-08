@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="580.0" prefWidth="600.0" style="-fx-background-color: #FFFFFFFF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.AdminUserInfoPageController">
+<children>
+    <AnchorPane fx:id="userAnchorPane" layoutX="7.0" layoutY="3.0" prefHeight="571.0" prefWidth="588.0" style="-fx-background-color: #FFFFFFFF; -fx-border-color: #00a7d3; -fx-border-radius: 10; -fx-border-width: 5;">
+         <children>
+            <Label alignment="BASELINE_LEFT" layoutX="50.0" layoutY="159.0" prefHeight="25.0" prefWidth="60.0" text="Name">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="BASELINE_LEFT" layoutX="47.0" layoutY="252.0" prefHeight="25.0" prefWidth="91.0" text="Surname">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="BASELINE_LEFT" layoutX="47.0" layoutY="347.0" prefHeight="25.0" prefWidth="60.0" text="Email">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="BASELINE_LEFT" layoutX="47.0" layoutY="440.0" prefHeight="25.0" prefWidth="60.0" text="Gender">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="BASELINE_LEFT" layoutX="323.0" layoutY="346.0" prefHeight="26.0" prefWidth="91.0" text="Influencer">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="BASELINE_LEFT" layoutX="322.0" layoutY="253.0" prefHeight="25.0" prefWidth="91.0" text="Nationality">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="BASELINE_LEFT" layoutX="322.0" layoutY="158.0" prefHeight="26.0" prefWidth="94.0" text="Date of Birth">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="BASELINE_LEFT" layoutX="325.0" layoutY="439.0" prefHeight="25.0" prefWidth="75.0" text="Blocked">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="isInfluencerTextArea" editable="false" layoutX="321.0" layoutY="384.0" prefHeight="39.0" prefWidth="232.0" wrapText="true" />
+            <TextArea fx:id="genderTextArea" editable="false" layoutX="47.0" layoutY="476.0" prefHeight="39.0" prefWidth="232.0" wrapText="true" />
+            <TextArea fx:id="emailTextArea" editable="false" layoutX="47.0" layoutY="384.0" prefHeight="39.0" prefWidth="232.0" wrapText="true" />
+            <TextArea fx:id="nameTextArea" editable="false" layoutX="47.0" layoutY="194.0" prefHeight="39.0" prefWidth="232.0" wrapText="true" />
+            <TextArea fx:id="nationalityTextArea" editable="false" layoutX="321.0" layoutY="289.0" prefHeight="39.0" prefWidth="232.0" wrapText="true" />
+            <TextArea fx:id="dateOfBirthTextArea" editable="false" layoutX="321.0" layoutY="194.0" prefHeight="39.0" prefWidth="232.0" wrapText="true" />
+            <TextArea fx:id="surnameTextArea" editable="false" layoutX="47.0" layoutY="289.0" prefHeight="39.0" prefWidth="232.0" wrapText="true" />
+            <TextArea fx:id="isBlockedTextArea" editable="false" layoutX="322.0" layoutY="476.0" prefHeight="39.0" prefWidth="232.0" wrapText="true" />
+            <TextArea fx:id="usernameTextArea" editable="false" layoutX="163.0" layoutY="51.0" prefHeight="38.0" prefWidth="274.0" wrapText="true" />
+            <ImageView fx:id="userPic" fitHeight="85.0" fitWidth="91.0" layoutX="47.0" layoutY="23.0">
+               <image>
+                  <Image url="@../logos/logo4/User.PNG" />
+               </image>
+            </ImageView>
+            <Button fx:id="banButton" layoutX="458.0" layoutY="53.0" mnemonicParsing="false" onAction="#banOrUnbanUser" prefHeight="25.0" prefWidth="94.0" text="Ban" AnchorPane.rightAnchor="35.60000000000002" AnchorPane.topAnchor="53.0">
+               <font>
+                  <Font name="Calibri Bold Italic" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+</children>
+</AnchorPane>

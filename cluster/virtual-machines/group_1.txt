@@ -1,0 +1,13 @@
+Username: root
+Password: root
+
+Example on how to access:
+ssh root@<ip_address>
+
+How to change password:
+sudo passwd root
+
+IP addresses:
+172.16.4.42
+172.16.4.43
+172.16.4.44

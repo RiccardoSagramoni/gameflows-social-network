@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="260.0" prefWidth="534.0" style="-fx-background-radius: 10; -fx-border-width: 5; -fx-border-color: e32d2d; -fx-border-radius: 10;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.DeleteCommunityAlertController">
+   <children>
+      <Label alignment="BASELINE_LEFT" layoutX="31.0" layoutY="14.0" prefHeight="122.0" prefWidth="482.0" text="Are you sure you want to delete this videogame community?" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="26.0">
+         <font>
+            <Font name="Calibri Bold" size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="yesButton" layoutX="90.0" layoutY="160.0" mnemonicParsing="false" onAction="#deleteThisVideogameCommunity" prefHeight="25.0" prefWidth="145.0" text="Yes" />
+      <Label fx:id="errorLabel" alignment="BASELINE_CENTER" layoutX="104.0" layoutY="202.0" prefHeight="25.0" prefWidth="325.0" text="Error while deleting this videogame community" textFill="#e32d2d">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="cancelButton" layoutX="298.0" layoutY="160.0" mnemonicParsing="false" onAction="#cancelDeletingOperation" prefHeight="25.0" prefWidth="145.0" text="Cancel" />
+   </children>
+</AnchorPane>

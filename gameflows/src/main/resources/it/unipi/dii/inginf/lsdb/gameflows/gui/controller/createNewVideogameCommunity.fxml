@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="766.0" prefWidth="534.0" style="-fx-background-radius: 10; -fx-border-width: 5; -fx-border-color: #00a7d3; -fx-border-radius: 10;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.CreateNewVideogameCommunityController">
+   <children>
+      <Label alignment="BASELINE_LEFT" layoutX="60.0" layoutY="8.0" prefHeight="55.0" prefWidth="424.0" text="Create New Videogame Community" AnchorPane.leftAnchor="60.0">
+         <font>
+            <Font name="Calibri Bold" size="28.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameField" layoutX="62.0" layoutY="91.0" prefHeight="34.0" prefWidth="197.0" />
+      <TextField fx:id="summaryField" layoutX="64.0" layoutY="622.0" prefHeight="34.0" prefWidth="416.0" />
+      <Button fx:id="createButton" layoutX="159.0" layoutY="702.0" mnemonicParsing="false" onAction="#addNewVideogameCommunity" prefHeight="26.0" prefWidth="226.0" text="Create New Videogame Community" />
+      <Label alignment="BASELINE_LEFT" layoutX="62.0" layoutY="64.0" prefHeight="26.0" prefWidth="42.0" text="Name">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorLabel" alignment="BASELINE_CENTER" layoutX="89.0" layoutY="667.0" prefHeight="26.0" prefWidth="365.0" textFill="#3600ff">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="64.0" layoutY="595.0" prefHeight="26.0" prefWidth="69.0" text="Summary">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="62.0" layoutY="195.0" prefHeight="26.0" prefWidth="90.0" text="GameMode">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="coverField" layoutX="62.0" layoutY="289.0" prefHeight="34.0" prefWidth="416.0" />
+      <TextField fx:id="platformField" layoutX="62.0" layoutY="356.0" prefHeight="34.0" prefWidth="416.0" />
+      <Label alignment="BASELINE_LEFT" layoutX="62.0" layoutY="262.0" prefHeight="26.0" prefWidth="70.0" text="Cover">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="62.0" layoutY="329.0" prefHeight="26.0" prefWidth="69.0" text="Platform">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="62.0" layoutY="396.0" prefHeight="26.0" prefWidth="90.0" text="Genre">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="aggregatedRatingField" layoutX="280.0" layoutY="91.0" prefHeight="34.0" prefWidth="198.0" />
+      <Label alignment="BASELINE_LEFT" layoutX="280.0" layoutY="129.0" prefHeight="26.0" prefWidth="109.0" text="ReleaseDate">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="collectionField" layoutX="62.0" layoutY="156.0" prefHeight="34.0" prefWidth="197.0" />
+      <Label alignment="BASELINE_LEFT" layoutX="62.0" layoutY="129.0" prefHeight="26.0" prefWidth="70.0" text="Collection">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="280.0" layoutY="64.0" prefHeight="26.0" prefWidth="148.0" text="Aggregated Rating">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="releaseDateDatePicker" layoutX="280.0" layoutY="156.0" prefHeight="34.0" prefWidth="198.0" />
+      <TextField fx:id="developerField" layoutX="62.0" layoutY="489.0" prefHeight="34.0" prefWidth="416.0" />
+      <Label alignment="BASELINE_LEFT" layoutX="62.0" layoutY="462.0" prefHeight="26.0" prefWidth="69.0" text="Developer">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="62.0" layoutY="529.0" prefHeight="26.0" prefWidth="90.0" text="Publisher">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="istructionLabel" alignment="BASELINE_CENTER" layoutX="260.0" layoutY="739.0" prefHeight="26.0" prefWidth="226.0" text="* Multiple Insert separeted by &quot;;&quot;" textFill="#3600ff">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="mandatoryField" alignment="BASELINE_CENTER" layoutX="85.0" layoutY="739.0" prefHeight="26.0" prefWidth="148.0" text="* Mandatory Field" textFill="#ff3100">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="mandatoryField1" alignment="BASELINE_CENTER" layoutX="92.0" layoutY="64.0" prefHeight="26.0" prefWidth="29.0" text="*" textFill="#ff3100">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="mandatoryField11" alignment="BASELINE_CENTER" layoutX="119.0" layoutY="595.0" prefHeight="26.0" prefWidth="29.0" text="*" textFill="#ff3100">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="mandatoryField111" alignment="BASELINE_CENTER" layoutX="137.0" layoutY="195.0" prefHeight="26.0" prefWidth="29.0" text="*" textFill="#4700ff">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="mandatoryField1113" alignment="BASELINE_CENTER" layoutX="127.0" layoutY="462.0" prefHeight="26.0" prefWidth="29.0" text="*" textFill="#3a00ff">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="mandatoryField1114" alignment="BASELINE_CENTER" layoutX="122.0" layoutY="529.0" prefHeight="26.0" prefWidth="29.0" text="*" textFill="#4c00ff">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="mandatoryField111411" alignment="BASELINE_CENTER" layoutX="97.0" layoutY="396.0" prefHeight="26.0" prefWidth="29.0" text="*" textFill="#3100ff">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="mandatoryField1114111" alignment="BASELINE_CENTER" layoutX="112.0" layoutY="329.0" prefHeight="26.0" prefWidth="29.0" text="*" textFill="#2400ff">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="genreField" layoutX="62.0" layoutY="422.0" prefHeight="34.0" prefWidth="416.0" />
+      <TextField fx:id="publisherField" layoutX="62.0" layoutY="555.0" prefHeight="34.0" prefWidth="416.0" />
+      <TextField fx:id="gameModeField" layoutX="59.0" layoutY="221.0" prefHeight="34.0" prefWidth="416.0" />
+   </children>
+</AnchorPane>

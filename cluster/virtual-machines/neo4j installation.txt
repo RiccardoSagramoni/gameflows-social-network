@@ -1,0 +1,20 @@
+wget -O - https://debian.neo4j.com/neotechnology.gpg.key | sudo apt-key add -
+
+echo 'deb https://debian.neo4j.com stable 4.4' | sudo tee -a /etc/apt/sources.list.d/neo4j.list
+
+sudo apt-get update
+
+sudo apt-get install neo4j=1:4.4.0
+
+
+
+# Connection string
+neo4j@bolt://172.16.4.44:7687
+
+# START AS DAEMON
+neo4j start
+# STOP DAEMON
+neo4j stop
+
+# START ON CONSOLE
+neo4j console
