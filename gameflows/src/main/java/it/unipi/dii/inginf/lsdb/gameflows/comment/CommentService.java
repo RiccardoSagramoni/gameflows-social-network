@@ -44,8 +44,8 @@ public interface CommentService {
 	                                                                 int skip,
 	                                                                 int limit);
 
-	//AGGREGATION 2: //AVG number of comments per post for each author (disc sorted)
-	List<ResultAverageCommentPerUser> averageNumberOfCommentsPerUser();
-	List<ResultAverageCommentPerUser> averageNumberOfCommentsPerUser(MongoConnection connection);
+	//AGGREGATION 2: AVG number of comments per post for each author (disc sorted)
+	List<ResultAverageCommentPerUser> averageNumberOfCommentsPerUser(int skip, int limit);
+	List<ResultAverageCommentPerUser> averageNumberOfCommentsPerUser(MongoConnection connection, int skip, int limit);
 
 }

@@ -104,9 +104,9 @@ class CommentServiceImplTest {
 
 	@Test
 	void TEST_averageNumberOfCommentsPerUser () {
-		List<ResultAverageCommentPerUser> list = sut.averageNumberOfCommentsPerUser();
+		List<ResultAverageCommentPerUser> list = sut.averageNumberOfCommentsPerUser(0, 10);
 		Assertions.assertNotNull(list);
-		System.out.println(list.get(0));
+		list.forEach(System.out::println);
 	}
 
 	@Test

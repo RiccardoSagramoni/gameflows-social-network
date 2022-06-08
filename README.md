@@ -1,4 +1,6 @@
 # gameflows-social-network
+Project for the *Large-Scale and Multi-Structured Databases* course by Riccardo Sagramoni, Luca Tartaglia and Fabrizio Lanzillo.
+
 The *Release* page contains both the source code and the dumps of the databases.
 *Note:* The Java source code is inside the **gameflows** folder.
 

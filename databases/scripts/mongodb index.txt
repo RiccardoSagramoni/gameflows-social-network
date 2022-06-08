@@ -1,4 +1,6 @@
-use gameflows;
+use gameflows
+
+
 db.user.createIndex( { "username": 1 }, {"unique": true, "name": "username"} );
 db.admin.createIndex( { "username": 1 }, {"unique": true, "name": "username"} );
 db.videogame.createIndex( { name: 1 }, {name: "name"} );

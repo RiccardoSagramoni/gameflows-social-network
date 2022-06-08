@@ -768,16 +768,19 @@ class CommentServiceImpl implements CommentService {
 
 
 	/**
-	 * Compute the average number of comments per user
+	 * Compute the average number of comments per post for each user.
+	 *
+	 * @param skip how many users to skip
+	 * @param limit how many users to return
 	 * @return the results of the aggregation on success, null on failure
 	 */
 	@Override
-	public List<ResultAverageCommentPerUser> averageNumberOfCommentsPerUser(){
-		try(MongoConnection connection = PersistenceFactory.getMongoConnection()) {
+	public List<ResultAverageCommentPerUser> averageNumberOfCommentsPerUser (int skip, int limit){
+		try (MongoConnection connection = PersistenceFactory.getMongoConnection()) {
 			LOGGER.info("avgCommentsPerAuthorPosts() | AVG number of comments per post for each author");
-			return averageNumberOfCommentsPerUser(connection);
+			return averageNumberOfCommentsPerUser(connection, skip, limit);
 
-		}catch (Exception e) {
+		} catch (Exception e) {
 			LOGGER.error("avgCommentsPerAuthorPosts() | " +
 					"Connection to MongoDB failed: " + e);
 		}
@@ -785,13 +788,17 @@ class CommentServiceImpl implements CommentService {
 	}
 
 	/**
-	 * Compute the average number of comments per user
+	 * Compute the average number of comments per post for each user.
+	 *
 	 * @param connection an already opened MongoDB connection
+	 * @param skip how many users to skip
+	 * @param limit how many users to return
 	 * @return the results of the aggregation on success, null on failure
 	 */
 	@Override
-	public List<ResultAverageCommentPerUser> averageNumberOfCommentsPerUser(MongoConnection connection)
-	{
+	public List<ResultAverageCommentPerUser> averageNumberOfCommentsPerUser (
+						MongoConnection connection, int skip, int limit
+	) {
 		if(connection == null){
 			LOGGER.fatal("averageNumberOfCommentsPerUser() | MongoDB connection cannot be null!");
 			throw new IllegalArgumentException("MongoDB connection cannot be null!");
@@ -800,25 +807,32 @@ class CommentServiceImpl implements CommentService {
 		// Get comments collection
 		MongoCollection<Document> comments = connection.getCollection(GameflowsCollection.comment);
 
-		//stage 1: group (count of post in a community)
-		Bson group_sum = new Document("$group",
+		// Stage 1: group (count of post in a community)
+		Bson groupSum = new Document("$group",
 				new Document("_id", new Document("post_id","$post.post_id")
 						.append("author","$post.author"))
 						.append("comments_per_author", new Document("$count", new Document())));
 
-		//stage 2: group (avg comments per post of a community)
-		Bson group_avg = new Document("$group",
+		// Stage 2: group (avg comments per post of a community)
+		Bson groupAvg = new Document("$group",
 				new Document("_id", new Document("author","$_id.author"))
 						.append("avg_comments_per_author", new Document("$avg","$comments_per_author")));
 
-		//stage 3: sort (desc by avg)
-		Bson sort_avg = sort(descending("avg_comments_per_author"));
+		// Stage 3: sort (desc by avg)
+		Bson groupSort = sort(descending("avg_comments_per_author"));
 
 		try {
-			//aggregation: AVG number of comments per post for each author (disc sorted)
-			List<Document> documentList = comments.aggregate(
-					Arrays.asList(group_sum,group_avg,sort_avg)
-			).into(new ArrayList<>());
+			// Aggregation: AVG number of comments per post for each author (disc sorted)
+			List<Document> documentList =
+					comments.aggregate(
+							Arrays.asList(
+									groupSum,
+									groupAvg,
+									groupSort,
+									skip(skip),
+									limit(limit)
+							)
+					).into(new ArrayList<>());
 
 			if (documentList.isEmpty()) {
 				LOGGER.error("averageNumberOfCommentsPerUser() | " +
@@ -854,8 +868,7 @@ class CommentServiceImpl implements CommentService {
 	 * @param postId id of post
 	 * @return set with the id of the liked comments on success, null on error
 	 */
-	Set<ObjectId> getLikedCommentsOfPost (@NotNull String username,
-	                                              @NotNull ObjectId postId) {
+	Set<ObjectId> getLikedCommentsOfPost (@NotNull String username, @NotNull ObjectId postId) {
 		try (Neo4jConnection neo4jConnection = PersistenceFactory.getNeo4jConnection()) {
 			LOGGER.info("getLikedCommentsOfPost() | " +
 					"user: " + username + ", post " + postId);
