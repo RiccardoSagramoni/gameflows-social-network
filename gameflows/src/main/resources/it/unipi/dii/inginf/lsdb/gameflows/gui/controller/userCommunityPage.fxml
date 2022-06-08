@@ -247,8 +247,8 @@
       </SplitPane>
       <Line endX="125.0" endY="-3.0517578125E-5" layoutX="150.0" layoutY="164.0" startX="-125.0" startY="-4.57763671875E-5" stroke="#1608bd" strokeWidth="1.5" />
       <Line fx:id="separetorToMakeInvisible" endX="125.0" endY="-3.0517578125E-5" layoutX="150.0" layoutY="323.0" startX="-125.0" startY="-4.57763671875E-5" stroke="#00aaff" strokeWidth="1.5" />
-      <Line endX="125.0" endY="-3.0517578125E-5" layoutX="150.0" layoutY="217.0" startX="-125.0" startY="-4.57763671875E-5" stroke="#1608bd" strokeWidth="1.5" />
-      <Line endX="125.0" endY="-3.0517578125E-5" layoutX="150.0" layoutY="270.0" startX="-125.0" startY="-4.57763671875E-5" stroke="#1608bd" strokeWidth="1.5" />
+      <Line endX="125.0" endY="-3.0517578125E-5" layoutX="150.0" layoutY="217.0" startX="-125.0" startY="-4.57763671875E-5" stroke="#00aaff" strokeWidth="1.5" />
+      <Line endX="125.0" endY="-3.0517578125E-5" layoutX="150.0" layoutY="270.0" startX="-125.0" startY="-4.57763671875E-5" stroke="#00aaff" strokeWidth="1.5" />
       <Line fx:id="separetorToMakeInvisible2" endX="125.0" endY="-3.0517578125E-5" layoutX="150.0" layoutY="378.0" startX="-125.0" startY="-4.57763671875E-5" stroke="#1608bd" strokeWidth="1.5" />
       <Line endX="125.0" endY="-3.0517578125E-5" layoutX="150.0" layoutY="526.0" startX="-125.0" startY="-4.57763671875E-5" stroke="WHITE" strokeWidth="1.5" />
 </children>

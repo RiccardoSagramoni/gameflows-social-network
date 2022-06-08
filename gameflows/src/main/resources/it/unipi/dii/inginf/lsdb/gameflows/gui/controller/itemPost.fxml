@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane onMouseClicked="#click" prefHeight="139.0" prefWidth="568.0" style="-fx-background-radius: 10; -fx-border-width: 5; -fx-border-color: #00a7d3; -fx-border-radius: 10;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.ItemPostController">
+<AnchorPane onMouseClicked="#click" prefHeight="139.0" prefWidth="568.0" style="-fx-background-radius: 10; -fx-border-width: 5; -fx-border-color: #032055; -fx-border-radius: 10;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.ItemPostController">
    <children>
       <Label fx:id="name1" alignment="BASELINE_LEFT" layoutX="14.0" layoutY="8.0" prefHeight="33.0" prefWidth="76.0" text="Posted By: ">
          <font>

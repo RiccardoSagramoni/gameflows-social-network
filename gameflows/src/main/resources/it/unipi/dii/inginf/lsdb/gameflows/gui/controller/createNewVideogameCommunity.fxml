@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="766.0" prefWidth="534.0" style="-fx-background-radius: 10; -fx-border-width: 5; -fx-border-color: #00a7d3; -fx-border-radius: 10;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.CreateNewVideogameCommunityController">
+<AnchorPane prefHeight="766.0" prefWidth="534.0" style="-fx-background-radius: 10; -fx-border-width: 5; -fx-border-color: #032055; -fx-border-radius: 10;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.dii.inginf.lsdb.gameflows.gui.controller.CreateNewVideogameCommunityController">
    <children>
       <Label alignment="BASELINE_LEFT" layoutX="60.0" layoutY="8.0" prefHeight="55.0" prefWidth="424.0" text="Create New Videogame Community" AnchorPane.leftAnchor="60.0">
          <font>

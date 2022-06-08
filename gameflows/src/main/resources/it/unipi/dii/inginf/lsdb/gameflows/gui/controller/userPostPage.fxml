@@ -64,7 +64,7 @@
             </Button>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="21.0" layoutY="14.0" prefHeight="255.0" prefWidth="658.0" style="-fx-background-radius: 10; -fx-border-width: 5; -fx-border-color: #00a7d3; -fx-border-radius: 10;">
+      <AnchorPane layoutX="21.0" layoutY="14.0" prefHeight="255.0" prefWidth="658.0" style="-fx-background-radius: 10; -fx-border-width: 5; -fx-border-color: #032055; -fx-border-radius: 10;">
          <children>
             <Label fx:id="name1" alignment="BASELINE_LEFT" layoutX="14.0" layoutY="8.0" prefHeight="33.0" prefWidth="76.0" text="Posted By: ">
                <font>
