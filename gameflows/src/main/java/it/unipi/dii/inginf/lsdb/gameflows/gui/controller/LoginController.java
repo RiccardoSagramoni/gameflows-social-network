@@ -96,7 +96,7 @@ public class LoginController {
 					controller2.sendAdmin(username);
 
 					Stage stage = new Stage();
-					stage.setTitle("Gameflows User Home");
+					stage.setTitle("Gameflows Admin Home");
 					stage.setScene(new Scene(root1));
 					stage.setResizable(false);
 					stage.show();

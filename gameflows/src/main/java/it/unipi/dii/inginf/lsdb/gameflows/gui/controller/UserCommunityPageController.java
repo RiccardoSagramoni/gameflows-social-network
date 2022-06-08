@@ -399,7 +399,7 @@ public class UserCommunityPageController{
 			controller.setData(community, admin, returnToHomeButton);
 
 			Stage stage = new Stage();
-			stage.setTitle("Delete Community Page");
+			stage.setTitle("Delete Videogame Community Alert");
 			stage.setScene(new Scene(root1));
 			stage.setResizable(false);
 			stage.show();
