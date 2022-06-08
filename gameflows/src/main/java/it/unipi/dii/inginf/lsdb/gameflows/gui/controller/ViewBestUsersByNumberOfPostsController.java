@@ -309,7 +309,7 @@ public class ViewBestUsersByNumberOfPostsController {
 					controller2.viewUserInfo(admin, userFromDB);
 
 					Stage stage = new Stage();
-					stage.setTitle("Gameflows User Page");
+					stage.setTitle("User Info Page");
 					stage.setScene(new Scene(root1));
 					stage.setResizable(false);
 					stage.show();
