@@ -13,8 +13,8 @@ Moreover, user can read posts written by special users, called *influencers*. In
 
 ## Structure of the repository
 - **cluster**: scripts for local and remote clusters
-- **databases**: dump and script for MongoDB and Neo4j databases
-  - **dataset**: scripts and json files used to generate the final dataset
+- **databases**: scripts for MongoDB and Neo4j databases
+  - **dataset**: scripts used to generate the dataset
   - **scripts**: scripts to generate indexes in MongoDB and Neo4j databases
 - **docs**: documentation files (queries, UML diagrams...)
 - **gameflows**: Java source files
