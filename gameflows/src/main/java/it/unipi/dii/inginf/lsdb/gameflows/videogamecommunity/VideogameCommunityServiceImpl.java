@@ -153,7 +153,7 @@ class VideogameCommunityServiceImpl implements VideogameCommunityService {
 	 * @return id of the inserted videogame on success, null on failure
 	 */
 	@Override
-	public ObjectId insertVideogameCommunity (VideogameCommunity videogameCommunity) {
+	public ObjectId insertVideogameCommunity (@NotNull VideogameCommunity videogameCommunity) {
 
 		try (MongoConnection mongoConnection = PersistenceFactory.getMongoConnection();
 		     Neo4jConnection neo4jConnection = PersistenceFactory.getNeo4jConnection()
@@ -180,21 +180,10 @@ class VideogameCommunityServiceImpl implements VideogameCommunityService {
 	 * @return id of the inserted videogame on success, null on failure
 	 */
 	@Override
-	public ObjectId insertVideogameCommunity (
-			MongoConnection mongoConnection,
-			Neo4jConnection neo4jConnection,
-			VideogameCommunity videogameCommunity
-	) {
-		// Check arguments
-		if (mongoConnection == null) {
-			LOGGER.fatal("insertVideogameCommunity() | MongoConnection parameter cannot be null");
-			throw new IllegalArgumentException("MongoConnection cannot be null");
-		}
-		if (neo4jConnection == null) {
-			LOGGER.fatal("insertVideogameCommunity() | Neo4jConnection parameter cannot be null");
-			throw new IllegalArgumentException("MongoConnection cannot be null");
-		}
-
+	public ObjectId insertVideogameCommunity (@NotNull MongoConnection mongoConnection,
+	                                          @NotNull Neo4jConnection neo4jConnection,
+	                                          @NotNull VideogameCommunity videogameCommunity)
+	{
 		// Check neo4j connectivity (reduce need of rollback)
 		if (!neo4jConnection.verifyConnectivity()) {
 			LOGGER.error("insertVideogameCommunity() | Neo4j connection is down");
@@ -233,6 +222,7 @@ class VideogameCommunityServiceImpl implements VideogameCommunityService {
 
 			if (resultSummary.counters().nodesCreated() == 0) {
 				LOGGER.error("insertVideogameCommunity() | Unable to create videogame node");
+				rollbackMongoInsertVideogame(mongoConnection, insertedVideogameId);
 				return null;
 			}
 

@@ -219,6 +219,7 @@ class PostServiceImpl implements PostService {
 			if (resultSummary.counters().nodesCreated() == 0 &&
 				resultSummary.counters().relationshipsCreated() == 0) {
 				LOGGER.error("insertVideogameCommunity() | Unable to create videogame node");
+				rollbackMongoInsertPost(mongoConnection, newPostId);
 				return null;
 			}
 
@@ -226,12 +227,32 @@ class PostServiceImpl implements PostService {
 
 		} catch (Neo4jException ex) {
 			LOGGER.error("insertVideogameCommunity() | Creation of Neo4j node failed: " + ex);
+			rollbackMongoInsertPost(mongoConnection, newPostId);
 			return null;
 		}
 
 		return newPostId;
 
 
+	}
+
+
+	/**
+	 * Rollback an insert query of a post.
+	 * It deletes the specified MongoDB object from the post collection.
+	 *
+	 * @param connection an already opened MongoDB connection
+	 * @param id id of the object to remove
+	 */
+	private void rollbackMongoInsertPost (@NotNull MongoConnection connection, @NotNull ObjectId id) {
+		MongoCollection<Document> posts = connection.getCollection(GameflowsCollection.post);
+		try {
+			posts.deleteOne(eq("_id", id));
+			LOGGER.info("rollbackMongoInsertPost() | Post " + id + " has been removed");
+
+		} catch (MongoException ex) {
+			LOGGER.error("rollbackMongoInsertPost() | Cannot remove post from DB");
+		}
 	}
 
 

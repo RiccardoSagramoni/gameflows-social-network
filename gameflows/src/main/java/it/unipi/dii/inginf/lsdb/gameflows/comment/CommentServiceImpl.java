@@ -164,19 +164,10 @@ class CommentServiceImpl implements CommentService {
 	 * @return MongoDB id of the inserted
 	 */
 	@Override
-	public ObjectId addComment(MongoConnection mongoConnection,
-	                           Neo4jConnection neo4jConnection,
+	public ObjectId addComment(@NotNull MongoConnection mongoConnection,
+	                           @NotNull Neo4jConnection neo4jConnection,
 	                           @NotNull Comment comment)
 	{
-		if(mongoConnection == null){
-			LOGGER.fatal("addComment() | MongoDB connection cannot be null!");
-			throw new IllegalArgumentException("MongoDB connection cannot be null!");
-		}
-		if(neo4jConnection == null){
-			LOGGER.fatal("addComment() | Neo4j connection cannot be null!");
-			throw new IllegalArgumentException("Neo4j connection cannot be null!");
-		}
-
 		// Check neo4j connectivity (reduce need of rollback)
 		if (!neo4jConnection.verifyConnectivity()) {
 			LOGGER.error("addComment() | Neo4j connection is down");
@@ -204,6 +195,7 @@ class CommentServiceImpl implements CommentService {
 			return null;
 		}
 
+
 		// Insert on Neo4j
 		try (Session session = neo4jConnection.getSession()) {
 			ResultSummary resultSummary = session.writeTransaction(
@@ -218,17 +210,40 @@ class CommentServiceImpl implements CommentService {
 				resultSummary.counters().relationshipsCreated() != 2)
 			{
 				LOGGER.error("addComment() | Unable to create comment node on Neo4j");
+				rollbackMongoInsertComment(mongoConnection, insertedCommentId);
 				return null;
 			}
 			LOGGER.info("addComment() | comment node created on Neo4j");
 
 		} catch (Neo4jException ne) {
 			LOGGER.error("addComment() | Creation of Neo4j comment node failed: " + ne);
+			rollbackMongoInsertComment(mongoConnection, insertedCommentId);
 			return null;
 		}
 
 		return insertedCommentId;
 	}
+
+
+	/**
+	 * Rollback an insert query of a comment.
+	 * It deletes the specified MongoDB object from the comment collection.
+	 *
+	 * @param connection an already opened MongoDB connection
+	 * @param id id of the object to remove
+	 */
+	private void rollbackMongoInsertComment (@NotNull MongoConnection connection, @NotNull ObjectId id) {
+		MongoCollection<Document> comments = connection.getCollection(GameflowsCollection.comment);
+		try {
+			comments.deleteOne(eq("_id", id));
+			LOGGER.info("rollbackMongoInsertComment() | Comment " + id + " has been removed");
+
+		} catch (MongoException ex) {
+			LOGGER.error("rollbackMongoInsertComment() | Cannot remove comment from DB");
+		}
+	}
+
+
 
 
 //---------------------------READ/VIEW----------------------------------//
