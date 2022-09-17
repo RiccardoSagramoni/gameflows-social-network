@@ -443,9 +443,10 @@ class PostServiceImpl implements PostService {
 	 * @return true on success, false on failure
 	 */
 	boolean likePost(@NotNull MongoConnection mongoConnection,
-	                        @NotNull Neo4jConnection neo4jConnection,
-	                        @NotNull ObjectId postId,
-	                        @NotNull String user, boolean like)
+	                 @NotNull Neo4jConnection neo4jConnection,
+	                 @NotNull ObjectId postId,
+	                 @NotNull String user,
+	                 boolean like)
 	{
 		// Check neo4j connectivity (reduce need of rollback)
 		if (!mongoConnection.verifyConnectivity()) {
@@ -454,7 +455,7 @@ class PostServiceImpl implements PostService {
 		}
 
 		// Update in Neo4j
-		try(Session session = neo4jConnection.getSession()){
+		try (Session session = neo4jConnection.getSession()) {
 			ResultSummary resultSummary = session.writeTransaction(
 					tx -> {
 						Result result;
@@ -486,6 +487,7 @@ class PostServiceImpl implements PostService {
 			return false;
 		}
 
+
 		// Get MongoDB posts collection
 		MongoCollection<Document> posts = mongoConnection.getCollection(GameflowsCollection.post);
 
@@ -498,6 +500,7 @@ class PostServiceImpl implements PostService {
 			UpdateResult result = posts.updateOne(filter, updates);
 			if (result.getModifiedCount() == 0){
 				LOGGER.error("likePost() | " + "No post updated");
+				rollbackNeo4jLike(neo4jConnection, postId, user, like);
 				return false;
 			}
 
@@ -508,9 +511,38 @@ class PostServiceImpl implements PostService {
 		} catch (MongoException me){
 			LOGGER.error("likePost() | " +
 				"Unable to update post in MongoDB : " + me);
+			rollbackNeo4jLike(neo4jConnection, postId, user, like);
 			return false;
 		}
 
+	}
+
+
+	private void rollbackNeo4jLike (@NotNull Neo4jConnection connection,
+	                                @NotNull ObjectId postId,
+	                                @NotNull String user,
+	                                boolean like)
+	{
+		try (Session session = connection.getSession()) {
+			ResultSummary resultSummary = session.writeTransaction(
+					tx -> {
+						Result result;
+						if (!like){
+							// Restore like
+							result = createLikeRelationship(tx, postId, user);
+						}
+						else {
+							// Remove like
+							result = deleteLikeRelationship(tx, postId, user);
+						}
+						return result.consume();
+					}
+			);
+
+		} catch(Neo4jException ne) {
+			LOGGER.error("rollbackNeo4jLike() | " +
+					"Create/Delete of LIKE relationship in neo4j failed: " + ne);
+		}
 	}
 
 

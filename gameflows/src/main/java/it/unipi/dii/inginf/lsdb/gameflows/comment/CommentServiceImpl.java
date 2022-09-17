@@ -390,27 +390,19 @@ class CommentServiceImpl implements CommentService {
 	 * @param like true to add a like, false to remove a like
 	 * @return true on success, false on error
 	 */
-	boolean likeComment (MongoConnection mongoConnection,
-	                            Neo4jConnection neo4jConnection,
-	                            ObjectId commentId,
-	                            String user, boolean like
-	){
-		if(mongoConnection == null){
-			LOGGER.fatal("likeComment() | MongoDB connection cannot be null!");
-			throw new IllegalArgumentException("MongoDB connection cannot be null!");
-		}
-		if(neo4jConnection == null){
-			LOGGER.fatal("likeComment() | Neo4j connection cannot be null!");
-			throw new IllegalArgumentException("Neo4j connection cannot be null!");
-		}
-
+	boolean likeComment (@NotNull MongoConnection mongoConnection,
+	                     @NotNull Neo4jConnection neo4jConnection,
+	                     @NotNull ObjectId commentId,
+	                     @NotNull String user,
+	                     boolean like)
+	{
 		// Check mongoDB connectivity (reduce need of rollback)
 		if (!mongoConnection.verifyConnectivity()) {
 			LOGGER.error("likeComment() | MongoDB connection is down");
 			return false;
 		}
 
-		//update on Neo4j
+		// Update on Neo4j
 		try(Session session = neo4jConnection.getSession()){
 			// Create or delete relationship :LIKES
 			ResultSummary resultSummary = session.writeTransaction(
@@ -454,7 +446,8 @@ class CommentServiceImpl implements CommentService {
 			UpdateResult result = comments.updateOne(filter, updates);
 			// Check update result
 			if (result.getModifiedCount() == 0){
-				LOGGER.error("likeComment() | " + "No comment updated");
+				LOGGER.error("likeComment() | No comment updated");
+				rollbackNeo4jLike(neo4jConnection, commentId, user, like);
 				return false;
 			}
 
@@ -462,13 +455,42 @@ class CommentServiceImpl implements CommentService {
 					"Comment updated in MongoDB, with id " + commentId);
 			return true;
 
-		} catch (MongoException me){
-			LOGGER.error("likeComment() | " +
-					"Unable to update comment in MongoDB : " + me);
+		} catch (MongoException ex){
+			LOGGER.error("likeComment() | Unable to update comment in MongoDB : " + ex);
+			rollbackNeo4jLike(neo4jConnection, commentId, user, like);
 			return false;
 		}
 
 	}
+
+	private void rollbackNeo4jLike (@NotNull Neo4jConnection connection,
+	                                @NotNull ObjectId commentId,
+	                                @NotNull String user,
+	                                boolean like)
+	{
+		try(Session session = connection.getSession()){
+			// Create or delete relationship :LIKES
+			ResultSummary resultSummary = session.writeTransaction(
+					tx -> {
+						Result result;
+						if (!like){
+							// Restore deleted relationship
+							result = createLikeRelationship(tx, commentId, user);
+						}
+						else {
+							// Delete generated relationship
+							result = deleteLikeRelationship(tx, commentId, user);
+						}
+						return result.consume();
+					}
+			);
+
+		} catch(Neo4jException ne){
+			LOGGER.error("rollbackNeo4jLike() | " +
+					"Create/Delete of LIKE relationship in neo4j failed: " + ne);
+		}
+	}
+
 
 
 
