@@ -12,6 +12,14 @@ Users registered to the service can discover new videogames and follow the relat
 Moreover, user can read posts written by special users, called *influencers*. Influencers are users who have proven to be engaging inside the community in respect to the other users. The level of "ability to engage" is defined the number of recent likes and comments on its posts. In this perspective, their posts can be filtered out from the others while browsing the post of a videogame community.
 
 ## Structure of the repository
+- **cluster**: scripts for local and remote clusters
+- **databases**: scripts for MongoDB and Neo4j databases
+  - **dataset**: scripts used to generate the dataset
+  - **scripts**: scripts to generate indexes in MongoDB and Neo4j databases
+- **docs**: documentation files and resources (queries, UML diagrams...)
+- **gameflows**: Java source files
+
+## Structure of the repository
 
 ```
 gameflows-social-network
@@ -27,9 +35,7 @@ gameflows-social-network
 |   └── scripts
 |
 ├── docs
-│   ├── java
-│   ├── query
-│   ├── use case diagram
+│   ├── resources
 │   ├── Manual of usage.pdf
 │   └── Documentation.pdf
 |
