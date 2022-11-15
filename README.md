@@ -16,5 +16,61 @@ Moreover, user can read posts written by special users, called *influencers*. In
 - **databases**: scripts for MongoDB and Neo4j databases
   - **dataset**: scripts used to generate the dataset
   - **scripts**: scripts to generate indexes in MongoDB and Neo4j databases
-- **docs**: documentation files (queries, UML diagrams...)
+- **docs**: documentation files and resources (queries, UML diagrams...)
 - **gameflows**: Java source files
+
+## Structure of the repository
+
+```
+gameflows-social-network
+|
+├── cluster
+│   ├── local-replicas
+│   └── virtual-machines
+|
+├── databases
+│   ├── dataset
+|   |   ├── dataset-generation
+|   |   └── dataset-to-mongodb
+|   └── scripts
+|
+├── docs
+│   ├── resources
+│   ├── Manual of usage.pdf
+│   └── Documentation.pdf
+|
+└── gameflows
+    └── src
+        ├── main
+        │   ├── java
+        │   │   └── it.unipi.dii.inginf.lsdb.gameflows
+        │   │       ├── admin
+        │   │       ├── comment
+        │   │       ├── gui
+        │   │       │   ├── controller
+        |   |       |   |   └── listener
+        │   │       │   └── model 
+        │   │       ├── persistence
+        │   │       ├── post
+        │   │       ├── user
+        │   │       ├── util
+        │   │       └── videogamecommunity
+        |   |
+        │   └── resources    
+        │       └── it.unipi.dii.inginf.lsdb.gameflows
+        │           └── gui
+        │               ├── controller
+        │               ├── css
+        │               ├── icons
+        │               └── logos 
+        └── test
+            └── java
+                └── it.unipi.dii.inginf.lsdb.gameflows
+                    ├── admin
+                    ├── comment
+                    ├── persistence
+                    ├── post
+                    ├── user
+                    ├── util
+                    └── videogamecommunity          
+```
